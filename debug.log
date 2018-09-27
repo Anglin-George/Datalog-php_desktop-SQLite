@@ -5639,3 +5639,970 @@
 - 17:53:42.843 DEBUG: OnBrowserDestroyed()
 - 17:53:42.000 INFO: Ended application
 - 17:53:42.000 INFO: --------------------------------------------------------
+- 10:00:45.000 INFO: --------------------------------------------------------
+- 10:00:45.015 INFO: Started application
+- 10:00:45.015 INFO: Logging to: D:\AVVC Data log\debug.log
+- 10:00:45.015 INFO: Log level = DEBUG4
+- 10:00:45.015 INFO: Starting Mongoose 3.9c web server
+- 10:00:45.015 INFO: WWW directory: D:\AVVC Data log\www
+- 10:00:45.015 INFO: Index files: index.html,index.php
+- 10:00:45.015 INFO: CGI interpreter: D:\AVVC Data log\php\php-cgi.exe
+- 10:00:45.015 INFO: CGI pattern: **.php$
+- 10:00:45.015 INFO: Hide files patterns: 
+- 10:00:45.015 INFO: CGI environment variables set: TMP=C:\Users\PC9\AppData\Local\Temp\,TEMP=C:\Users\PC9\AppData\Local\Temp\,TMPDIR=C:\Users\PC9\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:00:45.015 INFO: Web server url: http://127.0.0.1:52707/
+- 10:00:45.015 INFO: remote_debugging_port = 63854
+- 10:00:45.015 DEBUG: Command line string for the browser process: "D:\AVVC Data log\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --remote-debugging-port=63854
+- 10:00:46.765 DEBUG: App::OnContextInitialized()
+- 10:00:46.765 DEBUG: Window max width/height = 1286/680
+- 10:00:46.765 DEBUG: GetBrowserWindow(): not found, hwnd = 328570
+- 10:00:46.765 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:00:46.765 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:00:46.765 DEBUG: StoreBrowserWindow(): hwnd = 328570
+- 10:00:46.797 DEBUG: ClientHandler::OnAfterCreated()
+- 10:00:46.797 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:00:46.000 DEBUG: Command line string for the gpu-process process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1902 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="D:\AVVC Data log\debug.log" --service-request-channel-token=590F8253F79A554C2E638078BAC330F4 --mojo-platform-channel-handle=1704 /prefetch:2
+- 10:00:46.843 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:00:46.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=408044F39ACA435368F048A05399ED49 --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=408044F39ACA435368F048A05399ED49 --renderer-client-id=3 --mojo-platform-channel-handle=2280 /prefetch:1
+- 10:00:46.031 DEBUG: OnBrowserCreated()
+[0927/100048.549:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:00:49.609 INFO: GET 200 /
+- 10:00:49.734 DEBUG: OnContextCreated()
+- 10:00:49.640 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:00:49.640 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:00:49.640 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 10:00:49.640 INFO: GET 200 /assets/css/bootstrap.css
+- 10:00:49.656 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:00:49.656 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:00:49.672 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:00:49.672 INFO: GET 200 /assets/css/toastr.min.css
+- 10:00:49.687 INFO: GET 200 /assets/js/tether.min.js
+- 10:00:49.703 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:00:49.703 INFO: GET 200 /theme-assets/css/colors.css
+- 10:00:49.718 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:00:49.718 INFO: GET 200 /assets/js/bootstrap.min.js
+- 10:00:49.718 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:00:49.734 INFO: GET 200 /assets/js/jquery.min.js
+- 10:00:49.734 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:00:49.734 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:00:49.750 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:00:49.843 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:00:49.843 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 10:00:49.843 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:00:49.843 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:00:49.078 INFO: GET 200 /assets/js/toastr.min.js
+- 10:00:49.078 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:00:49.093 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:00:49.234 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 10:00:50.250 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:00:50.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/
+[0927/100056.223:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:52707/theme-assets/vendors/js/vendors.min.js (72)
+- 10:00:56.625 INFO: POST 200 /ajaxlogin.php
+- 10:00:58.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/
+- 10:00:58.969 DEBUG: OnContextCreated()
+- 10:00:58.875 INFO: GET 200 /home.php
+- 10:00:58.890 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:00:58.890 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:00:58.906 INFO: GET 200 /assets/css/datatables.min.css
+- 10:00:58.906 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:00:59.250 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:00:59.359 INFO: GET 200 /assets/js/datatables.min.js
+- 10:00:59.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/home.php
+- 10:00:59.765 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:00:59.031 INFO: GET 200 /ajaxmember.php
+- 10:01:04.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/home.php
+- 10:01:04.953 DEBUG: OnContextCreated()
+- 10:01:04.859 INFO: GET 200 /searchmember.php
+- 10:01:04.890 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 10:01:05.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/searchmember.php
+- 10:01:05.406 INFO: GET 200 /ajaxmember.php
+- 10:01:34.750 DEBUG: ClientHandler::OnBeforePopup()
+- 10:01:34.750 INFO: Setting default size for a popup window 800/600
+- 10:01:34.750 DEBUG: Window max width/height = 1286/680
+- 10:01:34.765 DEBUG: ClientHandler::OnAfterCreated()
+- 10:01:34.765 DEBUG: GetBrowserWindow(): not found, hwnd = 328798
+- 10:01:34.765 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:01:34.765 DEBUG: StoreBrowserWindow(): hwnd = 328798
+- 10:01:34.765 DEBUG: Centering popup window relative to its parent
+- 10:01:34.859 DEBUG: OnBrowserCreated()
+- 10:01:34.765 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:01:34.781 DEBUG: OnLoadingStateChange: loading=0, url=about:blank
+- 10:01:34.875 DEBUG: OnContextCreated()
+- 10:01:37.265 DEBUG: OnBeforeClose() hwnd=328798
+- 10:01:37.265 DEBUG: RemoveBrowserWindow(): hwnd = 328798
+- 10:01:37.359 DEBUG: OnBrowserDestroyed()
+- 10:01:42.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/searchmember.php
+- 10:01:42.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/searchmember.php#
+- 10:01:43.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/searchmember.php#
+- 10:01:43.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/searchmember.php#
+- 10:01:44.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/searchmember.php#
+- 10:01:44.781 DEBUG: OnContextCreated()
+- 10:01:44.687 INFO: GET 200 /addmember.php
+- 10:01:44.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/addmember.php
+- 10:01:45.312 INFO: GET 200 /ajaxstate.php
+- 10:01:47.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/addmember.php
+- 10:01:47.609 DEBUG: OnContextCreated()
+- 10:01:47.515 INFO: GET 200 /home.php
+- 10:01:47.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/home.php
+- 10:01:47.031 INFO: GET 200 /ajaxmember.php
+- 10:01:57.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/home.php
+- 10:01:58.359 DEBUG: OnContextCreated()
+- 10:01:58.265 INFO: GET 200 /state.php
+- 10:01:58.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php
+- 10:01:58.797 INFO: GET 200 /ajaxstate.php
+- 10:02:25.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php
+- 10:02:25.859 DEBUG: OnContextCreated()
+- 10:02:25.765 INFO: GET 200 /home.php
+- 10:02:25.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/home.php
+- 10:02:26.297 INFO: GET 200 /ajaxmember.php
+- 10:02:31.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/home.php
+- 10:02:31.734 DEBUG: OnContextCreated()
+- 10:02:31.640 INFO: GET 200 /addmember.php
+- 10:02:31.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/addmember.php
+- 10:02:31.000 INFO: GET 200 /ajaxstate.php
+- 10:02:42.531 INFO: POST 200 /ajaxstatechange.php
+- 10:03:17.031 INFO: POST 200 /ajaxdistrictchange.php
+- 10:03:19.953 INFO: POST 200 /ajaxblockchange.php
+- 10:03:22.406 INFO: POST 200 /ajaxaddmember.php
+- 10:03:22.531 INFO: GET 200 /ajaxstate.php
+- 10:03:27.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/addmember.php
+- 10:03:27.609 DEBUG: OnContextCreated()
+- 10:03:27.515 INFO: GET 200 /home.php
+- 10:03:27.968 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/home.php
+- 10:03:27.078 INFO: GET 200 /ajaxmember.php
+- 10:03:35.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/home.php
+- 10:03:35.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/home.php#!
+- 10:03:36.609 INFO: POST 200 /ajaxmemberdelete.php
+- 10:03:36.718 INFO: GET 200 /ajaxmember.php
+- 10:03:39.265 INFO: POST 200 /ajaxmemberedit.php
+- 10:03:39.265 INFO: GET 200 /ajaxstate.php
+- 10:03:47.328 INFO: POST 200 /ajaxstatechange.php
+- 10:03:48.109 INFO: POST 200 /ajaxdistrictchange.php
+- 10:03:51.250 INFO: POST 200 /ajaxstatechange.php
+- 10:04:17.265 INFO: POST 200 /ajaxdistrictchange.php
+- 10:04:18.078 INFO: POST 200 /ajaxblockchange.php
+- 10:04:20.125 INFO: POST 200 /ajaxmemberupdate.php
+- 10:04:21.250 INFO: GET 200 /ajaxmember.php
+- 10:04:52.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/home.php#!
+- 10:04:52.437 DEBUG: OnContextCreated()
+- 10:04:52.343 INFO: GET 200 /searchmember.php
+- 10:04:52.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/searchmember.php
+- 10:04:52.015 INFO: GET 200 /ajaxmember.php
+- 10:05:08.672 DEBUG: ClientHandler::OnBeforePopup()
+- 10:05:08.672 INFO: Setting default size for a popup window 800/600
+- 10:05:08.672 DEBUG: Window max width/height = 1286/680
+- 10:05:08.687 DEBUG: ClientHandler::OnAfterCreated()
+- 10:05:08.687 DEBUG: GetBrowserWindow(): not found, hwnd = 525406
+- 10:05:08.687 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:05:08.687 DEBUG: StoreBrowserWindow(): hwnd = 525406
+- 10:05:08.687 DEBUG: Centering popup window relative to its parent
+- 10:05:08.781 DEBUG: OnBrowserCreated()
+- 10:05:08.687 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:05:08.703 DEBUG: OnLoadingStateChange: loading=0, url=about:blank
+- 10:05:08.797 DEBUG: OnContextCreated()
+- 10:05:10.062 DEBUG: OnBeforeClose() hwnd=525406
+- 10:05:10.062 DEBUG: RemoveBrowserWindow(): hwnd = 525406
+- 10:05:10.172 DEBUG: OnBrowserDestroyed()
+- 10:05:11.172 DEBUG: ClientHandler::OnBeforePopup()
+- 10:05:11.172 INFO: Setting default size for a popup window 800/600
+- 10:05:11.172 DEBUG: Window max width/height = 1286/680
+- 10:05:11.172 DEBUG: ClientHandler::OnAfterCreated()
+- 10:05:11.172 DEBUG: GetBrowserWindow(): not found, hwnd = 328658
+- 10:05:11.172 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:05:11.172 DEBUG: StoreBrowserWindow(): hwnd = 328658
+- 10:05:11.172 DEBUG: Centering popup window relative to its parent
+- 10:05:11.281 DEBUG: OnBrowserCreated()
+- 10:05:11.187 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:05:11.187 DEBUG: OnLoadingStateChange: loading=0, url=about:blank
+- 10:05:11.281 DEBUG: OnContextCreated()
+- 10:05:16.609 DEBUG: OnBeforeClose() hwnd=328658
+- 10:05:16.609 DEBUG: RemoveBrowserWindow(): hwnd = 328658
+- 10:05:16.703 DEBUG: OnBrowserDestroyed()
+- 10:05:20.718 INFO: About to download a file: AVVC Data Log.xlsx
+- 10:05:22.312 INFO: Download was cancelled
+- 10:05:22.109 INFO: About to download a file: AVVC Data Log.csv
+- 10:05:24.890 INFO: Download was cancelled
+- 10:05:25.812 INFO: About to download a file: AVVC Data Log.pdf
+- 10:05:27.609 INFO: Download was cancelled
+- 10:05:30.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/searchmember.php
+- 10:05:30.968 INFO: GET 200 /state.php
+
+- 10:05:31.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php
+- 10:05:31.484 INFO: GET 200 /ajaxstate.php
+- 10:05:32.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php
+- 10:05:32.187 DEBUG: OnContextCreated()
+- 10:05:32.109 INFO: GET 200 /district.php
+- 10:05:33.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php
+- 10:05:33.484 INFO: GET 200 /ajaxdistrict.php
+- 10:05:33.484 INFO: GET 200 /ajaxstate.php
+- 10:05:38.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php
+- 10:05:38.906 DEBUG: OnContextCreated()
+- 10:05:38.812 INFO: GET 200 /block.php
+- 10:05:38.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/block.php
+- 10:05:38.203 INFO: GET 200 /ajaxdistrict.php
+- 10:05:38.203 INFO: GET 200 /ajaxblock.php
+- 10:05:43.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/block.php
+- 10:05:43.812 DEBUG: OnContextCreated()
+- 10:05:43.718 INFO: GET 200 /unit.php
+- 10:05:43.968 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/unit.php
+- 10:05:43.125 INFO: GET 200 /ajaxunit.php
+- 10:05:43.125 INFO: GET 200 /ajaxblock.php
+- 10:05:47.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/unit.php
+- 10:05:47.891 DEBUG: OnContextCreated()
+- 10:05:47.797 INFO: GET 200 /state.php
+- 10:05:47.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php
+- 10:05:47.172 INFO: GET 200 /ajaxstate.php
+- 10:05:54.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php
+- 10:05:54.812 DEBUG: OnContextCreated()
+- 10:05:54.718 INFO: GET 200 /state.php
+- 10:05:54.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php
+- 10:05:54.203 INFO: GET 200 /ajaxstate.php
+- 10:06:09.390 INFO: POST 200 /ajaxaddstate.php
+- 10:06:09.515 INFO: GET 200 /ajaxstate.php
+- 10:06:12.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php
+- 10:06:12.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php#!
+- 10:06:12.656 INFO: POST 200 /ajaxstatedeletecheck.php
+- 10:06:13.781 INFO: POST 200 /ajaxstatedelete.php
+- 10:06:13.937 INFO: GET 200 /ajaxstate.php
+- 10:06:20.703 INFO: POST 200 /ajaxaddstate.php
+- 10:06:20.859 INFO: GET 200 /ajaxstate.php
+- 10:06:22.031 INFO: POST 200 /ajaxstateedit.php
+- 10:06:32.078 INFO: POST 200 /ajaxstateupdate.php
+- 10:06:32.203 INFO: GET 200 /ajaxstate.php
+- 10:06:37.468 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php#!
+- 10:06:37.703 DEBUG: OnContextCreated()
+- 10:06:37.609 INFO: GET 200 /district.php
+- 10:06:37.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php
+- 10:06:37.203 INFO: GET 200 /ajaxdistrict.php
+- 10:06:37.203 INFO: GET 200 /ajaxstate.php
+- 10:06:44.828 INFO: POST 200 /ajaxadddistrict.php
+- 10:06:44.922 INFO: GET 200 /ajaxdistrict.php
+- 10:06:48.781 INFO: POST 200 /ajaxdistrictedit.php
+- 10:06:55.187 INFO: POST 200 /ajaxdistrictupdate.php
+- 10:06:56.297 INFO: GET 200 /ajaxdistrict.php
+- 10:06:57.953 INFO: POST 200 /ajaxdistrictedit.php
+- 10:07:03.609 INFO: POST 200 /ajaxdistrictupdate.php
+- 10:07:03.703 INFO: GET 200 /ajaxdistrict.php
+- 10:07:06.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php
+- 10:07:06.094 DEBUG: OnContextCreated()
+- 10:07:06.000 INFO: GET 200 /block.php
+- 10:07:07.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/block.php
+- 10:07:07.593 INFO: GET 200 /ajaxdistrict.php
+- 10:07:07.593 INFO: GET 200 /ajaxblock.php
+- 10:07:20.625 INFO: POST 200 /ajaxaddblock.php
+- 10:07:20.718 INFO: GET 200 /ajaxblock.php
+- 10:07:23.937 INFO: POST 200 /ajaxblockedit.php
+- 10:07:32.562 INFO: POST 200 /ajaxblockupdate.php
+- 10:07:32.672 INFO: GET 200 /ajaxblock.php
+- 10:07:37.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/block.php
+- 10:07:38.344 DEBUG: OnContextCreated()
+- 10:07:38.250 INFO: GET 200 /unit.php
+- 10:07:38.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/unit.php
+- 10:07:38.812 INFO: GET 200 /ajaxblock.php
+- 10:07:38.812 INFO: GET 200 /ajaxunit.php
+- 10:07:45.875 INFO: POST 200 /ajaxaddunit.php
+- 10:07:45.984 INFO: GET 200 /ajaxunit.php
+- 10:07:48.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/unit.php
+- 10:07:48.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/unit.php#!
+- 10:07:48.000 INFO: POST 200 /ajaxunitdeletecheck.php
+- 10:07:50.281 INFO: POST 200 /ajaxunitdelete.php
+- 10:07:50.390 INFO: GET 200 /ajaxunit.php
+- 10:07:52.656 INFO: POST 200 /ajaxunitedit.php
+- 10:07:56.156 INFO: POST 200 /ajaxunitupdate.php
+- 10:07:57.281 INFO: GET 200 /ajaxunit.php
+- 10:08:00.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/unit.php#!
+- 10:08:00.297 DEBUG: OnContextCreated()
+- 10:08:00.203 INFO: GET 200 /addmember.php
+- 10:08:01.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/addmember.php
+- 10:08:01.765 INFO: GET 200 /ajaxstate.php
+- 10:08:30.468 INFO: POST 200 /ajaxstatechange.php
+- 10:08:32.828 INFO: POST 200 /ajaxdistrictchange.php
+- 10:08:34.547 INFO: POST 200 /ajaxblockchange.php
+- 10:08:44.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/addmember.php
+- 10:08:44.484 DEBUG: OnContextCreated()
+- 10:08:44.390 INFO: GET 200 /unit.php
+- 10:08:44.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/unit.php
+- 10:08:44.968 INFO: GET 200 /ajaxblock.php
+- 10:08:44.968 INFO: GET 200 /ajaxunit.php
+- 10:08:53.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/unit.php
+- 10:08:53.547 DEBUG: OnContextCreated()
+- 10:08:53.453 INFO: GET 200 /addmember.php
+- 10:08:53.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/addmember.php
+- 10:08:53.859 INFO: GET 200 /ajaxstate.php
+- 10:08:56.968 INFO: POST 200 /ajaxstatechange.php
+- 10:08:58.250 INFO: POST 200 /ajaxdistrictchange.php
+- 10:08:59.562 INFO: POST 200 /ajaxblockchange.php
+- 10:09:03.531 INFO: POST 200 /ajaxblockchange.php
+- 10:09:23.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/addmember.php
+- 10:09:23.172 DEBUG: OnContextCreated()
+- 10:09:23.078 INFO: GET 200 /home.php
+- 10:09:24.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/home.php
+- 10:09:24.672 INFO: GET 200 /ajaxmember.php
+- 10:09:38.562 INFO: POST 200 /ajaxmemberedit.php
+- 10:09:38.562 INFO: GET 200 /ajaxstate.php
+- 10:09:46.218 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/home.php
+- 10:09:46.422 DEBUG: OnContextCreated()
+- 10:09:46.328 INFO: GET 200 /addmember.php
+- 10:09:46.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/addmember.php
+- 10:09:46.906 INFO: GET 200 /ajaxstate.php
+- 10:09:53.281 DEBUG: F5 pressed, reloading page
+- 10:09:53.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/addmember.php
+- 10:09:53.578 DEBUG: OnContextCreated()
+- 10:09:53.484 INFO: GET 200 /addmember.php
+- 10:09:53.484 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:09:53.484 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:09:53.484 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:09:53.484 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:09:53.484 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:09:53.484 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:09:53.484 INFO: GET 200 /assets/css/datatables.min.css
+- 10:09:53.500 INFO: GET 200 /assets/css/toastr.min.css
+- 10:09:53.500 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:09:53.500 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:09:53.500 INFO: GET 200 /assets/js/toastr.min.js
+- 10:09:53.500 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:09:53.515 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:09:53.547 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:09:53.547 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:09:53.547 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:09:53.547 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:09:53.547 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:09:53.578 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:09:53.578 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:09:53.578 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:09:53.578 INFO: GET 200 /theme-assets/css/colors.css
+- 10:09:53.656 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:09:53.687 INFO: GET 200 /assets/js/datatables.min.js
+- 10:09:53.140 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:09:53.156 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:09:54.297 INFO: GET 200 /ajaxstate.php
+- 10:09:54.375 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:09:54.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/addmember.php
+- 10:10:13.906 INFO: POST 200 /ajaxstatechange.php
+- 10:10:15.906 INFO: POST 200 /ajaxdistrictchange.php
+- 10:10:19.422 INFO: POST 200 /ajaxstatechange.php
+- 10:10:20.640 INFO: POST 200 /ajaxdistrictchange.php
+- 10:10:23.984 INFO: POST 200 /ajaxstatechange.php
+- 10:10:25.234 INFO: POST 200 /ajaxstatechange.php
+- 10:10:26.531 INFO: POST 200 /ajaxdistrictchange.php
+- 10:10:27.953 INFO: POST 200 /ajaxblockchange.php
+- 10:10:44.578 INFO: POST 200 /ajaxblockchange.php
+- 10:10:45.672 INFO: POST 200 /ajaxaddmember.php
+- 10:10:45.797 INFO: GET 200 /ajaxstate.php
+- 10:10:55.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/addmember.php
+- 10:10:55.625 DEBUG: OnContextCreated()
+- 10:10:55.531 INFO: GET 200 /home.php
+- 10:10:55.093 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/home.php
+- 10:10:55.172 INFO: GET 200 /ajaxmember.php
+- 10:11:57.047 INFO: GET 200 /logout.php
+- 10:11:59.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/home.php
+- 10:12:00.312 DEBUG: OnContextCreated()
+- 10:12:00.218 INFO: GET 200 /index.php
+- 10:12:00.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/index.php
+[0927/101208.247:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:52707/theme-assets/vendors/js/vendors.min.js (72)
+- 10:12:08.515 INFO: POST 200 /ajaxlogin.php
+- 10:12:25.328 INFO: POST 200 /ajaxlogin.php
+- 10:12:27.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/index.php
+- 10:12:27.625 DEBUG: OnContextCreated()
+- 10:12:27.531 INFO: GET 200 /home.php
+- 10:12:27.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/home.php
+- 10:12:27.078 INFO: GET 200 /ajaxmember.php
+- 10:12:35.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/home.php
+- 10:12:36.312 DEBUG: OnContextCreated()
+- 10:12:36.218 INFO: GET 200 /addmember.php
+- 10:12:36.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/addmember.php
+- 10:12:36.687 INFO: GET 200 /ajaxstate.php
+- 10:12:40.000 INFO: POST 200 /ajaxstatechange.php
+- 10:12:42.328 INFO: POST 200 /ajaxdistrictchange.php
+- 10:12:43.843 INFO: POST 200 /ajaxblockchange.php
+- 10:16:18.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/addmember.php
+- 10:16:18.062 DEBUG: OnContextCreated()
+- 10:16:18.968 INFO: GET 200 /addmember.php
+- 10:16:18.984 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:16:18.984 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:16:18.984 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:16:18.984 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:16:18.984 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:16:18.984 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:16:18.984 INFO: GET 200 /assets/css/datatables.min.css
+- 10:16:18.000 INFO: GET 200 /assets/css/toastr.min.css
+- 10:16:18.000 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:16:18.000 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:16:18.000 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:16:18.015 INFO: GET 200 /assets/js/toastr.min.js
+- 10:16:18.031 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:16:18.031 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:16:18.047 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:16:18.047 INFO: GET 200 /theme-assets/css/colors.css
+- 10:16:18.047 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:16:18.047 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:16:18.062 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:16:18.062 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:16:19.109 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:16:19.125 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:16:19.125 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:16:19.140 INFO: GET 200 /assets/js/datatables.min.js
+- 10:16:19.187 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:16:19.218 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:16:19.765 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:16:19.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/addmember.php
+- 10:16:19.922 INFO: GET 200 /ajaxstate.php
+- 10:16:56.453 INFO: POST 200 /ajaxstatechange.php
+[0927/101723.472:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101724.449:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101724.865:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101725.073:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101725.259:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101725.417:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101725.593:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101725.889:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101726.080:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101726.256:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101726.409:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101726.561:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101726.697:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101726.873:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101730.282:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101730.473:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101730.657:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101730.834:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101730.995:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101731.146:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101731.299:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101731.442:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101733.124:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101733.299:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101735.892:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101736.084:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101736.228:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101736.380:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101736.548:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101736.700:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101740.877:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101741.052:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101741.229:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101741.389:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101741.533:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101741.709:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101741.878:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101742.013:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101742.182:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101742.349:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101742.502:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101742.654:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101742.781:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+[0927/101742.925:INFO:CONSOLE(257)] "Uncaught TypeError: Cannot read property 'trim' of null", source: http://127.0.0.1:52707/addmember.php (257)
+- 10:17:45.812 DEBUG: ClientHandler::OnAfterCreated()
+- 10:17:45.812 DEBUG: GetBrowserWindow(): not found, hwnd = 983482
+- 10:17:45.812 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:17:45.812 DEBUG: StoreBrowserWindow(): hwnd = 983482
+- 10:17:45.812 DEBUG: Centering popup window relative to its parent
+- 10:17:45.812 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:17:45.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FEABA592DF77624B4EAAAD56BDDD0665 --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FEABA592DF77624B4EAAAD56BDDD0665 --renderer-client-id=4 --mojo-platform-channel-handle=5176 /prefetch:1
+- 10:17:45.032 DEBUG: OnBrowserCreated()
+- 10:17:45.047 DEBUG: OnContextCreated()
+- 10:17:45.000 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 10:17:46.250 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 10:17:46.250 INFO: GET 200 /assets/js/toastr.js.map
+- 10:18:03.375 DEBUG: OnBeforeClose() hwnd=983482
+- 10:18:03.375 DEBUG: RemoveBrowserWindow(): hwnd = 983482
+- 10:18:14.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/addmember.php
+- 10:18:15.234 DEBUG: OnContextCreated()
+- 10:18:15.140 INFO: GET 200 /addmember.php
+- 10:18:15.140 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:18:15.140 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:18:15.140 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:18:15.140 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:18:15.140 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:18:15.140 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:18:15.140 INFO: GET 200 /assets/css/toastr.min.css
+- 10:18:15.140 INFO: GET 200 /assets/css/datatables.min.css
+- 10:18:15.203 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:18:15.203 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:18:15.218 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:18:15.250 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:18:15.250 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:18:15.312 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:18:15.328 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:18:15.328 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:18:15.328 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:18:15.328 INFO: GET 200 /theme-assets/css/colors.css
+- 10:18:15.343 INFO: GET 200 /assets/js/toastr.min.js
+- 10:18:15.343 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:18:15.343 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:18:15.406 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:18:15.422 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:18:15.437 INFO: GET 200 /assets/js/datatables.min.js
+- 10:18:15.500 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:18:15.500 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:18:15.031 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:18:15.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/addmember.php
+- 10:18:16.156 INFO: GET 200 /ajaxstate.php
+- 10:19:32.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/addmember.php
+- 10:19:32.828 DEBUG: OnContextCreated()
+- 10:19:32.734 INFO: GET 200 /state.php
+- 10:19:33.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php
+- 10:19:33.422 INFO: GET 200 /ajaxstate.php
+- 10:19:55.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php
+- 10:19:55.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php#!
+- 10:19:56.140 INFO: POST 200 /ajaxstatedeletecheck.php
+- 10:20:04.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php#!
+- 10:20:04.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php#!
+- 10:20:04.984 INFO: POST 200 /ajaxstatedeletecheck.php
+- 10:20:08.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php#!
+- 10:20:08.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php#!
+- 10:20:08.687 INFO: POST 200 /ajaxstatedeletecheck.php
+- 10:20:08.828 INFO: GET 200 /ajaxstate.php
+- 10:20:13.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php#!
+- 10:20:13.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php#!
+- 10:20:13.640 INFO: POST 200 /ajaxstatedeletecheck.php
+- 10:20:13.797 INFO: GET 200 /ajaxstate.php
+- 10:21:42.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php#!
+- 10:21:42.922 DEBUG: OnContextCreated()
+- 10:21:42.828 INFO: GET 200 /block.php
+- 10:21:43.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/block.php
+- 10:21:43.437 INFO: GET 200 /ajaxdistrict.php
+- 10:21:43.437 INFO: GET 200 /ajaxblock.php
+- 10:21:50.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/block.php
+- 10:21:50.969 DEBUG: OnContextCreated()
+- 10:21:50.875 INFO: GET 200 /district.php
+- 10:21:51.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php
+- 10:21:51.250 INFO: GET 200 /ajaxstate.php
+- 10:21:51.250 INFO: GET 200 /ajaxdistrict.php
+- 10:21:53.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php
+- 10:21:53.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php#!
+- 10:21:53.234 INFO: POST 200 /ajaxdistrictdeletecheck.php
+- 10:21:53.375 INFO: GET 200 /ajaxdistrict.php
+- 10:21:59.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php#!
+- 10:22:00.125 DEBUG: OnContextCreated()
+- 10:22:00.031 INFO: GET 200 /block.php
+- 10:22:00.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/block.php
+- 10:22:00.437 INFO: GET 200 /ajaxdistrict.php
+- 10:22:00.437 INFO: GET 200 /ajaxblock.php
+- 10:22:06.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/block.php
+- 10:22:06.516 DEBUG: OnContextCreated()
+- 10:22:06.437 INFO: GET 200 /district.php
+- 10:22:06.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php
+- 10:22:06.828 INFO: GET 200 /ajaxdistrict.php
+- 10:22:06.828 INFO: GET 200 /ajaxstate.php
+- 10:22:08.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php
+- 10:22:08.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php#!
+- 10:22:08.468 INFO: POST 200 /ajaxdistrictdeletecheck.php
+- 10:22:08.593 INFO: GET 200 /ajaxdistrict.php
+- 10:22:14.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php#!
+- 10:22:15.172 DEBUG: OnContextCreated()
+- 10:22:15.093 INFO: GET 200 /block.php
+- 10:22:15.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/block.php
+- 10:22:15.500 INFO: GET 200 /ajaxblock.php
+- 10:22:15.500 INFO: GET 200 /ajaxdistrict.php
+- 10:22:18.703 INFO: POST 200 /ajaxaddblock.php
+- 10:22:18.812 INFO: GET 200 /ajaxblock.php
+- 10:22:22.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/block.php
+- 10:22:22.297 DEBUG: OnContextCreated()
+- 10:22:22.203 INFO: GET 200 /district.php
+- 10:22:22.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php
+- 10:22:22.812 INFO: GET 200 /ajaxstate.php
+- 10:22:22.812 INFO: GET 200 /ajaxdistrict.php
+- 10:22:24.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php
+- 10:22:24.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php#!
+- 10:22:24.734 INFO: POST 200 /ajaxdistrictdeletecheck.php
+- 10:22:25.797 INFO: POST 200 /ajaxdistrictdelete.php
+- 10:22:25.906 INFO: GET 200 /ajaxdistrict.php
+- 10:22:28.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php#!
+- 10:22:28.766 DEBUG: OnContextCreated()
+- 10:22:28.672 INFO: GET 200 /block.php
+- 10:22:28.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/block.php
+- 10:22:29.062 INFO: GET 200 /ajaxdistrict.php
+- 10:22:29.062 INFO: GET 200 /ajaxblock.php
+- 10:22:45.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/block.php
+- 10:22:45.062 DEBUG: OnContextCreated()
+- 10:22:45.968 INFO: GET 200 /district.php
+- 10:22:46.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php
+- 10:22:46.562 INFO: GET 200 /ajaxdistrict.php
+- 10:22:46.562 INFO: GET 200 /ajaxstate.php
+- 10:22:51.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php
+- 10:22:51.344 DEBUG: OnContextCreated()
+- 10:22:51.250 INFO: GET 200 /block.php
+- 10:22:51.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/block.php
+- 10:22:51.625 INFO: GET 200 /ajaxdistrict.php
+- 10:22:51.625 INFO: GET 200 /ajaxblock.php
+- 10:23:01.343 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/block.php
+- 10:23:01.609 DEBUG: OnContextCreated()
+- 10:23:01.515 INFO: GET 200 /state.php
+- 10:23:01.968 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php
+- 10:23:02.078 INFO: GET 200 /ajaxstate.php
+- 10:23:03.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php
+- 10:23:03.672 DEBUG: OnContextCreated()
+- 10:23:03.578 INFO: GET 200 /district.php
+- 10:23:03.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php
+- 10:23:03.953 INFO: GET 200 /ajaxdistrict.php
+- 10:23:03.953 INFO: GET 200 /ajaxstate.php
+- 10:23:08.656 INFO: POST 200 /ajaxadddistrict.php
+- 10:23:08.750 INFO: GET 200 /ajaxdistrict.php
+- 10:23:12.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php
+- 10:23:12.531 DEBUG: OnContextCreated()
+- 10:23:12.437 INFO: GET 200 /block.php
+- 10:23:12.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/block.php
+- 10:23:12.828 INFO: GET 200 /ajaxblock.php
+- 10:23:12.828 INFO: GET 200 /ajaxdistrict.php
+- 10:23:16.140 INFO: POST 200 /ajaxaddblock.php
+- 10:23:16.234 INFO: GET 200 /ajaxblock.php
+- 10:23:20.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/block.php
+- 10:23:20.922 DEBUG: OnContextCreated()
+- 10:23:20.828 INFO: GET 200 /district.php
+- 10:23:21.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php
+- 10:23:21.234 INFO: GET 200 /ajaxstate.php
+- 10:23:21.234 INFO: GET 200 /ajaxdistrict.php
+- 10:23:23.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php
+- 10:23:23.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/district.php#!
+- 10:23:23.250 INFO: POST 200 /ajaxdistrictdeletecheck.php
+- 10:23:24.234 INFO: POST 200 /ajaxdistrictdelete.php
+- 10:23:24.359 INFO: GET 200 /ajaxdistrict.php
+- 10:23:27.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/district.php#!
+- 10:23:27.187 DEBUG: OnContextCreated()
+- 10:23:27.093 INFO: GET 200 /block.php
+- 10:23:27.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/block.php
+- 10:23:27.468 INFO: GET 200 /ajaxblock.php
+- 10:23:27.468 INFO: GET 200 /ajaxdistrict.php
+- 10:31:30.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/block.php
+- 10:31:30.250 DEBUG: OnContextCreated()
+- 10:31:30.156 INFO: GET 200 /state.php
+- 10:31:30.609 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/state.php
+- 10:31:30.718 INFO: GET 200 /ajaxstate.php
+- 10:31:33.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/state.php
+- 10:31:34.109 DEBUG: OnContextCreated()
+- 10:31:34.015 INFO: GET 200 /searchmember.php
+- 10:31:34.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/searchmember.php
+- 10:31:34.359 INFO: GET 200 /ajaxmember.php
+- 10:31:43.015 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/searchmember.php
+- 10:31:43.203 DEBUG: OnContextCreated()
+- 10:31:43.109 INFO: GET 200 /addmember.php
+- 10:31:43.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/addmember.php
+- 10:31:43.484 INFO: GET 200 /ajaxstate.php
+- 10:31:44.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/addmember.php
+- 10:31:44.547 DEBUG: OnContextCreated()
+- 10:31:44.468 INFO: GET 200 /home.php
+- 10:31:44.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/home.php
+- 10:31:44.812 INFO: GET 200 /ajaxmember.php
+- 10:31:47.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52707/home.php
+- 10:31:47.531 DEBUG: OnContextCreated()
+- 10:31:47.453 INFO: GET 200 /searchmember.php
+- 10:31:47.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52707/searchmember.php
+- 10:31:47.797 INFO: GET 200 /ajaxmember.php
+- 10:32:03.234 INFO: About to download a file: AVVC Data Log.xlsx
+- 10:32:04.531 INFO: Download was cancelled
+- 10:33:28.531 DEBUG: ClientHandler::OnBeforePopup()
+- 10:33:28.531 INFO: Setting default size for a popup window 800/600
+- 10:33:28.531 DEBUG: Window max width/height = 1286/680
+- 10:33:28.547 DEBUG: ClientHandler::OnAfterCreated()
+- 10:33:28.547 DEBUG: GetBrowserWindow(): not found, hwnd = 394206
+- 10:33:28.547 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:33:28.547 DEBUG: StoreBrowserWindow(): hwnd = 394206
+- 10:33:28.547 DEBUG: Centering popup window relative to its parent
+- 10:33:28.641 DEBUG: OnBrowserCreated()
+- 10:33:28.562 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:33:28.562 DEBUG: OnLoadingStateChange: loading=0, url=about:blank
+- 10:33:28.656 DEBUG: OnContextCreated()
+- 10:33:34.437 DEBUG: OnBeforeClose() hwnd=394206
+- 10:33:34.437 DEBUG: RemoveBrowserWindow(): hwnd = 394206
+- 10:33:34.531 DEBUG: OnBrowserDestroyed()
+- 10:33:36.234 INFO: About to download a file: AVVC Data Log.xlsx
+- 10:33:38.343 INFO: Download was cancelled
+- 10:38:28.828 DEBUG: WM_DESTROY
+- 10:38:28.828 DEBUG: RemoveBrowserWindow(): hwnd = 328570
+- 10:38:28.828 INFO: Stopping Mongoose web server
+- 10:38:28.828 DEBUG: Mongoose webserver stopped immediately
+- 10:38:28.828 DEBUG: OnBeforeClose() hwnd=2031736
+- 10:38:28.828 DEBUG: RemoveBrowserWindow(): hwnd = 2031736
+- 10:38:28.828 DEBUG: GetBrowserWindow(): not found, hwnd = 2031736
+- 10:38:28.828 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:38:28.828 DEBUG: Calling CefQuitMessageLoop()
+- 10:38:28.953 DEBUG: OnBrowserDestroyed()
+- 10:38:28.890 INFO: Ended application
+- 10:38:28.890 INFO: --------------------------------------------------------
+- 11:30:42.000 INFO: --------------------------------------------------------
+- 11:30:42.000 INFO: Started application
+- 11:30:42.000 INFO: Logging to: D:\AVVC Data log\debug.log
+- 11:30:42.000 INFO: Log level = DEBUG4
+- 11:30:42.000 INFO: Starting Mongoose 3.9c web server
+- 11:30:42.000 INFO: WWW directory: D:\AVVC Data log\www
+- 11:30:42.000 INFO: Index files: index.html,index.php
+- 11:30:42.000 INFO: CGI interpreter: D:\AVVC Data log\php\php-cgi.exe
+- 11:30:42.000 INFO: CGI pattern: **.php$
+- 11:30:42.000 INFO: Hide files patterns: 
+- 11:30:42.000 INFO: CGI environment variables set: TMP=C:\Users\PC9\AppData\Local\Temp\,TEMP=C:\Users\PC9\AppData\Local\Temp\,TMPDIR=C:\Users\PC9\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:30:42.000 INFO: Web server url: http://127.0.0.1:53494/
+- 11:30:42.000 INFO: remote_debugging_port = 63678
+- 11:30:42.000 DEBUG: Command line string for the browser process: "D:\AVVC Data log\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --remote-debugging-port=63678
+- 11:30:42.031 DEBUG: App::OnContextInitialized()
+- 11:30:42.031 DEBUG: Window max width/height = 1286/680
+- 11:30:42.031 DEBUG: GetBrowserWindow(): not found, hwnd = 263528
+- 11:30:42.031 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:30:42.031 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:30:42.031 DEBUG: StoreBrowserWindow(): hwnd = 263528
+- 11:30:42.078 DEBUG: ClientHandler::OnAfterCreated()
+- 11:30:42.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:30:42.093 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:30:42.000 DEBUG: Command line string for the gpu-process process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1902 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="D:\AVVC Data log\debug.log" --service-request-channel-token=0CD01EDF4C47BC5DFCE14BFA121FDD5C --mojo-platform-channel-handle=1704 /prefetch:2
+- 11:30:42.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E770CC5072C093DAB84E82F6F209F08D --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E770CC5072C093DAB84E82F6F209F08D --renderer-client-id=3 --mojo-platform-channel-handle=2260 /prefetch:1
+[0927/113042.779:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:30:42.031 DEBUG: OnBrowserCreated()
+- 11:30:45.203 INFO: GET 200 /
+- 11:30:45.218 INFO: GET 200 /assets/css/bootstrap.css
+- 11:30:45.218 INFO: GET 200 /theme-assets/css/vendors.css
+- 11:30:45.218 INFO: GET 200 /theme-assets/css/app-lite.css
+- 11:30:45.218 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 11:30:45.218 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 11:30:45.218 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 11:30:45.218 INFO: GET 200 /assets/css/toastr.min.css
+- 11:30:45.218 INFO: GET 200 /assets/css/sweet-alert.css
+- 11:30:45.218 INFO: GET 200 /assets/js/bootstrap.min.js
+- 11:30:45.218 INFO: GET 200 /assets/js/tether.min.js
+- 11:30:45.218 INFO: GET 200 /assets/js/jquery.min.js
+- 11:30:45.078 DEBUG: OnContextCreated()
+- 11:30:45.218 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 11:30:45.234 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 11:30:45.234 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 11:30:45.234 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 11:30:45.250 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 11:30:45.265 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 11:30:45.359 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 11:30:45.359 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 11:30:45.359 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 11:30:45.359 INFO: GET 200 /theme-assets/css/components-lite.css
+- 11:30:45.359 INFO: GET 200 /theme-assets/css/colors.css
+- 11:30:46.406 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 11:30:46.406 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 11:30:46.406 INFO: GET 200 /assets/js/toastr.min.js
+- 11:30:46.546 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 11:30:46.562 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 11:30:46.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/
+[0927/113053.036:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:53494/theme-assets/vendors/js/vendors.min.js (72)
+- 11:30:53.515 INFO: POST 200 /ajaxlogin.php
+- 11:30:55.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/
+- 11:30:55.485 DEBUG: OnContextCreated()
+- 11:30:55.625 INFO: GET 200 /home.php
+- 11:30:55.640 INFO: GET 200 /assets/css/line-awesome.min.css
+- 11:30:55.640 INFO: GET 200 /assets/css/datatables.min.css
+- 11:30:55.640 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 11:30:55.640 INFO: GET 200 /assets/js/components-modal.min.js
+- 11:30:55.671 INFO: GET 200 /assets/js/datatables.min.js
+- 11:30:55.750 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 11:30:55.187 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 11:30:55.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php
+- 11:30:55.312 INFO: GET 200 /ajaxmember.php
+- 11:31:00.250 INFO: POST 200 /ajaxmemberedit.php
+- 11:31:00.250 INFO: GET 200 /ajaxstate.php
+- 11:31:04.718 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php
+- 11:31:04.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php#!
+- 11:31:05.875 INFO: POST 200 /ajaxmemberdelete.php
+- 11:31:05.000 INFO: GET 200 /ajaxmember.php
+- 11:31:07.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php#!
+- 11:31:07.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php#!
+- 11:31:07.359 INFO: POST 200 /ajaxmemberdelete.php
+- 11:31:08.453 INFO: GET 200 /ajaxmember.php
+- 11:31:09.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php#!
+- 11:31:09.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php#!
+- 11:31:10.750 INFO: POST 200 /ajaxmemberdelete.php
+- 11:31:10.859 INFO: GET 200 /ajaxmember.php
+- 11:31:12.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php#!
+- 11:31:12.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php#!
+- 11:31:13.484 INFO: POST 200 /ajaxmemberdelete.php
+- 11:31:13.593 INFO: GET 200 /ajaxmember.php
+- 11:31:29.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php#!
+- 11:31:29.672 DEBUG: OnContextCreated()
+- 11:31:29.812 INFO: GET 200 /searchmember.php
+- 11:31:29.812 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 11:31:29.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/searchmember.php
+- 11:31:30.406 INFO: GET 200 /ajaxmember.php
+- 11:31:43.546 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/searchmember.php
+- 11:31:43.547 DEBUG: OnContextCreated()
+- 11:31:43.687 INFO: GET 200 /home.php
+- 11:31:43.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php
+- 11:31:43.328 INFO: GET 200 /ajaxmember.php
+- 11:31:49.671 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php
+- 11:31:49.610 DEBUG: OnContextCreated()
+- 11:31:49.750 INFO: GET 200 /home.php
+- 11:31:49.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php
+- 11:31:49.109 INFO: GET 200 /ajaxmember.php
+- 11:31:50.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php
+- 11:31:50.860 DEBUG: OnContextCreated()
+- 11:31:50.000 INFO: GET 200 /addmember.php
+- 11:31:50.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/addmember.php
+- 11:31:50.328 INFO: GET 200 /ajaxstate.php
+- 11:31:51.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/addmember.php
+- 11:31:51.703 DEBUG: OnContextCreated()
+- 11:31:51.843 INFO: GET 200 /searchmember.php
+- 11:31:51.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/searchmember.php
+- 11:31:51.218 INFO: GET 200 /ajaxmember.php
+- 11:31:58.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/searchmember.php
+- 11:31:58.625 DEBUG: OnContextCreated()
+- 11:31:58.781 INFO: GET 200 /unit.php
+- 11:31:58.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/unit.php
+- 11:31:58.250 INFO: GET 200 /ajaxunit.php
+- 11:31:58.250 INFO: GET 200 /ajaxblock.php
+- 11:32:00.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/unit.php
+- 11:32:00.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/unit.php#!
+- 11:32:00.171 INFO: POST 200 /ajaxunitdeletecheck.php
+- 11:32:01.187 INFO: POST 200 /ajaxunitdelete.php
+- 11:32:01.281 INFO: GET 200 /ajaxunit.php
+- 11:32:05.421 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/unit.php#!
+- 11:32:05.421 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/unit.php#!
+- 11:32:05.515 INFO: POST 200 /ajaxunitdeletecheck.php
+- 11:32:06.500 INFO: POST 200 /ajaxunitdelete.php
+- 11:32:06.640 INFO: GET 200 /ajaxunit.php
+- 11:32:09.203 DEBUG: F5 pressed, reloading page
+- 11:32:09.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/unit.php#!
+- 11:32:10.250 DEBUG: OnContextCreated()
+- 11:32:10.390 INFO: GET 200 /unit.php
+- 11:32:10.390 INFO: GET 200 /assets/css/line-awesome.min.css
+- 11:32:10.390 INFO: GET 200 /theme-assets/css/app-lite.css
+- 11:32:10.390 INFO: GET 200 /theme-assets/css/vendors.css
+- 11:32:10.390 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 11:32:10.390 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 11:32:10.390 INFO: GET 200 /assets/css/sweet-alert.css
+- 11:32:10.406 INFO: GET 200 /assets/css/datatables.min.css
+- 11:32:10.406 INFO: GET 200 /assets/css/toastr.min.css
+- 11:32:10.406 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 11:32:10.406 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 11:32:10.406 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 11:32:10.437 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 11:32:10.437 INFO: GET 200 /theme-assets/css/components-lite.css
+- 11:32:10.437 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 11:32:10.437 INFO: GET 200 /theme-assets/css/colors.css
+- 11:32:10.437 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 11:32:10.453 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 11:32:10.453 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 11:32:10.468 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 11:32:10.500 INFO: GET 200 /assets/js/toastr.min.js
+- 11:32:10.500 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 11:32:10.515 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 11:32:10.546 INFO: GET 200 /assets/js/components-modal.min.js
+- 11:32:10.546 INFO: GET 200 /assets/js/datatables.min.js
+- 11:32:10.281 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 11:32:10.328 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 11:32:11.484 INFO: GET 200 /ajaxunit.php
+- 11:32:11.484 INFO: GET 200 /ajaxblock.php
+- 11:32:11.593 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 11:32:11.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/unit.php#!
+- 11:32:14.171 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/unit.php#!
+- 11:32:14.172 DEBUG: OnContextCreated()
+- 11:32:14.312 INFO: GET 200 /block.php
+- 11:32:15.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/block.php
+- 11:32:15.953 INFO: GET 200 /ajaxdistrict.php
+- 11:32:15.953 INFO: GET 200 /ajaxblock.php
+- 11:32:17.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/block.php
+- 11:32:17.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/block.php#!
+- 11:32:17.812 INFO: POST 200 /ajaxblockdeletecheck.php
+- 11:32:18.765 INFO: POST 200 /ajaxblockdelete.php
+- 11:32:18.875 INFO: GET 200 /ajaxblock.php
+- 11:32:19.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/block.php#!
+- 11:32:19.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/block.php#!
+- 11:32:20.515 INFO: POST 200 /ajaxblockdeletecheck.php
+- 11:32:20.375 INFO: POST 200 /ajaxblockdelete.php
+- 11:32:21.500 INFO: GET 200 /ajaxblock.php
+- 11:32:22.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/block.php#!
+- 11:32:22.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/block.php#!
+- 11:32:22.281 INFO: POST 200 /ajaxblockdeletecheck.php
+- 11:32:23.171 INFO: POST 200 /ajaxblockdelete.php
+- 11:32:23.328 INFO: GET 200 /ajaxblock.php
+- 11:32:26.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/block.php#!
+- 11:32:26.516 DEBUG: OnContextCreated()
+- 11:32:26.656 INFO: GET 200 /block.php
+- 11:32:26.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/block.php
+- 11:32:26.046 INFO: GET 200 /ajaxblock.php
+- 11:32:26.046 INFO: GET 200 /ajaxdistrict.php
+- 11:32:29.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/block.php
+- 11:32:29.516 DEBUG: OnContextCreated()
+- 11:32:29.656 INFO: GET 200 /district.php
+- 11:32:29.921 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/district.php
+- 11:32:29.093 INFO: GET 200 /ajaxstate.php
+- 11:32:29.093 INFO: GET 200 /ajaxdistrict.php
+- 11:32:31.671 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/district.php
+- 11:32:31.671 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/district.php#!
+- 11:32:31.765 INFO: POST 200 /ajaxdistrictdeletecheck.php
+- 11:32:32.812 INFO: POST 200 /ajaxdistrictdelete.php
+- 11:32:32.937 INFO: GET 200 /ajaxdistrict.php
+- 11:32:34.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/district.php#!
+- 11:32:34.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/district.php#!
+- 11:32:34.703 INFO: POST 200 /ajaxdistrictdeletecheck.php
+- 11:32:35.593 INFO: POST 200 /ajaxdistrictdelete.php
+- 11:32:35.703 INFO: GET 200 /ajaxdistrict.php
+- 11:32:37.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/district.php#!
+- 11:32:37.016 DEBUG: OnContextCreated()
+- 11:32:37.156 INFO: GET 200 /district.php
+- 11:32:38.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/district.php
+- 11:32:38.546 INFO: GET 200 /ajaxstate.php
+- 11:32:38.546 INFO: GET 200 /ajaxdistrict.php
+- 11:32:40.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/district.php
+- 11:32:40.063 DEBUG: OnContextCreated()
+- 11:32:40.203 INFO: GET 200 /state.php
+- 11:32:41.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/state.php
+- 11:32:41.859 INFO: GET 200 /ajaxstate.php
+- 11:32:42.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/state.php
+- 11:32:42.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/state.php#!
+- 11:32:43.468 INFO: POST 200 /ajaxstatedeletecheck.php
+- 11:32:44.500 INFO: POST 200 /ajaxstatedelete.php
+- 11:32:44.625 INFO: GET 200 /ajaxstate.php
+- 11:32:46.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/state.php#!
+- 11:32:46.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/state.php#!
+- 11:32:46.546 INFO: POST 200 /ajaxstatedeletecheck.php
+- 11:32:47.500 INFO: POST 200 /ajaxstatedelete.php
+- 11:32:47.625 INFO: GET 200 /ajaxstate.php
+- 11:32:48.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/state.php#!
+- 11:32:48.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/state.php#!
+- 11:32:48.140 INFO: POST 200 /ajaxstatedeletecheck.php
+- 11:32:49.234 INFO: POST 200 /ajaxstatedelete.php
+- 11:32:49.359 INFO: GET 200 /ajaxstate.php
+- 11:32:53.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/state.php#!
+- 11:32:53.844 DEBUG: OnContextCreated()
+- 11:32:53.984 INFO: GET 200 /state.php
+- 11:32:54.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/state.php
+- 11:32:54.640 INFO: GET 200 /ajaxstate.php
+- 11:32:55.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/state.php
+- 11:32:55.610 DEBUG: OnContextCreated()
+- 11:32:55.750 INFO: GET 200 /searchmember.php
+- 11:32:55.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/searchmember.php
+- 11:32:55.109 INFO: GET 200 /ajaxmember.php
+- 11:32:56.718 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/searchmember.php
+- 11:32:56.813 DEBUG: OnContextCreated()
+- 11:32:56.968 INFO: GET 200 /addmember.php
+- 11:32:56.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/addmember.php
+- 11:32:56.296 INFO: GET 200 /ajaxstate.php
+- 11:32:57.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/addmember.php
+- 11:32:57.016 DEBUG: OnContextCreated()
+- 11:32:57.156 INFO: GET 200 /home.php
+- 11:32:58.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php
+- 11:32:58.500 INFO: GET 200 /ajaxmember.php
+- 11:32:58.140 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php
+- 11:32:58.078 DEBUG: OnContextCreated()
+- 11:32:58.218 INFO: GET 200 /addmember.php
+- 11:32:59.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/addmember.php
+- 11:32:59.546 INFO: GET 200 /ajaxstate.php
+- 11:33:09.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/addmember.php
+- 11:33:09.750 DEBUG: OnContextCreated()
+- 11:33:09.890 INFO: GET 200 /home.php
+- 11:33:09.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php
+- 11:33:09.250 INFO: GET 200 /ajaxmember.php
+- 11:33:10.718 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php
+- 11:33:10.718 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php#
+- 11:33:10.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php#
+- 11:33:10.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php#
+- 11:33:11.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php#
+- 11:33:11.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/home.php#
+- 11:33:19.515 INFO: GET 200 /logout.php
+- 11:33:21.515 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53494/home.php#
+- 11:33:21.563 DEBUG: OnContextCreated()
+- 11:33:21.703 INFO: GET 200 /index.php
+- 11:33:21.812 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53494/index.php
+- 11:33:25.156 DEBUG: WM_DESTROY
+- 11:33:25.156 DEBUG: RemoveBrowserWindow(): hwnd = 263528
+- 11:33:25.156 INFO: Stopping Mongoose web server
+- 11:33:25.156 DEBUG: Mongoose webserver stopped immediately
+- 11:33:25.156 DEBUG: OnBeforeClose() hwnd=394624
+- 11:33:25.156 DEBUG: RemoveBrowserWindow(): hwnd = 394624
+- 11:33:25.156 DEBUG: GetBrowserWindow(): not found, hwnd = 394624
+- 11:33:25.156 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:33:25.156 DEBUG: Calling CefQuitMessageLoop()
+- 11:33:25.234 INFO: Ended application
+- 11:33:25.234 INFO: --------------------------------------------------------

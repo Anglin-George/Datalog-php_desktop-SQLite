@@ -20,7 +20,7 @@
                       <div class="cssload-speeding-wheel"></div>
                     </div>
                     <div id="data-table-show-id">
-                      <table class="table table-striped table-bordered js-exportable" id="tabItemDetail"  style="display:block">
+                      <table class="table table-striped table-bordered js-exportable" id="tabItemDetail"  style="display:block;overflow-x: scroll;">
                       <thead>
                           <tr>
                               <th>Id</th>
@@ -111,9 +111,8 @@
   require 'footer.php';
 ?>
 <script type="text/javascript">
-  $( document ).ready(function() {
+  $( document ).ready(function() {   
     bindmember();
-    $('#tabItemDetail').DataTable({"scrollX": true})
   });
 
 function mobilevalidation(textbox, e) {

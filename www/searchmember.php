@@ -32,9 +32,7 @@
                               <th>State</th>
                               <th>District</th>
                               <th>Block</th>
-                              <th>Unit</th>
-                              <th>UpdatedOn</th>
-                              <th>Action</th>
+                              <th>Unit</th>                                                         
                           </tr>
                       </thead>
                          <tbody id="itemdetailscontent"></tbody>
@@ -56,6 +54,7 @@
 <?php
   require 'footer.php';
 ?>
+<script type="text/javascript" src="assets/js/export/buttons.print.min.js"></script>
 <script type="text/javascript">
   $( document ).ready(function() {
     bindmember();
@@ -86,24 +85,28 @@
                   html = html + '<td>' + val.tbl_state_name + '</td>';
                   html = html + '<td>' + val.tbl_district_name + '</td>';
                   html = html + '<td>' + val.tbl_block_name + '</td>';
-                  html = html + '<td>' + val.tbl_unit_name + '</td>';
-                  html = html + '<td>' + val.Updated_On + '</td>';
-                  html = html + '<td class="action-col">';
-                  html = html + '<a href="#!"class="btn btn-info btn-circle btn-sm" data-toggle="modal" data-target="#myModal" onclick="Edititems(' + val.tbl_state_id + ')"> ';
-                  html = html + '<span class="la la-edit">';
-                  html = html + '</span>';
-                  html = html + '</a>';
-                  html = html + '<a href="#!"class="btn btn-danger btn-circle btn-sm" onclick="DeleteItemRow(' + val.tbl_state_id + ')">';
-                  html = html + '<span class="la la-trash">';
-                  html = html + '</span>';
-                  html = html + '</a>';
-                  html = html + '</td>';
+                  html = html + '<td>' + val.tbl_unit_name + '</td>';               
                   html = html + '</tr>';
                 }
               });
               $('.cssload-container').hide();
               $("#itemdetailscontent").html(html);
-              $table = $('#tabItemDetail').DataTable({"scrollX": true});
+              $table = $('#tabItemDetail').DataTable({
+                "scrollX": true,
+                dom: 'Bfrtip',
+                buttons: [
+                    {
+                        extend: 'print',
+                        exportOptions: {
+                            columns: ':visible'
+                        }
+                    },
+                    'copyHtml5',
+                    'excelHtml5',
+                    'csvHtml5',
+                    'pdfHtml5'
+                ],
+            });
               $('#data-table-show-id').show();
           }
       });    
