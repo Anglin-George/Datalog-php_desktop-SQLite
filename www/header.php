@@ -17,7 +17,7 @@
     <title>AVVC Data Log</title>
     <link rel="apple-touch-icon" href="theme-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="theme-assets/images/ico/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700" rel="stylesheet"> -->
     <!-- <link href="assets/css/font.min.css" rel="stylesheet"> -->
     <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"> -->
     <link href="assets/css/line-awesome.min.css" rel="stylesheet">
@@ -130,8 +130,10 @@
               </li> 
               <li class="<?php if($nav == 'district') echo 'active'?>"><a class="menu-item" href="district.php">Add District</a>
               </li>
-              <li class="<?php if($nav == 'block') echo 'active'?>"><a class="menu-item" href="block.php">Add Block</a>
+              <li class="<?php if($nav == 'niyojakamandalam') echo 'active'?>"><a class="menu-item" href="niyojakamandalam.php">Add Niyojaka Mandalam</a>
               </li>
+              <li class="<?php if($nav == 'mandalam') echo 'active'?>"><a class="menu-item" href="mandalam.php">Add Mandalam</a>
+              </li>  
               <li class="<?php if($nav == 'unit') echo 'active'?>"><a class="menu-item" href="unit.php">Add Unit</a>
               </li>             
             </ul>

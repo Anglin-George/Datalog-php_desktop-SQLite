@@ -22,11 +22,13 @@
                           <input type="text" name="tbl_member_no" id="tbl_member_no" class="form-control" placeholder="Membership Number" required>
                           <label>Member Name :</label>
                           <input type="text" name="tbl_member_name" id="tbl_member_name" class="form-control" placeholder="Member Name" required>
+                          <label>Nominee  :</label>
+                          <input type="text" name="tbl_member_nominee" id="tbl_member_nominee" class="form-control" placeholder="Nominee Name" >
                           <label>Mobile Number :</label>
-                          <input type="text" name="tbl_member_mobile" id="tbl_member_mobile" class="form-control" placeholder="Mobile Number" maxlength="10" onkeypress="return mobilevalidation(this,event);" required>
+                          <input type="text" name="tbl_member_mobile" id="tbl_member_mobile" class="form-control" placeholder="Mobile Number" maxlength="10" onkeypress="return mobilevalidation(this,event);" >
                           <label>Member Address :</label>                          
                           <textarea class="form-control" name="tbl_member_address" id="tbl_member_address" placeholder="Member Address" required></textarea>
-                          <label>Date of join :</label>
+                          <label>Date of join : (mm/dd/yy)</label>
                           <input type="date" name="tbl_member_doj" id="tbl_member_doj" class="form-control" required>
                           <label>State :</label>
                           <select class="form-control" name="tbl_member_state" id="state" required onchange="statechange(this.value)">                            
@@ -34,12 +36,37 @@
                           <label>District :</label>
                           <select class="form-control" name="tbl_member_district" id="district" onchange="districtchange(this.value)" required>                            
                           </select>
-                          <label>Block :</label>
-                          <select class="form-control" name="tbl_member_block" id="block" onchange="blockchange(this.value)" required>                            
+                          <label>Niyojaka Mandalam :</label>
+                          <select class="form-control" name="tbl_member_niyojakamandalam" id="niyojakamandalam" onchange="niyojakachange(this.value)" required>                            
+                          </select>
+                          <label>Mandalam :</label>
+                          <select class="form-control" name="tbl_member_mandalam" id="mandalam" onchange="mandalamchange(this.value)" required>                            
                           </select>
                           <label>Unit :</label>
                           <select class="form-control" name="tbl_member_unit" id="unit" required>                            
                           </select>
+                          
+                          <label>Certificate Issue :</label>
+                          <br>
+                          <label>
+                          <input type="radio"  name="tbl_member_certificate" value="1" checked="" id="certificate"> Yes
+                          </label>
+                          <label>
+                          <input  type="radio"  name="tbl_member_certificate" value="0" id="certificate"> No
+
+                          </label>
+
+                          <br>
+
+                          <label>Admission Fee :</label>
+                          <br>
+                          <label>
+                          <input type="radio"  name="tbl_member_admission" value="1" checked="" id="fee"> Yes
+                          </label>
+                          <label>
+                          <input  type="radio" name="tbl_member_admission" value="0" id="fee"> No
+
+                          </label>
                           <br>
                           <input type="submit" name="Save" value="Save" class="btn btn-primary btn-min-width mr-1 mb-1">
                       </fieldset>
@@ -61,21 +88,27 @@
 ?>
 <script type="text/javascript">
   $( document ).ready(function() {
-    bindstateoption();
+    bindstateoption();     
 });
 
 $('#member-add').submit(function(e){
         e.preventDefault();    
         var tbl_member_no = $("#tbl_member_no").val();
         var tbl_member_name = $("#tbl_member_name").val();
+        var tbl_nominee_name=$("#tbl_member_nominee").val();
         var tbl_member_mobile = $("#tbl_member_mobile").val();
         var tbl_member_address = $("#tbl_member_address").val();
         var tbl_member_doj = $("#tbl_member_doj").val();
         var state = $("#state").val();
         var district = $("#district").val();
-        var block = $("#block").val();
+        var niyojakamandalam=$("#niyojakamandalam").val();
+        var mandalam=$("#mandalam").val();
         var unit = $("#unit").val();
-        if(tbl_member_no.trim() != '' && tbl_member_name.trim() != '' && tbl_member_mobile.trim() != '' && tbl_member_address.trim() != '' && tbl_member_doj.trim() != '' && state.trim() != '' && district.trim() != ''&& block.trim() != '' && unit.trim() != '')
+        var certificate= $("#certificate").val();
+        var fee= $("#fee").val();
+
+
+        if(tbl_member_no.trim() != '' && tbl_member_name.trim() != ''  &&  tbl_member_address.trim() != '' && tbl_member_doj.trim() != '' && state.trim() != '' && district.trim() != ''&& niyojakamandalam.trim() != '' && mandalam.trim() != '' && unit.trim() != '')
         {
             $.ajax({
                 url: 'ajaxaddmember.php',
@@ -90,13 +123,17 @@ $('#member-add').submit(function(e){
                         toastr.success('Member has been added');
                         $("#tbl_member_no").val('');
                         $("#tbl_member_name").val('');
+                        $("#tbl_member_nominee").val();
                         $("#tbl_member_mobile").val('');
                         $("#tbl_member_address").val('');
                         $("#tbl_member_doj").val('');
                         $("#state").val('');
                         $("#district").val('');
-                        $("#block").val('');
+                        $("#niyojakamandalam").val();
+                        $("#mandalam").val();
                         $("#unit").val(''); 
+                        $("#certificate").val('');
+                        $("#fee").val('');
                         bindstateoption();                     
                     }
                     else
@@ -150,7 +187,8 @@ function statechange(state) {
           url: url,
           dataType: 'json',
           success: function(result) {
-              var blockhtml = '';
+              var niyojakamandalamhtml = '';
+              var mandalamhtml='';
               var unithtml = ''; 
               var html = '<option value = "0">Select District</option>';
               $.each(result, function(key, val) {
@@ -162,7 +200,8 @@ function statechange(state) {
                 }
               });
               $("#district").html(html);
-              $("#block").html(blockhtml);
+              $("#niyojakamandalam").html(niyojakamandalamhtml);
+              $("#mandalam").html(mandalamhtml);
               $("#unit").html(unithtml);
           }
       });
@@ -177,25 +216,52 @@ function districtchange(district) {
           url: url,
           dataType: 'json',
           success: function(result) {
+              var mandalamhtml='';
               var unithtml = ''; 
-              var html = '<option value = "0">Select Block</option>';
+              var html = '<option value = "0">Select Niyojakamandalam</option>';
               $.each(result, function(key, val) {
                 if(val!=false)
                 {
-                  html = html + '<option value ="'+ val.tbl_block_id+'">';
-                  html = html + val.tbl_block_name;
+                  html = html + '<option value ="'+ val.tbl_niyojakamandalam_id+'">';
+                  html = html + val.tbl_niyojakamandalam_name;
                   html = html + '</option>';
                 }
               });
-              $("#block").html(html);
+              $("#niyojakamandalam").html(html);
+               $("#mandalam").html(mandalamhtml);
               $("#unit").html(unithtml);
           }
       });
 }
 
-function blockchange(block) {
-  data = { tbl_block_id : block};
-  url = 'ajaxblockchange.php';
+function niyojakachange(niyojakamandalam) {
+  data = { tbl_niyojakamandalam_id : niyojakamandalam};
+  url = 'ajaxniyojakamandalamchange.php';
+    $.ajax({
+          type: "POST",
+          data: data,
+          url: url,
+          dataType: 'json',
+          success: function(result) {
+              var html = '<option value="0">Select Mandalam</option>';
+              var unithtml = ''; 
+              $.each(result, function(key, val) {
+                if(val!=false)
+                {
+                  html = html + '<option value ="'+ val.tbl_mandalam_id+'">';
+                  html = html + val.tbl_mandalam_name;
+                  html = html + '</option>';
+                }
+              });
+              $("#mandalam").html(html);
+              $("#unit").html(unithtml);
+          }
+      });
+}
+
+function mandalamchange(mandalam) {
+  data = { tbl_mandalam_id : mandalam};
+  url = 'ajaxmandalamchange.php';
     $.ajax({
           type: "POST",
           data: data,
@@ -212,6 +278,7 @@ function blockchange(block) {
                 }
               });
               $("#unit").html(html);
+             
           }
       });
 }

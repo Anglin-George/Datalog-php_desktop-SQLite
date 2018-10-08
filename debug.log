@@ -6606,3 +6606,2328 @@
 - 11:33:25.156 DEBUG: Calling CefQuitMessageLoop()
 - 11:33:25.234 INFO: Ended application
 - 11:33:25.234 INFO: --------------------------------------------------------
+- 10:06:23.000 INFO: --------------------------------------------------------
+- 10:06:23.016 INFO: Started application
+- 10:06:23.016 INFO: Logging to: D:\AVVC Data log\debug.log
+- 10:06:23.016 INFO: Log level = DEBUG4
+- 10:06:23.016 INFO: Starting Mongoose 3.9c web server
+- 10:06:23.016 INFO: WWW directory: D:\AVVC Data log\www
+- 10:06:23.016 INFO: Index files: index.html,index.php
+- 10:06:23.016 INFO: CGI interpreter: D:\AVVC Data log\php\php-cgi.exe
+- 10:06:23.016 INFO: CGI pattern: **.php$
+- 10:06:23.016 INFO: Hide files patterns: 
+- 10:06:23.016 INFO: CGI environment variables set: TMP=C:\Users\PC9\AppData\Local\Temp\,TEMP=C:\Users\PC9\AppData\Local\Temp\,TMPDIR=C:\Users\PC9\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:06:23.016 INFO: Web server url: http://127.0.0.1:50349/
+- 10:06:23.016 INFO: remote_debugging_port = 55579
+- 10:06:23.016 DEBUG: Command line string for the browser process: "D:\AVVC Data log\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --remote-debugging-port=55579
+- 10:06:24.000 DEBUG: Command line string for the gpu-process process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1902 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="D:\AVVC Data log\debug.log" --service-request-channel-token=DC3C2F35F551AA7AA043ED1EEBA4CD15 --mojo-platform-channel-handle=1700 /prefetch:2
+- 10:06:24.953 DEBUG: App::OnContextInitialized()
+- 10:06:24.953 DEBUG: Window max width/height = 1286/680
+- 10:06:24.953 DEBUG: GetBrowserWindow(): not found, hwnd = 197390
+- 10:06:24.953 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:06:24.953 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:06:24.953 DEBUG: StoreBrowserWindow(): hwnd = 197390
+- 10:06:24.984 DEBUG: ClientHandler::OnAfterCreated()
+- 10:06:24.984 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:06:24.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FE7185C13B4D919E9DB1C9FA4F13C803 --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FE7185C13B4D919E9DB1C9FA4F13C803 --renderer-client-id=3 --mojo-platform-channel-handle=2272 /prefetch:1
+- 10:06:25.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:06:25.156 DEBUG: OnBrowserCreated()
+[0929/100628.810:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:06:30.719 INFO: GET 200 /
+- 10:06:30.734 DEBUG: OnContextCreated()
+- 10:06:30.750 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:06:30.750 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:06:30.953 INFO: GET 200 /assets/css/toastr.min.css
+- 10:06:30.953 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:06:30.953 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:06:30.969 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 10:06:30.969 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:06:30.969 INFO: GET 200 /assets/css/bootstrap.css
+- 10:06:30.000 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:06:30.000 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:06:30.000 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:06:30.016 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:06:30.031 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:06:31.047 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:06:31.078 INFO: GET 200 /assets/js/tether.min.js
+- 10:06:31.094 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:06:31.109 INFO: GET 200 /theme-assets/css/colors.css
+- 10:06:31.156 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:06:31.156 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:06:31.156 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 10:06:31.219 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:06:31.250 INFO: GET 200 /assets/js/toastr.min.js
+- 10:06:31.266 INFO: GET 200 /assets/js/jquery.min.js
+- 10:06:31.328 INFO: GET 200 /assets/js/bootstrap.min.js
+- 10:06:31.344 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:06:41.891 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 10:06:41.906 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:06:43.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/
+- 10:06:46.094 DEBUG: F5 pressed, reloading page
+- 10:06:46.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/
+- 10:06:46.187 DEBUG: OnContextCreated()
+- 10:06:46.187 INFO: GET 200 /
+- 10:06:46.203 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:06:46.203 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:06:46.203 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 10:06:46.203 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:06:46.203 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:06:46.203 INFO: GET 200 /assets/css/bootstrap.css
+- 10:06:46.203 INFO: GET 200 /assets/css/toastr.min.css
+- 10:06:46.203 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:06:46.203 INFO: GET 200 /assets/js/jquery.min.js
+- 10:06:46.203 INFO: GET 200 /assets/js/tether.min.js
+- 10:06:46.219 INFO: GET 200 /assets/js/bootstrap.min.js
+- 10:06:46.234 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:06:46.234 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:06:46.234 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:06:46.234 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:06:46.234 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:06:46.266 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:06:46.328 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:06:46.328 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:06:46.328 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:06:46.328 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:06:46.328 INFO: GET 200 /theme-assets/css/colors.css
+- 10:06:46.344 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 10:06:46.344 INFO: GET 200 /assets/js/toastr.min.js
+- 10:06:46.344 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:06:57.328 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 10:06:57.328 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:06:57.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/
+- 10:06:59.078 DEBUG: F5 pressed, reloading page
+- 10:06:59.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/
+- 10:06:59.187 DEBUG: OnContextCreated()
+- 10:06:59.187 INFO: GET 200 /
+- 10:06:59.187 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:06:59.187 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:06:59.187 INFO: GET 200 /assets/css/bootstrap.css
+- 10:06:59.187 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 10:06:59.187 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:06:59.187 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:06:59.187 INFO: GET 200 /assets/css/toastr.min.css
+- 10:06:59.187 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:06:59.203 INFO: GET 200 /assets/js/tether.min.js
+- 10:06:59.203 INFO: GET 200 /assets/js/jquery.min.js
+- 10:06:59.203 INFO: GET 200 /assets/js/bootstrap.min.js
+- 10:06:59.219 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:06:59.219 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:06:59.219 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:06:59.219 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:06:59.219 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:06:59.219 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:06:59.250 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:06:59.250 INFO: GET 200 /theme-assets/css/colors.css
+- 10:06:59.328 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:06:59.328 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:06:59.328 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:06:59.328 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 10:06:59.328 INFO: GET 200 /assets/js/toastr.min.js
+- 10:06:59.344 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:07:10.328 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 10:07:10.328 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:07:10.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/
+[0929/100725.572:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:50349/theme-assets/vendors/js/vendors.min.js (72)
+- 10:07:25.719 INFO: POST 200 /ajaxlogin.php
+- 10:07:27.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/
+- 10:07:27.969 DEBUG: OnContextCreated()
+- 10:07:27.984 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:07:27.000 INFO: GET 200 /home.php
+- 10:07:28.031 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:07:28.031 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:07:28.094 INFO: GET 200 /assets/css/datatables.min.css
+- 10:07:28.328 INFO: GET 200 /assets/js/datatables.min.js
+- 10:07:39.797 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:07:39.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/home.php
+- 10:07:39.906 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:07:39.969 INFO: GET 200 /ajaxmember.php
+- 10:07:43.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/home.php
+- 10:07:43.812 DEBUG: OnContextCreated()
+- 10:07:43.812 INFO: GET 200 /addmember.php
+- 10:07:55.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/addmember.php
+- 10:07:55.437 INFO: GET 200 /ajaxstate.php
+- 10:07:58.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/addmember.php
+- 10:07:58.422 DEBUG: OnContextCreated()
+- 10:07:58.422 INFO: GET 200 /searchmember.php
+- 10:07:58.484 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 10:08:04.734 DEBUG: ClientHandler::OnAfterCreated()
+- 10:08:04.734 DEBUG: GetBrowserWindow(): not found, hwnd = 525142
+- 10:08:04.734 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:08:04.734 DEBUG: StoreBrowserWindow(): hwnd = 525142
+- 10:08:04.750 DEBUG: Centering popup window relative to its parent
+- 10:08:04.766 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:08:04.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FCDD693035B6E5235A318E281D4408EB --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FCDD693035B6E5235A318E281D4408EB --renderer-client-id=4 --mojo-platform-channel-handle=3100 /prefetch:1
+- 10:08:04.016 DEBUG: OnBrowserCreated()
+- 10:08:04.032 DEBUG: OnContextCreated()
+- 10:08:04.969 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 10:08:09.937 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 10:08:09.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/searchmember.php
+- 10:08:09.984 INFO: GET 200 /assets/js/toastr.js.map
+- 10:08:10.062 INFO: GET 200 /ajaxmember.php
+- 10:08:16.172 DEBUG: OnBeforeClose() hwnd=525142
+- 10:08:16.172 DEBUG: RemoveBrowserWindow(): hwnd = 525142
+- 10:08:17.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/searchmember.php
+- 10:08:17.500 DEBUG: OnContextCreated()
+- 10:08:17.516 INFO: GET 200 /home.php
+- 10:08:28.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/home.php
+- 10:08:29.062 INFO: GET 200 /ajaxmember.php
+- 10:08:32.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/home.php
+- 10:08:32.578 DEBUG: OnContextCreated()
+- 10:08:32.578 INFO: GET 200 /state.php
+- 10:08:40.062 DEBUG: ClientHandler::OnAfterCreated()
+- 10:08:40.062 DEBUG: GetBrowserWindow(): not found, hwnd = 655768
+- 10:08:40.062 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:08:40.062 DEBUG: StoreBrowserWindow(): hwnd = 655768
+- 10:08:40.062 DEBUG: Centering popup window relative to its parent
+- 10:08:40.062 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:08:40.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A354262D1821A21C18D9727955D35057 --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A354262D1821A21C18D9727955D35057 --renderer-client-id=5 --mojo-platform-channel-handle=3128 /prefetch:1
+- 10:08:40.015 DEBUG: OnBrowserCreated()
+- 10:08:40.047 DEBUG: OnContextCreated()
+- 10:08:40.266 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 10:08:44.094 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 10:08:44.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/state.php
+- 10:08:44.203 INFO: GET 200 /ajaxstate.php
+- 10:08:57.891 DEBUG: OnBeforeClose() hwnd=655768
+- 10:08:57.891 DEBUG: RemoveBrowserWindow(): hwnd = 655768
+- 10:09:22.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/state.php
+- 10:09:22.984 DEBUG: OnContextCreated()
+- 10:09:22.984 INFO: GET 200 /state.php
+- 10:09:22.000 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:09:22.000 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:09:22.000 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:09:22.000 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:09:22.000 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:09:22.000 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:09:22.000 INFO: GET 200 /assets/css/datatables.min.css
+- 10:09:22.000 INFO: GET 200 /assets/css/toastr.min.css
+- 10:09:22.000 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:09:22.000 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:09:22.000 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:09:22.016 INFO: GET 200 /assets/js/toastr.min.js
+- 10:09:22.016 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:09:22.016 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:09:22.016 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:09:22.016 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:09:22.016 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:09:23.047 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:09:23.047 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:09:23.047 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:09:23.047 INFO: GET 200 /theme-assets/css/colors.css
+- 10:09:23.125 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:09:23.125 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:09:23.156 INFO: GET 200 /assets/js/datatables.min.js
+- 10:09:23.250 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:09:23.250 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:09:23.781 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:09:23.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/state.php
+- 10:09:23.875 INFO: GET 200 /ajaxstate.php
+- 10:09:25.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/state.php
+- 10:09:25.109 DEBUG: OnContextCreated()
+- 10:09:25.109 INFO: GET 200 /home.php
+- 10:09:25.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/home.php
+- 10:09:25.687 INFO: GET 200 /ajaxmember.php
+- 10:09:26.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/home.php
+- 10:09:26.562 DEBUG: OnContextCreated()
+- 10:09:26.562 INFO: GET 200 /addmember.php
+- 10:09:26.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/addmember.php
+- 10:09:26.891 INFO: GET 200 /ajaxstate.php
+- 10:09:27.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/addmember.php
+- 10:09:27.859 DEBUG: OnContextCreated()
+- 10:09:27.859 INFO: GET 200 /searchmember.php
+- 10:09:28.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/searchmember.php
+- 10:09:28.172 INFO: GET 200 /ajaxmember.php
+- 10:09:29.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/searchmember.php
+- 10:09:29.609 DEBUG: OnContextCreated()
+- 10:09:29.609 INFO: GET 200 /state.php
+- 10:09:29.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/state.php
+- 10:09:29.953 INFO: GET 200 /ajaxstate.php
+- 10:09:31.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/state.php
+- 10:09:31.344 DEBUG: OnContextCreated()
+- 10:09:31.344 INFO: GET 200 /district.php
+- 10:09:31.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/district.php
+- 10:09:31.672 INFO: GET 200 /ajaxstate.php
+- 10:09:31.703 INFO: GET 200 /ajaxdistrict.php
+- 10:09:33.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/district.php
+- 10:09:33.281 DEBUG: OnContextCreated()
+- 10:09:33.281 INFO: GET 200 /block.php
+- 10:09:33.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/block.php
+- 10:09:33.609 INFO: GET 200 /ajaxdistrict.php
+- 10:09:33.641 INFO: GET 200 /ajaxblock.php
+- 10:09:35.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/block.php
+- 10:09:35.297 DEBUG: OnContextCreated()
+- 10:09:35.297 INFO: GET 200 /unit.php
+- 10:09:35.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/unit.php
+- 10:09:35.656 INFO: GET 200 /ajaxblock.php
+- 10:09:35.766 INFO: GET 200 /ajaxunit.php
+- 10:10:28.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/unit.php
+- 10:10:28.594 DEBUG: OnContextCreated()
+- 10:10:28.594 INFO: GET 200 /state.php
+- 10:10:29.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/state.php
+- 10:10:29.172 INFO: GET 200 /ajaxstate.php
+- 10:11:07.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/state.php
+- 10:11:07.375 DEBUG: OnContextCreated()
+- 10:11:07.375 INFO: GET 200 /searchmember.php
+- 10:11:07.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/searchmember.php
+- 10:11:07.906 INFO: GET 200 /ajaxmember.php
+- 10:11:11.625 INFO: About to download a file: AVVC Data Log.csv
+- 10:11:14.109 INFO: Download was cancelled
+- 10:11:14.984 INFO: About to download a file: AVVC Data Log.pdf
+- 10:11:16.687 INFO: Download was cancelled
+- 10:11:18.109 INFO: About to download a file: AVVC Data Log.pdf
+- 10:11:19.234 INFO: Download was cancelled
+- 10:11:19.812 INFO: About to download a file: AVVC Data Log.csv
+- 10:11:20.016 INFO: Download was cancelled
+- 10:11:23.531 DEBUG: ClientHandler::OnBeforePopup()
+- 10:11:23.531 INFO: Setting default size for a popup window 800/600
+- 10:11:23.531 DEBUG: Window max width/height = 1286/680
+- 10:11:23.531 DEBUG: ClientHandler::OnAfterCreated()
+- 10:11:23.531 DEBUG: GetBrowserWindow(): not found, hwnd = 1115014
+- 10:11:23.531 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:11:23.531 DEBUG: StoreBrowserWindow(): hwnd = 1115014
+- 10:11:23.531 DEBUG: Centering popup window relative to its parent
+- 10:11:23.531 DEBUG: OnBrowserCreated()
+- 10:11:23.547 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:11:23.547 DEBUG: OnLoadingStateChange: loading=0, url=about:blank
+- 10:11:23.547 DEBUG: OnContextCreated()
+- 10:11:30.547 DEBUG: OnBeforeClose() hwnd=1115014
+- 10:11:30.547 DEBUG: RemoveBrowserWindow(): hwnd = 1115014
+- 10:11:30.562 DEBUG: OnBrowserDestroyed()
+- 10:37:17.203 DEBUG: F5 pressed, reloading page
+- 10:37:17.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/searchmember.php
+- 10:37:17.328 DEBUG: OnContextCreated()
+- 10:37:17.328 INFO: GET 200 /searchmember.php
+- 10:37:17.328 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:37:17.328 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:37:17.328 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:37:17.328 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:37:17.328 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:37:17.328 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:37:17.344 INFO: GET 200 /assets/css/toastr.min.css
+- 10:37:17.344 INFO: GET 200 /assets/css/datatables.min.css
+- 10:37:17.344 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:37:17.344 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:37:17.344 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:37:17.344 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:37:17.344 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:37:17.359 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:37:17.359 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:37:17.375 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:37:17.375 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:37:17.375 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:37:17.375 INFO: GET 200 /theme-assets/css/colors.css
+- 10:37:17.391 INFO: GET 200 /assets/js/toastr.min.js
+- 10:37:17.437 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:37:17.437 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:37:17.437 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:37:17.437 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 10:37:17.469 INFO: GET 200 /assets/js/datatables.min.js
+- 10:37:17.531 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:37:17.562 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:37:18.031 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:37:18.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/searchmember.php
+- 10:37:18.125 INFO: GET 200 /ajaxmember.php
+- 10:37:38.297 DEBUG: F5 pressed, reloading page
+- 10:37:38.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/searchmember.php
+- 10:37:38.437 DEBUG: OnContextCreated()
+- 10:37:38.437 INFO: GET 200 /searchmember.php
+- 10:37:38.437 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:37:38.437 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:37:38.437 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:37:38.437 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:37:38.437 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:37:38.437 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:37:38.437 INFO: GET 200 /assets/css/datatables.min.css
+- 10:37:38.437 INFO: GET 200 /assets/css/toastr.min.css
+- 10:37:38.453 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:37:38.469 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:37:38.469 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:37:38.469 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:37:38.469 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:37:38.469 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:37:38.484 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:37:38.484 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:37:38.484 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:37:38.484 INFO: GET 200 /theme-assets/css/colors.css
+- 10:37:38.500 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:37:38.547 INFO: GET 200 /assets/js/toastr.min.js
+- 10:37:38.547 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:37:38.547 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:37:38.547 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:37:38.594 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 10:37:38.594 INFO: GET 200 /assets/js/datatables.min.js
+- 10:37:38.656 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:37:38.656 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:37:39.078 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:37:39.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/searchmember.php
+- 10:37:39.156 INFO: GET 200 /ajaxmember.php
+- 10:42:05.359 DEBUG: F5 pressed, reloading page
+- 10:42:05.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/searchmember.php
+- 10:42:05.422 DEBUG: OnContextCreated()
+- 10:42:05.437 INFO: GET 200 /searchmember.php
+- 10:42:05.437 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:42:05.437 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:42:05.437 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:42:05.437 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:42:05.437 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:42:05.437 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:42:05.437 INFO: GET 200 /assets/css/toastr.min.css
+- 10:42:05.437 INFO: GET 200 /assets/css/datatables.min.css
+- 10:42:05.437 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:42:05.437 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:42:05.437 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:42:05.453 INFO: GET 200 /assets/js/toastr.min.js
+- 10:42:05.453 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:42:05.453 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:42:05.453 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:42:05.453 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:42:05.469 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:42:05.484 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:42:05.484 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:42:05.484 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:42:05.484 INFO: GET 200 /theme-assets/css/colors.css
+- 10:42:05.562 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:42:05.562 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:42:05.562 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 10:42:05.594 INFO: GET 200 /assets/js/datatables.min.js
+- 10:42:05.672 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:42:05.687 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:42:06.187 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:42:06.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/searchmember.php
+- 10:42:06.266 INFO: GET 200 /ajaxmember.php
+- 10:42:08.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/searchmember.php
+- 10:42:08.750 DEBUG: OnContextCreated()
+- 10:42:08.750 INFO: GET 200 /unit.php
+- 10:42:09.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/unit.php
+- 10:42:09.328 INFO: GET 200 /ajaxunit.php
+- 10:42:09.328 INFO: GET 200 /ajaxblock.php
+- 10:42:13.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/unit.php
+- 10:42:13.391 DEBUG: OnContextCreated()
+- 10:42:13.391 INFO: GET 200 /unit.php
+- 10:42:13.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/unit.php
+- 10:42:13.766 INFO: GET 200 /ajaxblock.php
+- 10:42:13.766 INFO: GET 200 /ajaxunit.php
+- 10:42:17.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/unit.php
+- 10:42:17.984 DEBUG: OnContextCreated()
+- 10:42:17.984 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:42:17.984 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:42:17.984 INFO: GET 200 /unit.php
+- 10:42:17.984 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:42:17.984 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:42:17.984 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:42:17.984 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:42:17.984 INFO: GET 200 /assets/css/toastr.min.css
+- 10:42:17.984 INFO: GET 200 /assets/css/datatables.min.css
+- 10:42:17.000 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:42:17.000 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:42:17.000 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:42:17.000 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:42:17.016 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:42:17.016 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:42:18.031 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:42:18.031 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:42:18.031 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:42:18.031 INFO: GET 200 /theme-assets/css/colors.css
+- 10:42:18.062 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:42:18.062 INFO: GET 200 /assets/js/toastr.min.js
+- 10:42:18.062 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:42:18.109 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:42:18.125 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:42:18.141 INFO: GET 200 /assets/js/datatables.min.js
+- 10:42:18.187 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:42:18.203 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:42:18.656 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:42:18.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/unit.php
+- 10:42:18.766 INFO: GET 200 /ajaxunit.php
+- 10:42:18.766 INFO: GET 200 /ajaxblock.php
+- 10:42:20.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/unit.php
+- 10:42:20.734 DEBUG: OnContextCreated()
+- 10:42:20.750 INFO: GET 200 /unit.php
+- 10:42:21.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/unit.php
+- 10:42:21.312 INFO: GET 200 /ajaxunit.php
+- 10:42:21.312 INFO: GET 200 /ajaxblock.php
+- 10:42:33.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/unit.php
+- 10:42:33.281 DEBUG: OnContextCreated()
+- 10:42:33.281 INFO: GET 200 /unit.php
+- 10:42:33.281 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:42:33.281 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:42:33.281 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:42:33.281 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:42:33.281 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:42:33.281 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:42:33.297 INFO: GET 200 /assets/css/toastr.min.css
+- 10:42:33.297 INFO: GET 200 /assets/css/datatables.min.css
+- 10:42:33.297 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:42:33.297 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:42:33.297 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:42:33.297 INFO: GET 200 /assets/js/toastr.min.js
+- 10:42:33.328 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:42:33.328 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:42:33.328 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:42:33.328 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:42:33.328 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:42:33.344 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:42:33.344 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:42:33.344 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:42:33.344 INFO: GET 200 /theme-assets/css/colors.css
+- 10:42:33.406 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:42:33.406 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:42:33.437 INFO: GET 200 /assets/js/datatables.min.js
+- 10:42:33.500 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:42:33.516 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:42:33.000 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:42:33.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/unit.php
+- 10:42:34.109 INFO: GET 200 /ajaxblock.php
+- 10:42:34.109 INFO: GET 200 /ajaxunit.php
+- 10:42:35.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/unit.php
+- 10:42:35.672 INFO: GET 404 /unit1.php
+- 10:42:35.687 DEBUG: OnContextCreated()
+- 10:42:35.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/unit1.php
+- 10:42:37.109 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/unit1.php
+- 10:42:37.172 DEBUG: OnContextCreated()
+- 10:42:37.172 INFO: GET 200 /unit.php
+- 10:42:37.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/unit.php
+- 10:42:37.719 INFO: GET 200 /ajaxblock.php
+- 10:42:37.734 INFO: GET 200 /ajaxunit.php
+- 10:43:18.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/unit.php
+- 10:43:18.656 DEBUG: OnContextCreated()
+- 10:43:18.656 INFO: GET 200 /district.php
+- 10:43:19.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/district.php
+- 10:43:19.219 INFO: GET 200 /ajaxstate.php
+- 10:43:19.234 INFO: GET 200 /ajaxdistrict.php
+- 10:43:23.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/district.php
+- 10:43:23.703 DEBUG: OnContextCreated()
+- 10:43:23.703 INFO: GET 200 /block.php
+- 10:43:23.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/block.php
+- 10:43:24.031 INFO: GET 200 /ajaxdistrict.php
+- 10:43:24.031 INFO: GET 200 /ajaxblock.php
+- 10:46:27.578 DEBUG: F5 pressed, reloading page
+- 10:46:27.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/block.php
+- 10:46:27.687 DEBUG: OnContextCreated()
+- 10:46:27.687 INFO: GET 200 /block.php
+- 10:46:27.687 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:46:27.687 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:46:27.687 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:46:27.687 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:46:27.687 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:46:27.687 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:46:27.687 INFO: GET 200 /assets/css/toastr.min.css
+- 10:46:27.687 INFO: GET 200 /assets/css/datatables.min.css
+- 10:46:27.719 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:46:27.719 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:46:27.719 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:46:27.719 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:46:27.719 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:46:27.719 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:46:27.750 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:46:27.750 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:46:27.750 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:46:27.750 INFO: GET 200 /theme-assets/css/colors.css
+- 10:46:27.766 INFO: GET 200 /assets/js/toastr.min.js
+- 10:46:27.766 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:46:27.766 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:46:27.844 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:46:27.859 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:46:27.859 INFO: GET 200 /assets/js/datatables.min.js
+- 10:46:27.922 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:46:27.953 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:46:28.453 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:46:28.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/block.php
+- 10:46:28.547 INFO: GET 200 /ajaxdistrict.php
+- 10:46:28.562 INFO: GET 200 /ajaxblock.php
+- 10:46:30.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/block.php
+- 10:46:30.969 DEBUG: OnContextCreated()
+- 10:46:30.969 INFO: GET 200 /block.php
+- 10:46:31.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/block.php
+- 10:46:31.547 INFO: GET 200 /ajaxblock.php
+- 10:46:31.562 INFO: GET 200 /ajaxdistrict.php
+- 10:46:49.000 INFO: POST 200 /ajaxaddblock.php
+- 10:46:50.078 INFO: GET 200 /ajaxblock.php
+- 10:46:55.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/block.php
+- 10:46:55.203 DEBUG: OnContextCreated()
+- 10:46:55.203 INFO: GET 200 /block.php
+- 10:46:55.203 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:46:55.203 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:46:55.203 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:46:55.203 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:46:55.203 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:46:55.203 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:46:55.219 INFO: GET 200 /assets/css/toastr.min.css
+- 10:46:55.219 INFO: GET 200 /assets/css/datatables.min.css
+- 10:46:55.219 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:46:55.219 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:46:55.234 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:46:55.234 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:46:55.234 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:46:55.234 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:46:55.234 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:46:55.250 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:46:55.250 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:46:55.250 INFO: GET 200 /assets/js/toastr.min.js
+- 10:46:55.250 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:46:55.250 INFO: GET 200 /theme-assets/css/colors.css
+- 10:46:55.312 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:46:55.312 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:46:55.328 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:46:55.344 INFO: GET 200 /assets/js/datatables.min.js
+- 10:46:55.406 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:46:55.437 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:46:55.937 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:46:55.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/block.php
+- 10:46:56.031 INFO: GET 200 /ajaxdistrict.php
+- 10:46:56.031 INFO: GET 200 /ajaxblock.php
+- 10:47:22.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/block.php
+- 10:47:22.937 DEBUG: OnContextCreated()
+- 10:47:22.953 INFO: GET 200 /state.php
+- 10:47:23.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/state.php
+- 10:47:23.547 INFO: GET 200 /ajaxstate.php
+- 10:47:31.984 INFO: POST 200 /ajaxaddstate.php
+- 10:47:32.062 INFO: GET 200 /ajaxstate.php
+- 10:47:34.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/state.php
+- 10:47:34.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/state.php#!
+- 10:47:34.219 INFO: POST 200 /ajaxstatedeletecheck.php
+- 10:47:35.203 INFO: POST 200 /ajaxstatedelete.php
+- 10:47:35.281 INFO: GET 200 /ajaxstate.php
+- 10:47:37.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/state.php#!
+- 10:47:37.000 DEBUG: OnContextCreated()
+- 10:47:37.000 INFO: GET 200 /district.php
+- 10:47:38.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/district.php
+- 10:47:38.547 INFO: GET 200 /ajaxstate.php
+- 10:47:38.547 INFO: GET 200 /ajaxdistrict.php
+- 10:48:04.047 DEBUG: F5 pressed, reloading page
+- 10:48:04.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/district.php
+- 10:48:04.141 DEBUG: OnContextCreated()
+- 10:48:04.141 INFO: GET 200 /district.php
+- 10:48:04.156 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:48:04.156 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:48:04.156 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:48:04.156 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:48:04.156 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:48:04.156 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:48:04.156 INFO: GET 200 /assets/css/toastr.min.css
+- 10:48:04.156 INFO: GET 200 /assets/css/datatables.min.css
+- 10:48:04.156 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:48:04.156 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:48:04.156 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:48:04.156 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:48:04.156 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:48:04.172 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:48:04.187 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:48:04.187 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:48:04.187 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:48:04.187 INFO: GET 200 /theme-assets/css/colors.css
+- 10:48:04.187 INFO: GET 200 /assets/js/toastr.min.js
+- 10:48:04.187 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:48:04.187 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:48:04.281 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:48:04.281 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:48:04.297 INFO: GET 200 /assets/js/datatables.min.js
+- 10:48:04.359 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:48:04.375 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:48:04.891 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:48:04.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/district.php
+- 10:48:04.000 INFO: GET 200 /ajaxstate.php
+- 10:48:04.000 INFO: GET 200 /ajaxdistrict.php
+- 10:48:26.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/district.php
+- 10:48:26.703 DEBUG: OnContextCreated()
+- 10:48:26.719 INFO: GET 200 /state.php
+- 10:48:27.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/state.php
+- 10:48:27.297 INFO: GET 200 /ajaxstate.php
+- 10:49:06.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/state.php
+- 10:49:06.531 DEBUG: OnContextCreated()
+- 10:49:06.531 INFO: GET 200 /district.php
+- 10:49:06.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/district.php
+- 10:49:07.078 INFO: GET 200 /ajaxdistrict.php
+- 10:49:07.094 INFO: GET 200 /ajaxstate.php
+- 10:49:17.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/district.php
+- 10:49:17.141 DEBUG: OnContextCreated()
+- 10:49:17.141 INFO: GET 200 /state.php
+- 10:49:17.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/state.php
+- 10:49:17.484 INFO: GET 200 /ajaxstate.php
+- 10:49:30.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/state.php
+- 10:49:30.531 DEBUG: OnContextCreated()
+- 10:49:30.531 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:49:30.531 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:49:30.531 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:49:30.531 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:49:30.531 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:49:30.531 INFO: GET 200 /state.php
+- 10:49:30.531 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:49:30.531 INFO: GET 200 /assets/css/toastr.min.css
+- 10:49:30.531 INFO: GET 200 /assets/css/datatables.min.css
+- 10:49:30.531 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:49:30.531 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:49:30.562 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:49:30.562 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:49:30.562 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:49:30.562 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:49:30.562 INFO: GET 200 /theme-assets/css/colors.css
+- 10:49:30.594 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:49:30.594 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:49:30.594 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:49:30.594 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:49:30.672 INFO: GET 200 /assets/js/toastr.min.js
+- 10:49:30.672 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:49:30.672 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:49:30.672 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:49:30.703 INFO: GET 200 /assets/js/datatables.min.js
+- 10:49:30.766 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:49:30.797 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:49:31.344 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:49:31.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/state.php
+- 10:49:31.437 INFO: GET 200 /ajaxstate.php
+- 10:50:25.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50349/state.php
+- 10:50:25.969 DEBUG: OnContextCreated()
+- 10:50:25.969 INFO: GET 200 /searchmember.php
+- 10:50:26.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50349/searchmember.php
+- 10:50:26.578 INFO: GET 200 /ajaxmember.php
+- 11:16:08.656 DEBUG: WM_DESTROY
+- 11:16:08.656 DEBUG: RemoveBrowserWindow(): hwnd = 197390
+- 11:16:08.656 INFO: Stopping Mongoose web server
+- 11:16:08.656 DEBUG: Mongoose webserver stopped immediately
+- 11:16:08.656 DEBUG: OnBeforeClose() hwnd=131948
+- 11:16:08.656 DEBUG: RemoveBrowserWindow(): hwnd = 131948
+- 11:16:08.656 DEBUG: GetBrowserWindow(): not found, hwnd = 131948
+- 11:16:08.656 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:16:08.656 DEBUG: Calling CefQuitMessageLoop()
+- 11:16:08.750 INFO: Ended application
+- 11:16:08.750 INFO: --------------------------------------------------------
+- 15:59:25.000 INFO: --------------------------------------------------------
+- 15:59:25.015 INFO: Started application
+- 15:59:25.015 INFO: Logging to: D:\AVVC Data log\debug.log
+- 15:59:25.015 INFO: Log level = DEBUG4
+- 15:59:25.015 INFO: Starting Mongoose 3.9c web server
+- 15:59:25.015 INFO: WWW directory: D:\AVVC Data log\www
+- 15:59:25.015 INFO: Index files: index.html,index.php
+- 15:59:25.015 INFO: CGI interpreter: D:\AVVC Data log\php\php-cgi.exe
+- 15:59:25.015 INFO: CGI pattern: **.php$
+- 15:59:25.015 INFO: Hide files patterns: 
+- 15:59:25.015 INFO: CGI environment variables set: TMP=C:\Users\PC9\AppData\Local\Temp\,TEMP=C:\Users\PC9\AppData\Local\Temp\,TMPDIR=C:\Users\PC9\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:59:25.031 INFO: Web server url: http://127.0.0.1:51829/
+- 15:59:25.031 INFO: remote_debugging_port = 61787
+- 15:59:25.031 DEBUG: Command line string for the browser process: "D:\AVVC Data log\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --remote-debugging-port=61787
+- 15:59:25.859 DEBUG: App::OnContextInitialized()
+- 15:59:25.859 DEBUG: Window max width/height = 1286/680
+- 15:59:25.859 DEBUG: GetBrowserWindow(): not found, hwnd = 132756
+- 15:59:25.859 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:59:25.859 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:59:25.859 DEBUG: StoreBrowserWindow(): hwnd = 132756
+- 15:59:26.000 DEBUG: Command line string for the gpu-process process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1902 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="D:\AVVC Data log\debug.log" --service-request-channel-token=8973FD6CFC0122CF2AE6A8338D993FE4 --mojo-platform-channel-handle=1700 /prefetch:2
+- 15:59:26.953 DEBUG: ClientHandler::OnAfterCreated()
+- 15:59:26.953 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:59:26.953 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:59:26.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=6442FA8B8CC40EBF7B6B5CD123C38155 --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=6442FA8B8CC40EBF7B6B5CD123C38155 --renderer-client-id=3 --mojo-platform-channel-handle=2304 /prefetch:1
+- 15:59:26.031 DEBUG: OnBrowserCreated()
+[1002/155927.656:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:59:29.968 INFO: GET 200 /
+- 15:59:29.968 INFO: GET 200 /theme-assets/css/vendors.css
+- 15:59:29.968 INFO: GET 200 /theme-assets/css/app-lite.css
+- 15:59:29.968 INFO: GET 200 /assets/css/bootstrap.css
+- 15:59:29.969 DEBUG: OnContextCreated()
+- 15:59:29.984 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 15:59:29.984 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 15:59:29.984 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 15:59:29.000 INFO: GET 200 /theme-assets/css/components-lite.css
+- 15:59:29.000 INFO: GET 200 /assets/css/sweet-alert.css
+- 15:59:29.000 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 15:59:29.015 INFO: GET 200 /assets/css/toastr.min.css
+- 15:59:29.015 INFO: GET 200 /theme-assets/css/colors.css
+- 15:59:29.046 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 15:59:29.078 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 15:59:29.078 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 15:59:29.093 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 15:59:29.109 INFO: GET 200 /assets/js/tether.min.js
+- 15:59:29.109 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 15:59:29.125 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 15:59:29.125 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 15:59:29.171 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 15:59:29.187 INFO: GET 200 /assets/js/toastr.min.js
+- 15:59:29.203 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 15:59:29.203 INFO: GET 200 /assets/js/jquery.min.js
+- 15:59:29.218 INFO: GET 200 /assets/js/bootstrap.min.js
+- 15:59:29.250 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 15:59:29.406 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 15:59:29.406 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 15:59:29.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51829/
+[1002/155936.259:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:51829/theme-assets/vendors/js/vendors.min.js (72)
+- 15:59:36.343 INFO: POST 200 /ajaxlogin.php
+- 15:59:38.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51829/
+- 15:59:38.735 DEBUG: OnContextCreated()
+- 15:59:38.765 INFO: GET 200 /assets/css/line-awesome.min.css
+- 15:59:38.765 INFO: GET 200 /assets/css/datatables.min.css
+- 15:59:38.765 INFO: GET 200 /home.php
+- 15:59:38.843 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 15:59:39.875 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 15:59:39.875 INFO: GET 200 /assets/js/components-modal.min.js
+- 15:59:39.156 INFO: GET 200 /assets/js/datatables.min.js
+- 15:59:39.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51829/home.php
+- 15:59:39.562 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 15:59:39.687 INFO: GET 200 /ajaxmember.php
+- 15:59:43.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51829/home.php
+- 15:59:43.656 DEBUG: OnContextCreated()
+- 15:59:43.671 INFO: GET 200 /addmember.php
+- 15:59:44.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51829/addmember.php
+- 15:59:44.296 INFO: GET 200 /ajaxstate.php
+- 15:59:46.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51829/addmember.php
+- 15:59:46.703 DEBUG: OnContextCreated()
+- 15:59:46.734 INFO: GET 200 /searchmember.php
+- 15:59:46.734 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 15:59:47.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51829/searchmember.php
+- 15:59:47.078 INFO: GET 200 /ajaxmember.php
+- 15:59:49.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51829/searchmember.php
+- 15:59:50.047 DEBUG: OnContextCreated()
+- 15:59:50.062 INFO: GET 200 /state.php
+- 15:59:50.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51829/state.php
+- 15:59:50.453 INFO: GET 200 /ajaxstate.php
+- 15:59:55.062 INFO: POST 200 /ajaxaddstate.php
+- 15:59:55.218 INFO: GET 200 /ajaxstate.php
+- 15:59:57.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51829/state.php
+- 15:59:57.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51829/state.php#!
+- 15:59:57.031 INFO: POST 200 /ajaxstatedeletecheck.php
+- 15:59:58.062 INFO: POST 200 /ajaxstatedelete.php
+- 15:59:58.203 INFO: GET 200 /ajaxstate.php
+- 16:00:04.656 INFO: GET 200 /logout.php
+- 16:00:06.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51829/state.php#!
+- 16:00:06.844 DEBUG: OnContextCreated()
+- 16:00:07.875 INFO: GET 200 /index.php
+- 16:00:07.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51829/index.php
+- 16:00:08.406 DEBUG: WM_DESTROY
+- 16:00:08.406 DEBUG: RemoveBrowserWindow(): hwnd = 132756
+- 16:00:08.406 INFO: Stopping Mongoose web server
+- 16:00:08.406 DEBUG: Mongoose webserver stopped immediately
+- 16:00:08.406 DEBUG: OnBeforeClose() hwnd=132568
+- 16:00:08.406 DEBUG: RemoveBrowserWindow(): hwnd = 132568
+- 16:00:08.406 DEBUG: GetBrowserWindow(): not found, hwnd = 132568
+- 16:00:08.406 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:00:08.406 DEBUG: Calling CefQuitMessageLoop()
+- 16:00:08.500 INFO: Ended application
+- 16:00:08.500 INFO: --------------------------------------------------------
+- 16:33:28.000 INFO: --------------------------------------------------------
+- 16:33:28.000 INFO: Started application
+- 16:33:28.000 INFO: Logging to: D:\AVVC Data log\debug.log
+- 16:33:28.000 INFO: Log level = DEBUG4
+- 16:33:28.000 INFO: Starting Mongoose 3.9c web server
+- 16:33:28.000 INFO: WWW directory: D:\AVVC Data log\www
+- 16:33:28.000 INFO: Index files: index.html,index.php
+- 16:33:28.000 INFO: CGI interpreter: D:\AVVC Data log\php\php-cgi.exe
+- 16:33:28.000 INFO: CGI pattern: **.php$
+- 16:33:28.000 INFO: Hide files patterns: 
+- 16:33:28.000 INFO: CGI environment variables set: TMP=C:\Users\PC9\AppData\Local\Temp\,TEMP=C:\Users\PC9\AppData\Local\Temp\,TMPDIR=C:\Users\PC9\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:33:28.000 INFO: Web server url: http://127.0.0.1:52056/
+- 16:33:28.000 INFO: remote_debugging_port = 60930
+- 16:33:28.000 DEBUG: Command line string for the browser process: "D:\AVVC Data log\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --remote-debugging-port=60930
+- 16:33:28.047 DEBUG: App::OnContextInitialized()
+- 16:33:28.047 DEBUG: Window max width/height = 1286/680
+- 16:33:28.047 DEBUG: GetBrowserWindow(): not found, hwnd = 2688700
+- 16:33:28.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:33:28.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:33:28.047 DEBUG: StoreBrowserWindow(): hwnd = 2688700
+- 16:33:28.000 DEBUG: Command line string for the gpu-process process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1902 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="D:\AVVC Data log\debug.log" --service-request-channel-token=58735C42A9CFD75A5CA1AF3957D61E2D --mojo-platform-channel-handle=1684 /prefetch:2
+- 16:33:28.109 DEBUG: ClientHandler::OnAfterCreated()
+- 16:33:28.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:33:28.125 DEBUG: OnLoadingStateChange: loading=1, url=
+[1002/163328.783:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:33:28.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=92AE63002A6BF9E7D9B5EE520AEE5E20 --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=92AE63002A6BF9E7D9B5EE520AEE5E20 --renderer-client-id=3 --mojo-platform-channel-handle=2260 /prefetch:1
+- 16:33:28.031 DEBUG: OnBrowserCreated()
+- 16:33:30.437 INFO: GET 200 /
+- 16:33:30.453 INFO: GET 200 /assets/css/bootstrap.css
+- 16:33:30.453 INFO: GET 200 /theme-assets/css/vendors.css
+- 16:33:30.453 INFO: GET 200 /theme-assets/css/app-lite.css
+- 16:33:30.453 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 16:33:30.453 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 16:33:30.453 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 16:33:30.453 INFO: GET 200 /assets/css/toastr.min.css
+- 16:33:30.453 INFO: GET 200 /assets/css/sweet-alert.css
+- 16:33:30.281 DEBUG: OnContextCreated()
+- 16:33:30.453 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 16:33:30.453 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 16:33:30.453 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 16:33:30.453 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 16:33:30.469 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 16:33:30.469 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 16:33:30.516 INFO: GET 200 /theme-assets/css/components-lite.css
+- 16:33:30.516 INFO: GET 200 /assets/js/jquery.min.js
+- 16:33:30.516 INFO: GET 200 /theme-assets/css/colors.css
+- 16:33:30.531 INFO: GET 200 /assets/js/tether.min.js
+- 16:33:30.547 INFO: GET 200 /assets/js/bootstrap.min.js
+- 16:33:30.547 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 16:33:30.547 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 16:33:30.562 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 16:33:30.609 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 16:33:30.609 INFO: GET 200 /assets/js/toastr.min.js
+- 16:33:30.609 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 16:33:30.797 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 16:33:30.797 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 16:33:30.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/
+[1002/163351.370:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:52056/theme-assets/vendors/js/vendors.min.js (72)
+- 16:33:51.016 INFO: POST 200 /ajaxlogin.php
+- 16:33:53.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/
+- 16:33:53.078 DEBUG: OnContextCreated()
+- 16:33:53.266 INFO: GET 200 /home.php
+- 16:33:53.281 INFO: GET 200 /assets/css/line-awesome.min.css
+- 16:33:53.281 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 16:33:53.281 INFO: GET 200 /assets/css/datatables.min.css
+- 16:33:53.281 INFO: GET 200 /assets/js/components-modal.min.js
+- 16:33:53.328 INFO: GET 200 /assets/js/datatables.min.js
+- 16:33:54.406 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 16:33:54.859 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 16:33:54.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/home.php
+- 16:33:54.984 INFO: GET 200 /ajaxmember.php
+- 16:34:10.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/home.php
+- 16:34:10.109 DEBUG: OnContextCreated()
+- 16:34:10.281 INFO: GET 200 /block.php
+- 16:34:11.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/block.php
+- 16:34:11.984 INFO: GET 200 /ajaxblock.php
+- 16:34:11.984 INFO: GET 200 /ajaxdistrict.php
+- 16:34:25.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/block.php
+- 16:34:25.172 DEBUG: OnContextCreated()
+- 16:34:25.344 INFO: GET 200 /unit.php
+- 16:34:26.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/unit.php
+- 16:34:26.984 INFO: GET 200 /ajaxblock.php
+- 16:34:26.984 INFO: GET 200 /ajaxunit.php
+- 16:34:30.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/unit.php
+- 16:34:30.000 INFO: GET 404 /unit1.php
+- 16:34:30.828 DEBUG: OnContextCreated()
+- 16:34:30.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/unit1.php
+- 16:34:34.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/unit1.php
+- 16:34:34.094 DEBUG: OnContextCreated()
+- 16:34:34.281 INFO: GET 200 /unit.php
+- 16:34:35.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/unit.php
+- 16:34:35.766 INFO: GET 200 /ajaxblock.php
+- 16:34:35.766 INFO: GET 200 /ajaxunit.php
+- 16:35:37.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/unit.php
+- 16:35:37.812 INFO: GET 404 /unit1.php
+- 16:35:37.640 DEBUG: OnContextCreated()
+- 16:35:37.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/unit1.php
+- 16:35:39.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/unit1.php
+- 16:35:39.953 DEBUG: OnContextCreated()
+- 16:35:39.125 INFO: GET 200 /unit.php
+- 16:35:40.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/unit.php
+- 16:35:40.859 INFO: GET 200 /ajaxunit.php
+- 16:35:40.859 INFO: GET 200 /ajaxblock.php
+- 16:35:50.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/unit.php
+- 16:35:50.875 DEBUG: OnContextCreated()
+- 16:35:50.062 INFO: GET 200 /state.php
+- 16:35:51.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/state.php
+- 16:35:51.687 INFO: GET 200 /ajaxstate.php
+- 16:35:53.594 INFO: POST 200 /ajaxaddstate.php
+- 16:35:53.750 INFO: GET 200 /ajaxstate.php
+- 16:35:55.234 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/state.php
+- 16:35:56.265 DEBUG: OnContextCreated()
+- 16:35:56.437 INFO: GET 200 /district.php
+- 16:35:56.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/district.php
+- 16:35:56.844 INFO: GET 200 /ajaxdistrict.php
+- 16:35:56.844 INFO: GET 200 /ajaxstate.php
+- 16:36:01.062 INFO: POST 200 /ajaxadddistrict.php
+- 16:36:01.219 INFO: GET 200 /ajaxdistrict.php
+- 16:36:03.375 INFO: POST 200 /ajaxadddistrict.php
+- 16:36:04.531 INFO: GET 200 /ajaxdistrict.php
+- 16:36:27.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/district.php
+- 16:36:27.125 DEBUG: OnContextCreated()
+- 16:36:27.297 INFO: GET 200 /block.php
+- 16:36:28.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/block.php
+- 16:36:28.047 INFO: GET 200 /ajaxblock.php
+- 16:36:28.047 INFO: GET 200 /ajaxdistrict.php
+- 16:36:39.828 INFO: POST 200 /ajaxaddblock.php
+- 16:36:39.953 INFO: GET 200 /ajaxblock.php
+- 16:36:43.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/block.php
+- 16:36:43.969 DEBUG: OnContextCreated()
+- 16:36:43.141 INFO: GET 200 /addmember.php
+- 16:36:44.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/addmember.php
+- 16:36:44.687 INFO: GET 200 /ajaxstate.php
+- 16:36:59.047 INFO: POST 200 /ajaxstatechange.php
+- 16:37:04.437 INFO: POST 200 /ajaxdistrictchange.php
+- 16:37:19.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/addmember.php
+- 16:37:20.344 DEBUG: OnContextCreated()
+- 16:37:20.516 INFO: GET 200 /home.php
+- 16:37:20.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/home.php
+- 16:37:20.125 INFO: GET 200 /ajaxmember.php
+- 16:37:29.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/home.php
+- 16:37:29.500 DEBUG: OnContextCreated()
+- 16:37:29.672 INFO: GET 200 /addmember.php
+- 16:37:29.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/addmember.php
+- 16:37:29.062 INFO: GET 200 /ajaxstate.php
+- 16:38:13.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/addmember.php
+- 16:38:13.719 DEBUG: OnContextCreated()
+- 16:38:13.906 INFO: GET 200 /home.php
+- 16:38:13.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/home.php
+- 16:38:13.328 INFO: GET 200 /ajaxmember.php
+- 16:38:15.469 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52056/home.php
+- 16:38:15.469 DEBUG: OnContextCreated()
+- 16:38:15.656 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 16:38:15.656 INFO: GET 200 /searchmember.php
+- 16:38:15.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52056/searchmember.php
+- 16:38:15.016 INFO: GET 200 /ajaxmember.php
+- 16:38:36.234 DEBUG: WM_DESTROY
+- 16:38:36.234 DEBUG: RemoveBrowserWindow(): hwnd = 2688700
+- 16:38:36.234 INFO: Stopping Mongoose web server
+- 16:38:36.234 DEBUG: Mongoose webserver stopped immediately
+- 16:38:36.234 DEBUG: OnBeforeClose() hwnd=1770952
+- 16:38:36.234 DEBUG: RemoveBrowserWindow(): hwnd = 1770952
+- 16:38:36.234 DEBUG: GetBrowserWindow(): not found, hwnd = 1770952
+- 16:38:36.234 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:38:36.234 DEBUG: Calling CefQuitMessageLoop()
+- 16:38:36.094 DEBUG: OnBrowserDestroyed()
+- 16:38:36.344 INFO: Ended application
+- 16:38:36.344 INFO: --------------------------------------------------------
+- 10:50:19.047 INFO: --------------------------------------------------------
+- 10:50:19.125 INFO: Started application
+- 10:50:19.125 INFO: Logging to: D:\AVVC Data log\debug.log
+- 10:50:19.125 INFO: Log level = DEBUG4
+- 10:50:19.125 INFO: Starting Mongoose 3.9c web server
+- 10:50:19.125 INFO: WWW directory: D:\AVVC Data log\www
+- 10:50:19.125 INFO: Index files: index.html,index.php
+- 10:50:19.125 INFO: CGI interpreter: D:\AVVC Data log\php\php-cgi.exe
+- 10:50:19.125 INFO: CGI pattern: **.php$
+- 10:50:19.125 INFO: Hide files patterns: 
+- 10:50:19.125 INFO: CGI environment variables set: TMP=C:\Users\PC9\AppData\Local\Temp\,TEMP=C:\Users\PC9\AppData\Local\Temp\,TMPDIR=C:\Users\PC9\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:50:19.250 INFO: Web server url: http://127.0.0.1:49720/
+- 10:50:19.250 INFO: remote_debugging_port = 58641
+- 10:50:19.250 DEBUG: Command line string for the browser process: "D:\AVVC Data log\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --remote-debugging-port=58641
+- 10:50:25.297 DEBUG: App::OnContextInitialized()
+- 10:50:25.297 DEBUG: Window max width/height = 1286/680
+- 10:50:25.297 DEBUG: GetBrowserWindow(): not found, hwnd = 66456
+- 10:50:25.297 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:50:25.297 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:50:25.312 DEBUG: StoreBrowserWindow(): hwnd = 66456
+- 10:50:25.437 DEBUG: ClientHandler::OnAfterCreated()
+- 10:50:25.437 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:50:26.906 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:50:27.015 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=27EB2309B4CE51AFCA9E88577AEA22E0 --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=27EB2309B4CE51AFCA9E88577AEA22E0 --renderer-client-id=3 --mojo-platform-channel-handle=2172 /prefetch:1
+- 10:50:27.031 DEBUG: OnBrowserCreated()
+- 10:50:28.000 DEBUG: Command line string for the gpu-process process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1902 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="D:\AVVC Data log\debug.log" --service-request-channel-token=1BA820852EF15E35FE0397AE540619F9 --mojo-platform-channel-handle=1732 /prefetch:2
+[1004/105033.516:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:50:38.562 INFO: GET 200 /
+- 10:50:38.875 DEBUG: OnContextCreated()
+- 10:50:38.640 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:50:38.640 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:50:39.656 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 10:50:39.672 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:50:39.687 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:50:39.687 INFO: GET 200 /assets/css/toastr.min.css
+- 10:50:39.719 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:50:39.719 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:50:39.719 INFO: GET 200 /assets/css/bootstrap.css
+- 10:50:39.750 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:50:39.750 INFO: GET 200 /theme-assets/css/colors.css
+- 10:50:39.812 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:50:39.828 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:50:39.844 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:50:39.890 INFO: GET 200 /assets/js/tether.min.js
+- 10:50:39.031 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:50:39.156 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:50:39.156 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:50:39.344 INFO: GET 200 /assets/js/toastr.min.js
+- 10:50:39.422 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:50:39.547 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 10:50:39.578 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:50:40.687 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 10:50:40.687 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:50:40.828 INFO: GET 200 /assets/js/bootstrap.min.js
+- 10:50:40.047 INFO: GET 200 /assets/js/jquery.min.js
+- 10:50:40.078 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:50:41.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/
+[1004/105048.227:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:49720/theme-assets/vendors/js/vendors.min.js (72)
+- 10:50:48.297 INFO: POST 200 /ajaxlogin.php
+- 10:50:50.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/
+- 10:50:53.343 DEBUG: OnContextCreated()
+- 10:50:53.078 INFO: GET 200 /home.php
+- 10:50:53.109 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:50:53.109 INFO: GET 200 /assets/css/datatables.min.css
+- 10:50:53.125 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:50:53.140 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:50:54.125 INFO: GET 200 /assets/js/datatables.min.js
+- 10:50:54.344 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:50:55.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/home.php
+- 10:50:55.312 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:50:55.359 INFO: GET 200 /ajaxmember.php
+- 10:51:01.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/home.php
+- 10:51:01.765 DEBUG: OnContextCreated()
+- 10:51:01.484 INFO: GET 200 /home.php
+- 10:51:02.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/home.php
+- 10:51:02.265 INFO: GET 200 /ajaxmember.php
+- 10:51:04.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/home.php
+- 10:51:05.109 DEBUG: OnContextCreated()
+- 10:51:05.828 INFO: GET 200 /addmember.php
+- 10:51:05.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/addmember.php
+- 10:51:05.422 INFO: GET 200 /ajaxstate.php
+- 10:51:08.328 INFO: POST 200 /ajaxstatechange.php
+- 10:51:10.750 INFO: POST 200 /ajaxdistrictchange.php
+- 10:51:16.265 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/addmember.php
+- 10:51:16.703 DEBUG: OnContextCreated()
+- 10:51:16.422 INFO: GET 200 /searchmember.php
+- 10:51:16.515 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 10:51:17.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/searchmember.php
+- 10:51:17.109 INFO: GET 200 /ajaxmember.php
+- 10:51:19.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/searchmember.php
+- 10:51:19.343 DEBUG: OnContextCreated()
+- 10:51:19.062 INFO: GET 200 /state.php
+- 10:51:19.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/state.php
+- 10:51:19.469 INFO: GET 200 /ajaxstate.php
+- 10:51:21.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/state.php
+- 10:51:22.218 DEBUG: OnContextCreated()
+- 10:51:22.937 INFO: GET 200 /district.php
+- 10:51:22.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/district.php
+- 10:51:22.515 INFO: GET 200 /ajaxstate.php
+- 10:51:22.515 INFO: GET 200 /ajaxdistrict.php
+- 10:51:25.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/district.php
+- 10:51:25.515 DEBUG: OnContextCreated()
+- 10:51:25.234 INFO: GET 200 /block.php
+- 10:51:25.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/block.php
+- 10:51:26.672 INFO: GET 200 /ajaxdistrict.php
+- 10:51:26.750 INFO: GET 200 /ajaxblock.php
+- 10:51:31.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/block.php
+- 10:51:31.421 DEBUG: OnContextCreated()
+- 10:51:31.156 INFO: GET 200 /unit.php
+- 10:51:31.437 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/unit.php
+- 10:51:32.719 INFO: GET 200 /ajaxblock.php
+- 10:51:32.781 INFO: GET 200 /ajaxunit.php
+- 10:51:36.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/unit.php
+- 10:51:36.219 INFO: GET 404 /unit1.php
+- 10:51:36.500 DEBUG: OnContextCreated()
+- 10:51:36.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/unit1.php
+- 10:51:38.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/unit1.php
+- 10:51:38.562 DEBUG: OnContextCreated()
+- 10:51:38.281 INFO: GET 200 /unit.php
+- 10:51:38.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/unit.php
+- 10:51:39.797 INFO: GET 200 /ajaxunit.php
+- 10:51:39.797 INFO: GET 200 /ajaxblock.php
+- 10:51:42.812 DEBUG: ClientHandler::OnBeforePopup()
+- 10:51:42.812 INFO: Setting default size for a popup window 800/600
+- 10:51:42.812 DEBUG: Window max width/height = 1286/680
+- 10:51:42.844 DEBUG: ClientHandler::OnAfterCreated()
+- 10:51:42.844 DEBUG: GetBrowserWindow(): not found, hwnd = 459346
+- 10:51:42.844 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 10:51:42.844 DEBUG: StoreBrowserWindow(): hwnd = 459346
+- 10:51:42.844 DEBUG: Centering popup window relative to its parent
+- 10:51:42.125 DEBUG: OnBrowserCreated()
+- 10:51:42.859 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:51:43.046 DEBUG: OnContextCreated()
+- 10:51:44.906 DEBUG: OnContextCreated()
+[1004/105145.232:INFO:CONSOLE(1)] "Uncaught TypeError: $(...).UItoTop is not a function", source: http://fabstudioz.com/js/javascript.js (1)
+- 10:51:45.562 DEBUG: OnContextCreated()
+- 10:51:45.562 DEBUG: OnContextCreated()
+[1004/105149.833:INFO:CONSOLE(218)] "Google Maps JavaScript API warning: NoApiKeys https://developers.google.com/maps/documentation/javascript/error-messages#no-api-keys", source: http://maps.googleapis.com/maps-api-v3/api/js/34/10/util.js (218)
+[1004/105149.833:INFO:CONSOLE(218)] "Google Maps JavaScript API warning: SensorNotRequired https://developers.google.com/maps/documentation/javascript/error-messages#sensor-not-required", source: http://maps.googleapis.com/maps-api-v3/api/js/34/10/util.js (218)
+[1004/105150.181:INFO:CONSOLE(2)] "Uncaught IndexSizeError: Failed to execute 'createImageData' on 'CanvasRenderingContext2D': The source width is 0.", source: http://fabstudioz.com/js/particleslider.js (2)
+- 10:52:01.469 DEBUG: OnBeforeClose() hwnd=459346
+- 10:52:01.469 DEBUG: RemoveBrowserWindow(): hwnd = 459346
+- 10:52:01.859 DEBUG: OnBrowserDestroyed()
+- 11:17:52.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/unit.php
+- 11:17:52.812 DEBUG: OnContextCreated()
+- 11:17:52.531 INFO: GET 200 /state.php
+- 11:17:53.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/state.php
+- 11:17:53.172 INFO: GET 200 /ajaxstate.php
+- 11:18:14.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/state.php
+- 11:18:15.046 DEBUG: OnContextCreated()
+- 11:18:15.765 INFO: GET 200 /block.php
+- 11:18:15.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/block.php
+- 11:18:15.390 INFO: GET 200 /ajaxdistrict.php
+- 11:18:15.390 INFO: GET 200 /ajaxblock.php
+- 11:49:38.562 INFO: POST 200 /ajaxblockedit.php
+- 11:56:59.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/block.php
+- 11:56:59.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/block.php#!
+- 11:56:59.203 INFO: POST 200 /ajaxblockdeletecheck.php
+- 11:57:02.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/block.php#!
+- 11:57:02.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/block.php#!
+- 11:57:02.047 INFO: POST 200 /ajaxblockdeletecheck.php
+- 11:57:21.531 INFO: POST 200 /ajaxblockedit.php
+- 11:57:24.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/block.php#!
+- 11:57:24.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/block.php#!
+- 11:57:24.797 INFO: POST 200 /ajaxblockdeletecheck.php
+- 11:57:43.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49720/block.php#!
+- 11:57:43.156 DEBUG: OnContextCreated()
+- 11:57:43.875 INFO: GET 200 /searchmember.php
+- 11:57:43.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49720/searchmember.php
+- 11:57:43.515 INFO: GET 200 /ajaxmember.php
+- 11:57:45.719 DEBUG: ClientHandler::OnBeforePopup()
+- 11:57:45.719 INFO: Setting default size for a popup window 800/600
+- 11:57:45.719 DEBUG: Window max width/height = 1286/680
+- 11:57:45.734 DEBUG: ClientHandler::OnAfterCreated()
+- 11:57:45.734 DEBUG: GetBrowserWindow(): not found, hwnd = 1442682
+- 11:57:45.734 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 11:57:45.734 DEBUG: StoreBrowserWindow(): hwnd = 1442682
+- 11:57:45.734 DEBUG: Centering popup window relative to its parent
+- 11:57:45.031 DEBUG: OnBrowserCreated()
+- 11:57:45.750 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:57:45.750 DEBUG: OnLoadingStateChange: loading=0, url=about:blank
+- 11:57:45.046 DEBUG: OnContextCreated()
+- 11:57:48.219 DEBUG: OnBeforeClose() hwnd=1442682
+- 11:57:48.219 DEBUG: RemoveBrowserWindow(): hwnd = 1442682
+- 11:57:48.500 DEBUG: OnBrowserDestroyed()
+- 12:34:52.844 DEBUG: WM_DESTROY
+- 12:34:52.844 DEBUG: RemoveBrowserWindow(): hwnd = 66456
+- 12:34:52.844 INFO: Stopping Mongoose web server
+- 12:34:52.844 DEBUG: Mongoose webserver stopped immediately
+- 12:34:52.844 DEBUG: OnBeforeClose() hwnd=66466
+- 12:34:52.844 DEBUG: RemoveBrowserWindow(): hwnd = 66466
+- 12:34:52.844 DEBUG: GetBrowserWindow(): not found, hwnd = 66466
+- 12:34:52.844 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:34:52.844 DEBUG: Calling CefQuitMessageLoop()
+- 12:34:52.984 INFO: Ended application
+- 12:34:52.984 INFO: --------------------------------------------------------
+- 09:52:21.032 INFO: --------------------------------------------------------
+- 09:52:21.032 INFO: Started application
+- 09:52:21.032 INFO: Logging to: D:\AVVC Data log\debug.log
+- 09:52:21.032 INFO: Log level = DEBUG4
+- 09:52:21.032 INFO: Starting Mongoose 3.9c web server
+- 09:52:21.032 INFO: WWW directory: D:\AVVC Data log\www
+- 09:52:21.032 INFO: Index files: index.html,index.php
+- 09:52:21.032 INFO: CGI interpreter: D:\AVVC Data log\php\php-cgi.exe
+- 09:52:21.032 INFO: CGI pattern: **.php$
+- 09:52:21.032 INFO: Hide files patterns: 
+- 09:52:21.032 INFO: CGI environment variables set: TMP=C:\Users\PC9\AppData\Local\Temp\,TEMP=C:\Users\PC9\AppData\Local\Temp\,TMPDIR=C:\Users\PC9\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:52:21.047 INFO: Web server url: http://127.0.0.1:49594/
+- 09:52:21.047 INFO: remote_debugging_port = 55091
+- 09:52:21.047 DEBUG: Command line string for the browser process: "D:\AVVC Data log\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --remote-debugging-port=55091
+- 09:52:22.000 DEBUG: Command line string for the gpu-process process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1902 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="D:\AVVC Data log\debug.log" --service-request-channel-token=C5EB0E1098911B97D29241EEC87AB36C --mojo-platform-channel-handle=1728 /prefetch:2
+- 09:52:22.078 DEBUG: App::OnContextInitialized()
+- 09:52:22.078 DEBUG: Window max width/height = 1286/680
+- 09:52:22.078 DEBUG: GetBrowserWindow(): not found, hwnd = 328036
+- 09:52:22.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:52:22.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:52:22.110 DEBUG: StoreBrowserWindow(): hwnd = 328036
+- 09:52:22.157 DEBUG: ClientHandler::OnAfterCreated()
+- 09:52:22.157 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:52:22.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=71214B366971821F7B5D9414EA10C665 --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=71214B366971821F7B5D9414EA10C665 --renderer-client-id=3 --mojo-platform-channel-handle=2160 /prefetch:1
+- 09:52:22.282 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:52:22.063 DEBUG: OnBrowserCreated()
+[1008/095225.498:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:52:26.110 INFO: GET 200 /
+- 09:52:26.110 INFO: GET 200 /theme-assets/css/vendors.css
+- 09:52:26.125 INFO: GET 200 /theme-assets/css/app-lite.css
+- 09:52:26.125 INFO: GET 200 /assets/css/bootstrap.css
+- 09:52:26.125 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 09:52:26.907 DEBUG: OnContextCreated()
+- 09:52:26.157 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 09:52:26.157 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 09:52:26.172 INFO: GET 200 /assets/css/sweet-alert.css
+- 09:52:26.172 INFO: GET 200 /assets/css/toastr.min.css
+- 09:52:26.188 INFO: GET 200 /assets/js/jquery.min.js
+- 09:52:26.282 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 09:52:26.282 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 09:52:26.282 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 09:52:26.282 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 09:52:26.297 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 09:52:26.313 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 09:52:26.360 INFO: GET 200 /theme-assets/css/colors.css
+- 09:52:26.360 INFO: GET 200 /theme-assets/css/components-lite.css
+- 09:52:26.375 INFO: GET 200 /assets/js/tether.min.js
+- 09:52:27.407 INFO: GET 200 /assets/js/bootstrap.min.js
+- 09:52:27.453 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 09:52:27.485 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 09:52:27.485 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 09:52:27.516 INFO: GET 200 /assets/js/toastr.min.js
+- 09:52:27.516 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 09:52:27.688 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 09:52:27.875 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 09:52:27.907 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 09:52:28.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49594/
+[1008/095235.697:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:49594/theme-assets/vendors/js/vendors.min.js (72)
+- 09:52:36.469 INFO: POST 200 /ajaxlogin.php
+- 09:52:38.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49594/
+- 09:52:38.594 DEBUG: OnContextCreated()
+- 09:52:38.844 INFO: GET 200 /home.php
+- 09:52:38.860 INFO: GET 200 /assets/css/datatables.min.css
+- 09:52:38.860 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 09:52:38.860 INFO: GET 200 /assets/js/components-modal.min.js
+- 09:52:38.860 INFO: GET 200 /assets/css/line-awesome.min.css
+- 09:52:38.110 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 09:52:38.141 INFO: GET 200 /assets/js/datatables.min.js
+- 09:52:39.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49594/home.php
+- 09:52:39.563 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 09:52:39.000 INFO: GET 200 /ajaxmember.php
+- 09:52:43.657 INFO: GET 200 /ajaxstate.php
+- 09:52:43.657 INFO: POST 200 /ajaxmemberedit.php
+- 09:52:50.469 INFO: POST 200 /ajaxmemberedit.php
+- 09:52:50.469 INFO: GET 200 /ajaxstate.php
+- 09:52:55.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49594/home.php
+- 09:52:55.532 DEBUG: OnContextCreated()
+- 09:52:55.782 INFO: GET 200 /addmember.php
+- 09:52:55.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49594/addmember.php
+- 09:52:56.625 INFO: GET 200 /ajaxstate.php
+- 09:52:59.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49594/addmember.php
+- 09:52:59.047 DEBUG: OnContextCreated()
+- 09:52:59.313 INFO: GET 200 /home.php
+- 09:53:00.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49594/home.php
+- 09:53:00.813 INFO: GET 200 /ajaxmember.php
+- 09:53:47.422 INFO: GET 302 /home.php
+- 09:53:47.735 INFO: GET 200 /index.php
+- 09:53:47.735 INFO: GET 200 /theme-assets/css/vendors.css
+- 09:53:47.735 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 09:53:47.735 INFO: GET 200 /assets/css/bootstrap.css
+- 09:53:47.735 INFO: GET 200 /theme-assets/css/app-lite.css
+- 09:53:47.735 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 09:53:47.735 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 09:53:47.750 INFO: GET 200 /assets/css/toastr.min.css
+- 09:53:47.750 INFO: GET 200 /assets/css/sweet-alert.css
+- 09:53:47.782 INFO: GET 200 /assets/js/tether.min.js
+- 09:53:47.782 INFO: GET 200 /assets/js/jquery.min.js
+- 09:53:47.938 INFO: GET 200 /assets/js/bootstrap.min.js
+- 09:53:47.969 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 09:53:47.969 INFO: GET 200 /theme-assets/css/components-lite.css
+- 09:53:47.969 INFO: GET 200 /theme-assets/css/colors.css
+- 09:53:47.969 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 09:53:47.985 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 09:53:47.985 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 09:53:47.985 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 09:53:47.985 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 09:53:47.985 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 09:53:47.985 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 09:53:47.016 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 09:53:47.016 INFO: GET 200 /assets/js/toastr.min.js
+- 09:53:47.016 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 09:53:47.016 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 09:53:47.313 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 09:53:47.313 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 09:53:48.610 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 09:53:55.063 INFO: POST 200 /ajaxlogin.php
+- 09:53:57.344 INFO: GET 200 /home.php
+- 09:53:57.360 INFO: GET 200 /assets/css/line-awesome.min.css
+- 09:53:57.360 INFO: GET 200 /assets/css/datatables.min.css
+- 09:53:57.375 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 09:53:57.375 INFO: GET 200 /assets/js/components-modal.min.js
+- 09:53:58.594 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 09:53:58.594 INFO: GET 200 /assets/js/datatables.min.js
+- 09:53:58.969 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 09:53:58.313 INFO: GET 200 /ajaxmember.php
+- 09:54:04.485 INFO: GET 200 /ajaxstate.php
+- 09:54:04.485 INFO: POST 200 /ajaxmemberedit.php
+- 10:00:35.703 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 10:00:35.703 INFO: GET 200 /assets/js/toastr.js.map
+- 10:00:37.703 INFO: GET 200 /home.php
+- 10:00:37.719 INFO: GET 200 /assets/css/line-awesome.min.css
+- 10:00:37.719 INFO: GET 200 /theme-assets/css/vendors.css
+- 10:00:37.719 INFO: GET 200 /theme-assets/css/app-lite.css
+- 10:00:37.719 INFO: GET 200 /assets/css/sweet-alert.css
+- 10:00:37.719 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 10:00:37.719 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 10:00:37.735 INFO: GET 200 /assets/css/datatables.min.css
+- 10:00:37.735 INFO: GET 200 /assets/css/toastr.min.css
+- 10:00:37.735 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 10:00:37.782 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 10:00:37.782 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 10:00:37.844 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 10:00:37.844 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 10:00:37.844 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 10:00:37.875 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 10:00:37.907 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 10:00:37.938 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 10:00:37.938 INFO: GET 200 /assets/js/toastr.min.js
+- 10:00:37.938 INFO: GET 200 /theme-assets/css/components-lite.css
+- 10:00:37.938 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 10:00:37.938 INFO: GET 200 /theme-assets/css/colors.css
+- 10:00:37.938 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 10:00:37.938 INFO: GET 200 /assets/js/components-modal.min.js
+- 10:00:37.969 INFO: GET 200 /assets/js/datatables.min.js
+- 10:00:37.094 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 10:00:37.110 INFO: GET 200 /assets/js/toastr.js.map
+- 10:00:37.157 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 10:00:38.688 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 10:00:38.703 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 10:00:38.938 INFO: GET 200 /ajaxmember.php
+- 10:00:43.516 INFO: POST 200 /ajaxmemberedit.php
+- 10:00:43.516 INFO: GET 200 /ajaxstate.php
+- 10:00:46.250 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 10:00:57.625 INFO: GET 200 /home.php
+- 10:00:57.219 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 10:00:57.375 INFO: GET 200 /ajaxmember.php
+- 10:01:42.610 INFO: GET 200 /home.php
+- 10:01:42.235 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 10:01:43.453 INFO: GET 200 /ajaxmember.php
+- 10:02:07.516 INFO: GET 200 /ajaxstate.php
+- 10:02:07.516 INFO: POST 200 /ajaxmemberedit.php
+- 10:03:13.000 INFO: GET 200 /home.php
+- 10:03:14.657 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:03:14.766 INFO: GET 200 /ajaxmember.php
+- 10:03:16.094 INFO: POST 200 /ajaxmemberedit.php
+- 10:03:16.094 INFO: GET 200 /ajaxstate.php
+- 10:03:45.735 INFO: GET 200 /home.php
+- 10:03:45.141 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:03:45.282 INFO: GET 200 /ajaxmember.php
+- 10:03:48.625 INFO: POST 200 /ajaxmemberedit.php
+- 10:03:48.625 INFO: GET 200 /ajaxstate.php
+- 10:04:40.453 INFO: GET 200 /home.php
+- 10:04:40.875 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:04:40.000 INFO: GET 200 /ajaxmember.php
+- 10:04:52.235 INFO: GET 200 /ajaxstate.php
+- 10:04:52.235 INFO: POST 200 /ajaxmemberedit.php
+- 10:20:11.828 INFO: POST 200 /ajaxmemberedit.php
+- 10:20:11.828 INFO: GET 200 /ajaxstate.php
+- 10:23:58.016 INFO: GET 200 /home.php
+- 10:23:59.563 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:23:59.688 INFO: GET 200 /ajaxmember.php
+- 10:24:02.375 INFO: POST 200 /ajaxmemberedit.php
+- 10:24:02.375 INFO: GET 200 /ajaxstate.php
+- 10:24:10.547 INFO: POST 200 /ajaxstatechange.php
+- 10:24:11.453 INFO: POST 200 /ajaxdistrictchange.php
+- 10:24:13.797 INFO: POST 200 /ajaxdistrictchange.php
+- 10:24:14.813 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 10:24:16.078 INFO: POST 200 /ajaxmandalamchange.php
+- 10:24:19.547 INFO: POST 200 /ajaxmemberupdate.php
+- 10:24:19.719 INFO: GET 200 /ajaxmember.php
+- 10:24:21.344 INFO: POST 200 /ajaxmemberedit.php
+- 10:24:21.344 INFO: GET 200 /ajaxstate.php
+- 10:24:30.953 INFO: POST 200 /ajaxmemberedit.php
+- 10:24:30.953 INFO: GET 200 /ajaxstate.php
+- 10:24:34.641 INFO: POST 200 /ajaxmemberupdate.php
+- 10:24:34.782 INFO: GET 200 /ajaxmember.php
+- 10:24:36.172 INFO: GET 200 /home.php
+- 10:24:37.766 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:24:37.875 INFO: GET 200 /ajaxmember.php
+- 10:25:15.828 INFO: GET 200 /home.php
+- 10:25:15.219 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:25:15.344 INFO: GET 200 /ajaxmember.php
+- 10:25:17.125 INFO: GET 200 /addmember.php
+- 10:25:18.563 INFO: GET 200 /ajaxstate.php
+- 10:25:28.672 INFO: POST 200 /ajaxstatechange.php
+- 10:25:29.907 INFO: POST 200 /ajaxstatechange.php
+- 10:25:31.797 INFO: POST 200 /ajaxdistrictchange.php
+- 10:25:32.375 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 10:25:35.985 INFO: POST 200 /ajaxmandalamchange.php
+- 10:25:36.110 INFO: POST 200 /ajaxmandalamchange.php
+- 10:25:40.532 INFO: POST 200 /ajaxaddmember.php
+- 10:25:40.688 INFO: GET 200 /ajaxstate.php
+- 10:25:45.485 INFO: GET 200 /home.php
+- 10:25:45.000 INFO: GET 200 /ajaxmember.php
+- 10:25:50.719 INFO: POST 200 /ajaxmemberedit.php
+- 10:25:50.719 INFO: GET 200 /ajaxstate.php
+- 10:28:37.828 INFO: GET 200 /home.php
+- 10:28:38.485 INFO: GET 200 /ajaxmember.php
+- 10:28:44.063 INFO: GET 200 /ajaxstate.php
+- 10:28:44.063 INFO: POST 200 /ajaxmemberedit.php
+- 10:28:54.563 INFO: POST 200 /ajaxstatechange.php
+- 10:28:55.875 INFO: POST 200 /ajaxdistrictchange.php
+- 10:28:57.641 INFO: POST 200 /ajaxdistrictchange.php
+- 10:28:58.641 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 10:29:00.407 INFO: POST 200 /ajaxmandalamchange.php
+- 10:29:02.735 INFO: POST 200 /ajaxmemberupdate.php
+- 10:29:02.860 INFO: GET 200 /ajaxmember.php
+- 10:29:06.813 INFO: POST 200 /ajaxmemberedit.php
+- 10:29:06.813 INFO: GET 200 /ajaxstate.php
+- 10:30:09.516 INFO: GET 200 /home.php
+- 10:30:09.235 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:30:09.344 INFO: GET 200 /ajaxmember.php
+- 10:30:12.875 INFO: POST 200 /ajaxmemberedit.php
+- 10:30:12.875 INFO: GET 200 /ajaxstate.php
+- 10:30:19.094 INFO: POST 200 /ajaxstatechange.php
+- 10:30:21.610 INFO: POST 200 /ajaxdistrictchange.php
+- 10:30:22.407 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 10:30:24.610 INFO: POST 200 /ajaxmandalamchange.php
+- 10:30:25.172 INFO: POST 200 /ajaxmemberupdate.php
+- 10:30:25.297 INFO: GET 200 /ajaxmember.php
+- 10:30:27.735 INFO: GET 200 /ajaxstate.php
+- 10:30:27.735 INFO: POST 200 /ajaxmemberedit.php
+- 10:30:33.907 INFO: GET 200 /home.php
+- 10:30:33.407 INFO: GET 200 /ajaxmember.php
+- 10:39:43.219 INFO: GET 200 /home.php
+- 10:39:44.875 INFO: GET 200 /ajaxmember.php
+- 10:39:46.516 INFO: POST 200 /ajaxmemberedit.php
+- 10:42:48.797 INFO: GET 200 /home.php
+- 10:42:48.391 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:42:49.532 INFO: GET 200 /ajaxmember.php
+- 10:42:51.844 INFO: POST 200 /ajaxmemberedit.php
+- 10:42:51.969 INFO: GET 200 /ajaxstate.php
+- 10:43:03.875 INFO: POST 200 /ajaxstatechange.php
+- 10:43:04.360 INFO: POST 200 /ajaxdistrictchange.php
+- 10:43:08.750 INFO: POST 200 /ajaxdistrictchange.php
+- 10:43:09.907 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 10:43:11.500 INFO: POST 200 /ajaxmandalamchange.php
+- 10:43:15.563 INFO: GET 200 /home.php
+- 10:43:15.157 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:43:15.250 INFO: GET 200 /ajaxmember.php
+- 10:47:01.391 INFO: GET 200 /home.php
+- 10:47:02.078 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:47:02.188 INFO: GET 200 /ajaxmember.php
+- 10:47:04.000 INFO: POST 200 /ajaxmemberedit.php
+- 10:47:04.125 INFO: GET 200 /ajaxstate.php
+- 10:47:27.297 INFO: POST 200 /ajaxstatechange.php
+- 10:47:29.063 INFO: POST 200 /ajaxdistrictchange.php
+- 10:47:31.750 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 10:50:54.469 INFO: GET 200 /home.php
+- 10:50:54.032 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 10:50:54.141 INFO: GET 200 /ajaxmember.php
+- 10:50:56.282 INFO: POST 200 /ajaxmemberedit.php
+- 10:50:56.407 INFO: GET 200 /ajaxstate.php
+- 10:51:03.625 INFO: POST 200 /ajaxmemberupdate.php
+- 10:51:03.797 INFO: GET 200 /ajaxmember.php
+- 10:51:49.235 INFO: POST 200 /ajaxmemberedit.php
+- 10:51:49.360 INFO: GET 200 /ajaxstate.php
+- 11:02:34.219 INFO: GET 200 /home.php
+- 11:02:35.735 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:02:35.063 INFO: GET 200 /ajaxmember.php
+- 11:03:10.235 INFO: GET 200 /home.php
+- 11:03:11.828 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:03:11.985 INFO: GET 200 /ajaxmember.php
+- 11:03:21.750 INFO: GET 200 /home.php
+- 11:03:21.094 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:03:21.250 INFO: GET 200 /ajaxmember.php
+- 11:03:30.360 INFO: GET 200 /home.php
+- 11:03:31.719 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:03:31.844 INFO: GET 200 /ajaxmember.php
+- 11:04:16.797 INFO: GET 200 /home.php
+- 11:04:16.250 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:04:16.360 INFO: GET 200 /ajaxmember.php
+- 11:04:56.516 INFO: GET 200 /home.php
+- 11:04:56.953 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:04:56.063 INFO: GET 200 /ajaxmember.php
+- 11:13:26.141 INFO: GET 200 /home.php
+- 11:13:27.657 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:13:27.766 INFO: GET 200 /ajaxmember.php
+- 11:13:39.594 INFO: GET 200 /home.php
+- 11:13:39.266 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:13:40.438 INFO: GET 200 /ajaxmember.php
+- 11:13:40.875 INFO: GET 200 /home.php
+- 11:13:40.282 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:13:40.407 INFO: GET 200 /ajaxmember.php
+- 11:14:45.688 INFO: GET 200 /home.php
+- 11:14:45.360 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:14:46.516 INFO: GET 200 /ajaxmember.php
+- 11:15:40.172 INFO: POST 200 /ajaxmemberedit.php
+- 11:15:40.282 INFO: GET 200 /ajaxstate.php
+- 11:16:26.110 INFO: GET 200 /addmember.php
+- 11:16:27.875 INFO: GET 200 /ajaxstate.php
+- 11:16:49.063 INFO: POST 200 /ajaxstatechange.php
+- 11:16:51.110 INFO: POST 200 /ajaxstatechange.php
+- 11:16:53.844 INFO: POST 200 /ajaxdistrictchange.php
+- 11:16:58.594 INFO: POST 200 /ajaxstatechange.php
+- 11:16:59.625 INFO: POST 200 /ajaxdistrictchange.php
+- 11:17:01.297 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 11:17:07.860 INFO: POST 200 /ajaxstatechange.php
+- 11:17:09.453 INFO: POST 200 /ajaxdistrictchange.php
+- 11:17:10.657 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 11:17:11.016 INFO: POST 200 /ajaxmandalamchange.php
+- 11:17:12.266 INFO: POST 200 /ajaxmandalamchange.php
+- 11:17:17.485 INFO: POST 200 /ajaxaddmember.php
+- 11:17:17.610 INFO: GET 200 /ajaxstate.php
+- 11:17:19.969 INFO: GET 200 /home.php
+- 11:17:20.610 INFO: GET 200 /ajaxmember.php
+- 11:18:22.110 INFO: GET 200 /home.php
+- 11:18:23.578 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:18:23.688 INFO: GET 200 /ajaxmember.php
+- 11:19:32.422 INFO: GET 200 /home.php
+- 11:19:32.922 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:19:32.047 INFO: GET 200 /ajaxmember.php
+- 11:19:58.969 INFO: GET 200 /home.php
+- 11:19:58.391 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:19:59.516 INFO: GET 200 /ajaxmember.php
+- 11:20:47.938 INFO: GET 200 /home.php
+- 11:20:47.344 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:20:48.469 INFO: GET 200 /ajaxmember.php
+- 11:20:58.438 INFO: GET 200 /home.php
+- 11:20:58.797 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:20:58.907 INFO: GET 200 /ajaxmember.php
+- 11:22:10.766 INFO: GET 200 /home.php
+- 11:22:10.203 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:22:10.328 INFO: GET 200 /ajaxmember.php
+- 11:22:20.828 INFO: POST 200 /ajaxmemberedit.php
+- 11:22:20.032 INFO: GET 200 /ajaxstate.php
+- 11:22:24.922 INFO: POST 200 /ajaxmemberupdate.php
+- 11:22:24.078 INFO: GET 200 /ajaxmember.php
+- 11:22:36.063 INFO: POST 200 /ajaxmemberedit.php
+- 11:22:36.172 INFO: GET 200 /ajaxstate.php
+- 11:22:50.250 INFO: POST 200 /ajaxmemberupdate.php
+- 11:22:50.391 INFO: GET 200 /ajaxmember.php
+- 11:23:22.344 INFO: POST 200 /ajaxmemberedit.php
+- 11:23:23.453 INFO: GET 200 /ajaxstate.php
+- 11:23:36.407 INFO: POST 200 /ajaxmemberedit.php
+- 11:23:36.532 INFO: GET 200 /ajaxstate.php
+- 11:23:48.891 INFO: GET 200 /home.php
+- 11:23:48.282 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:23:48.391 INFO: GET 200 /ajaxmember.php
+- 11:24:19.703 INFO: POST 200 /ajaxmemberedit.php
+- 11:24:19.813 INFO: GET 200 /ajaxstate.php
+- 11:24:24.375 INFO: POST 200 /ajaxmemberupdate.php
+- 11:24:25.516 INFO: GET 200 /ajaxmember.php
+- 11:34:16.610 INFO: GET 200 /home.php
+- 11:34:16.188 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:34:16.313 INFO: GET 200 /ajaxmember.php
+- 11:34:17.438 INFO: GET 200 /home.php?_=1538978656277
+- 11:34:41.282 INFO: GET 200 /home.php
+- 11:34:42.969 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:34:42.094 INFO: GET 200 /ajaxmember.php
+- 11:34:42.141 INFO: GET 404 /data.json?_=1538978681938
+- 11:34:42.141 INFO: GET 404 /data.json?_=1538978681939
+- 11:34:52.688 INFO: GET 200 /home.php
+- 11:34:52.094 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:34:52.188 INFO: GET 200 /ajaxmember.php
+- 11:36:23.672 INFO: GET 200 /home.php
+- 11:36:23.328 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:36:24.469 INFO: GET 200 /ajaxmember.php
+- 11:36:26.328 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 11:36:34.657 INFO: GET 200 /home.php
+- 11:36:35.422 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 11:36:35.610 INFO: GET 200 /ajaxmember.php
+- 11:36:44.078 INFO: POST 200 /ajaxmemberedit.php
+- 11:36:44.203 INFO: GET 200 /ajaxstate.php
+- 11:36:55.969 INFO: POST 200 /ajaxmemberupdate.php
+- 11:36:55.094 INFO: GET 200 /ajaxmember.php
+- 11:37:06.735 INFO: POST 200 /ajaxmemberedit.php
+- 11:37:06.860 INFO: GET 200 /ajaxstate.php
+- 11:37:13.969 INFO: POST 200 /ajaxmemberedit.php
+- 11:37:13.078 INFO: GET 200 /ajaxstate.php
+- 11:37:19.907 INFO: POST 200 /ajaxmemberupdate.php
+- 11:37:19.047 INFO: GET 200 /ajaxmember.php
+- 11:37:23.563 INFO: GET 200 /home.php
+- 11:37:23.063 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:37:23.172 INFO: GET 200 /ajaxmember.php
+- 11:37:36.719 INFO: GET 200 /home.php
+- 11:37:36.141 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:37:36.266 INFO: GET 200 /ajaxmember.php
+- 11:37:39.438 INFO: POST 200 /ajaxmemberedit.php
+- 11:37:39.563 INFO: GET 200 /ajaxstate.php
+- 11:37:44.016 INFO: POST 200 /ajaxmemberupdate.php
+- 11:37:44.141 INFO: GET 200 /ajaxmember.php
+- 11:38:04.578 INFO: GET 200 /home.php
+- 11:38:04.985 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:38:04.125 INFO: GET 200 /ajaxmember.php
+- 11:38:19.516 INFO: GET 200 /home.php
+- 11:38:19.157 INFO: GET 200 /ajaxmember.php
+- 11:38:22.235 INFO: GET 200 /addmember.php
+- 11:38:23.688 INFO: GET 200 /ajaxstate.php
+- 11:38:25.938 INFO: GET 200 /home.php
+- 11:38:26.407 INFO: GET 200 /ajaxmember.php
+- 11:40:56.610 INFO: GET 200 /home.php
+- 11:40:56.203 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:40:56.328 INFO: GET 200 /ajaxmember.php
+- 11:41:01.641 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 11:41:37.407 INFO: GET 200 /home.php
+- 11:41:38.047 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:41:38.157 INFO: GET 200 /ajaxmember.php
+- 11:41:54.469 INFO: GET 200 /home.php
+- 11:41:54.016 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:41:54.125 INFO: GET 200 /ajaxmember.php
+- 11:41:59.375 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 11:42:12.235 INFO: GET 200 /home.php
+- 11:42:13.875 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 11:42:13.110 INFO: GET 200 /ajaxmember.php
+- 11:42:21.625 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 11:43:08.188 INFO: GET 200 /home.php
+- 11:43:09.828 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 11:43:09.125 INFO: GET 200 /ajaxmember.php
+- 11:45:08.907 INFO: GET 200 /home.php
+- 11:45:09.469 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:45:09.594 INFO: GET 200 /ajaxmember.php
+- 11:45:14.047 INFO: POST 200 /ajaxmemberedit.php
+- 11:45:14.172 INFO: GET 200 /ajaxstate.php
+- 11:45:19.610 INFO: POST 200 /ajaxmemberupdate.php
+- 11:45:19.766 INFO: GET 200 /ajaxmember.php
+- 11:46:38.594 INFO: GET 200 /home.php
+- 11:46:38.188 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:46:38.297 INFO: GET 200 /ajaxmember.php
+- 11:46:42.594 INFO: POST 200 /ajaxmemberedit.php
+- 11:46:42.719 INFO: GET 200 /ajaxstate.php
+- 11:46:44.391 INFO: POST 200 /ajaxmemberupdate.php
+- 11:46:45.532 INFO: GET 200 /ajaxmember.php
+- 11:46:56.016 INFO: POST 200 /ajaxmemberedit.php
+- 11:46:56.141 INFO: GET 200 /ajaxstate.php
+- 11:47:01.000 INFO: POST 200 /ajaxmemberupdate.php
+- 11:47:01.141 INFO: GET 200 /ajaxmember.php
+- 11:47:59.938 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 11:48:25.703 INFO: GET 200 /home.php
+- 11:48:25.125 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:48:25.250 INFO: GET 200 /ajaxmember.php
+- 11:48:58.516 INFO: GET 200 /searchmember.php
+- 11:48:58.547 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 11:48:58.016 INFO: GET 200 /ajaxmember.php
+- 11:49:06.657 INFO: GET 200 /home.php
+- 11:49:06.141 INFO: GET 200 /ajaxmember.php
+- 11:49:11.016 INFO: GET 200 /searchmember.php
+- 11:49:12.688 INFO: GET 200 /ajaxmember.php
+- 11:49:39.032 INFO: GET 200 /home.php
+- 11:49:40.547 INFO: GET 200 /ajaxmember.php
+- 11:56:37.125 INFO: GET 200 /home.php
+- 11:56:38.672 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:56:38.782 INFO: GET 200 /ajaxmember.php
+- 11:57:03.985 INFO: GET 200 /home.php
+- 11:57:04.547 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 11:57:04.672 INFO: GET 200 /ajaxmember.php
+- 11:57:16.532 INFO: POST 200 /ajaxmemberedit.php
+- 11:57:16.657 INFO: GET 200 /ajaxstate.php
+- 11:57:21.297 INFO: POST 200 /ajaxmemberupdate.php
+- 11:57:22.407 INFO: GET 200 /ajaxmember.php
+- 11:59:12.453 INFO: GET 200 /home.php
+- 11:59:12.844 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:00:10.297 INFO: GET 200 /home.php
+- 12:00:11.719 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:00:11.922 INFO: GET 200 /ajaxmember.php
+- 12:00:11.938 INFO: GET 200 /home.php
+- 12:00:12.469 INFO: GET 200 /ajaxmember.php
+- 12:01:50.578 INFO: GET 200 /home.php
+- 12:01:50.125 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:01:50.219 INFO: GET 200 /ajaxmember.php
+- 12:02:03.250 INFO: POST 200 /ajaxmemberedit.php
+- 12:02:03.375 INFO: GET 200 /ajaxstate.php
+- 12:02:06.188 INFO: POST 200 /ajaxmemberupdate.php
+- 12:02:06.344 INFO: GET 200 /ajaxmember.php
+- 12:02:11.953 INFO: POST 200 /ajaxmemberedit.php
+- 12:02:11.078 INFO: GET 200 /ajaxstate.php
+- 12:02:14.953 INFO: POST 200 /ajaxmemberupdate.php
+- 12:02:14.110 INFO: GET 200 /ajaxmember.php
+- 12:02:38.985 INFO: POST 200 /ajaxmemberedit.php
+- 12:02:38.110 INFO: GET 200 /ajaxstate.php
+- 12:02:49.078 INFO: POST 200 /ajaxmemberupdate.php
+- 12:02:49.203 INFO: GET 200 /ajaxmember.php
+- 12:03:08.125 INFO: GET 200 /searchmember.php
+- 12:03:09.813 INFO: GET 200 /ajaxmember.php
+- 12:09:08.672 INFO: GET 200 /searchmember.php
+- 12:09:08.235 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:09:08.360 INFO: GET 200 /ajaxmember.php
+- 12:14:33.000 INFO: GET 200 /searchmember.php
+- 12:14:34.641 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:14:34.766 INFO: GET 200 /ajaxmember.php
+- 12:17:35.485 INFO: GET 200 /searchmember.php
+- 12:17:35.157 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:17:35.266 INFO: GET 200 /ajaxmember.php
+- 12:17:43.125 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:19:01.047 INFO: GET 200 /searchmember.php
+- 12:19:02.672 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:19:02.813 INFO: GET 200 /ajaxmember.php
+- 12:22:38.750 INFO: GET 200 /searchmember.php
+- 12:22:39.422 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:22:39.532 INFO: GET 200 /ajaxmember.php
+- 12:23:01.485 INFO: GET 200 /searchmember.php
+- 12:23:01.203 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:23:01.344 INFO: GET 200 /ajaxmember.php
+- 12:23:49.703 INFO: GET 200 /searchmember.php
+- 12:23:49.125 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:23:49.250 INFO: GET 200 /ajaxmember.php
+- 12:23:54.235 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:25:49.500 INFO: GET 200 /searchmember.php
+- 12:25:49.172 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:25:49.297 INFO: GET 200 /ajaxmember.php
+- 12:25:55.625 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:26:05.719 INFO: GET 200 /searchmember.php
+- 12:26:05.313 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:26:06.453 INFO: GET 200 /ajaxmember.php
+- 12:26:29.047 INFO: GET 200 /searchmember.php
+- 12:26:30.532 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:26:30.657 INFO: GET 200 /ajaxmember.php
+- 12:26:45.157 INFO: GET 200 /searchmember.php
+- 12:26:46.610 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:26:46.782 INFO: GET 200 /ajaxmember.php
+- 12:27:25.094 INFO: GET 200 /searchmember.php
+- 12:27:26.516 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:27:26.688 INFO: GET 200 /ajaxmember.php
+- 12:27:45.547 INFO: GET 200 /searchmember.php
+- 12:27:45.016 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:27:45.141 INFO: GET 200 /ajaxmember.php
+- 12:28:51.969 INFO: GET 200 /searchmember.php
+- 12:28:52.407 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:28:52.532 INFO: GET 200 /ajaxmember.php
+- 12:31:29.828 INFO: GET 200 /searchmember.php
+- 12:31:30.500 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:31:30.703 INFO: GET 200 /ajaxmember.php
+- 12:32:00.016 INFO: GET 200 /searchmember.php
+- 12:32:01.703 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:32:01.828 INFO: GET 200 /ajaxmember.php
+- 12:32:15.610 INFO: GET 200 /searchmember.php
+- 12:32:15.063 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:32:15.172 INFO: GET 200 /ajaxmember.php
+- 12:32:22.000 INFO: GET 200 /searchmember.php
+- 12:32:22.360 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:32:23.469 INFO: GET 200 /ajaxmember.php
+- 12:32:42.344 INFO: GET 200 /searchmember.php
+- 12:32:43.813 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:32:43.922 INFO: GET 200 /ajaxmember.php
+- 12:32:52.188 INFO: GET 200 /searchmember.php
+- 12:32:53.719 INFO: GET 200 /ajaxmember.php
+- 12:34:42.610 INFO: GET 200 /searchmember.php
+- 12:34:42.063 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:34:42.188 INFO: GET 200 /ajaxmember.php
+- 12:34:50.125 INFO: GET 200 /searchmember.php
+- 12:34:51.500 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:34:51.625 INFO: GET 200 /ajaxmember.php
+- 12:34:53.532 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:35:06.610 INFO: GET 200 /searchmember.php
+- 12:35:06.266 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:35:07.438 INFO: GET 200 /ajaxmember.php
+- 12:35:46.016 INFO: GET 200 /searchmember.php
+- 12:35:47.453 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:35:47.610 INFO: GET 200 /ajaxmember.php
+- 12:36:32.625 INFO: GET 200 /searchmember.php
+- 12:36:32.016 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:36:32.125 INFO: GET 200 /ajaxmember.php
+- 12:37:32.750 INFO: GET 200 /searchmember.php
+- 12:37:33.422 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:37:33.547 INFO: GET 200 /ajaxmember.php
+- 12:37:41.922 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:37:57.735 INFO: GET 200 /searchmember.php
+- 12:37:57.313 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:37:58.578 INFO: GET 200 /ajaxmember.php
+- 12:38:44.469 INFO: GET 200 /searchmember.php
+- 12:38:44.953 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:38:44.110 INFO: GET 200 /ajaxmember.php
+- 12:39:19.047 INFO: GET 200 /searchmember.php
+- 12:39:20.703 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:39:20.922 INFO: GET 200 /ajaxmember.php
+- 12:39:23.125 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:39:29.703 INFO: GET 200 /searchmember.php
+- 12:39:29.219 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:39:29.360 INFO: GET 200 /ajaxmember.php
+- 12:39:37.938 INFO: GET 200 /searchmember.php
+- 12:39:37.282 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:39:38.407 INFO: GET 200 /ajaxmember.php
+- 12:39:42.860 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:39:47.235 INFO: GET 200 /searchmember.php
+- 12:39:48.719 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:39:48.860 INFO: GET 200 /ajaxmember.php
+- 12:39:58.172 INFO: GET 200 /searchmember.php
+- 12:39:59.610 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:39:59.813 INFO: GET 200 /ajaxmember.php
+- 12:40:08.000 INFO: GET 200 /searchmember.php
+- 12:40:09.500 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:40:09.641 INFO: GET 200 /ajaxmember.php
+- 12:40:15.110 INFO: GET 200 /searchmember.php
+- 12:40:16.532 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:40:16.657 INFO: GET 200 /ajaxmember.php
+- 12:40:47.688 INFO: GET 200 /searchmember.php
+- 12:40:47.344 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:40:48.453 INFO: GET 200 /ajaxmember.php
+- 12:40:51.657 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 12:41:00.719 INFO: GET 200 /searchmember.php
+- 12:41:00.313 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:41:01.422 INFO: GET 200 /ajaxmember.php
+- 12:41:16.766 INFO: GET 200 /searchmember.php
+- 12:41:16.188 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:41:17.438 INFO: GET 200 /ajaxmember.php
+- 12:42:25.172 INFO: GET 200 /searchmember.php
+- 12:42:26.844 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:42:26.953 INFO: GET 200 /ajaxmember.php
+- 12:42:59.532 INFO: GET 200 /searchmember.php
+- 12:42:59.110 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 12:42:59.219 INFO: GET 200 /ajaxmember.php
+[1008/133525.566:WARNING:dns_config_service_win.cc(661)] Failed to read DnsConfig.
+- 13:38:31.813 INFO: GET 200 /searchmember.php
+- 13:38:32.453 INFO: GET 200 /ajaxmember.php
+- 13:38:44.532 INFO: GET 200 /addmember.php
+- 13:38:44.203 INFO: GET 200 /ajaxstate.php
+- 13:39:02.688 INFO: GET 200 /home.php
+- 13:39:02.219 INFO: GET 200 /ajaxmember.php
+- 13:39:16.828 INFO: GET 200 /addmember.php
+- 13:39:16.313 INFO: GET 200 /ajaxstate.php
+- 13:39:21.344 INFO: GET 200 /home.php
+- 13:39:22.797 INFO: GET 200 /ajaxmember.php
+- 13:39:26.469 INFO: POST 200 /ajaxmemberedit.php
+- 13:39:26.578 INFO: GET 200 /ajaxstate.php
+- 13:39:45.047 INFO: POST 200 /ajaxmemberupdate.php
+- 13:39:45.172 INFO: GET 200 /ajaxmember.php
+- 13:39:48.828 INFO: POST 200 /ajaxmemberedit.php
+- 13:39:48.938 INFO: GET 200 /ajaxstate.php
+- 13:39:51.063 INFO: POST 200 /ajaxmemberupdate.php
+- 13:39:51.172 INFO: GET 200 /ajaxmember.php
+- 13:39:54.078 INFO: GET 200 /addmember.php
+- 13:39:55.500 INFO: GET 200 /ajaxstate.php
+- 13:39:57.125 INFO: GET 200 /home.php
+- 13:39:58.594 INFO: GET 200 /ajaxmember.php
+- 13:39:59.938 INFO: GET 200 /state.php
+- 13:39:59.360 INFO: GET 200 /ajaxstate.php
+- 13:40:02.563 INFO: POST 200 /ajaxstatedeletecheck.php
+- 13:41:34.485 INFO: GET 200 /state.php
+- 13:41:34.032 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 13:41:34.141 INFO: GET 200 /ajaxstate.php
+- 13:41:37.813 INFO: GET 200 /district.php
+- 13:41:37.391 INFO: GET 200 /ajaxdistrict.php
+- 13:41:37.391 INFO: GET 200 /ajaxstate.php
+- 13:41:40.703 INFO: GET 200 /niyojakamandalam.php
+- 13:41:40.203 INFO: GET 200 /ajaxdistrict.php
+- 13:41:40.203 INFO: GET 200 /ajaxniyojakamandalam.php
+- 13:41:49.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49594/home.php
+- 13:41:50.516 INFO: GET 302 /home.php
+- 13:41:50.360 DEBUG: OnContextCreated()
+- 13:41:50.610 INFO: GET 200 /index.php
+- 13:41:50.782 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49594/index.php
+[1008/134158.088:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:49594/theme-assets/vendors/js/vendors.min.js (72)
+- 13:41:58.703 INFO: POST 200 /ajaxlogin.php
+- 13:42:00.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49594/index.php
+- 13:42:00.703 DEBUG: OnContextCreated()
+- 13:42:00.953 INFO: GET 200 /home.php
+- 13:42:00.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49594/home.php
+- 13:42:01.532 INFO: GET 200 /ajaxmember.php
+- 13:42:02.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49594/home.php
+- 13:42:03.282 DEBUG: OnContextCreated()
+- 13:42:03.532 INFO: GET 200 /addmember.php
+- 13:42:03.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49594/addmember.php
+- 13:42:03.875 INFO: GET 200 /ajaxstate.php
+- 13:42:06.141 DEBUG: WM_DESTROY
+- 13:42:06.141 DEBUG: RemoveBrowserWindow(): hwnd = 328036
+- 13:42:06.141 INFO: Stopping Mongoose web server
+- 13:42:06.141 DEBUG: Mongoose webserver stopped immediately
+- 13:42:06.157 DEBUG: OnBeforeClose() hwnd=328528
+- 13:42:06.157 DEBUG: RemoveBrowserWindow(): hwnd = 328528
+- 13:42:06.157 DEBUG: GetBrowserWindow(): not found, hwnd = 328528
+- 13:42:06.157 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:42:06.157 DEBUG: Calling CefQuitMessageLoop()
+- 13:42:06.266 INFO: Ended application
+- 13:42:06.266 INFO: --------------------------------------------------------
+- 13:42:33.000 INFO: --------------------------------------------------------
+- 13:42:33.000 INFO: Started application
+- 13:42:33.000 INFO: Logging to: D:\AVVC Data log\debug.log
+- 13:42:33.000 INFO: Log level = DEBUG4
+- 13:42:33.000 INFO: Starting Mongoose 3.9c web server
+- 13:42:33.000 INFO: WWW directory: D:\AVVC Data log\www
+- 13:42:33.000 INFO: Index files: index.html,index.php
+- 13:42:33.000 INFO: CGI interpreter: D:\AVVC Data log\php\php-cgi.exe
+- 13:42:33.000 INFO: CGI pattern: **.php$
+- 13:42:33.000 INFO: Hide files patterns: 
+- 13:42:33.000 INFO: CGI environment variables set: TMP=C:\Users\PC9\AppData\Local\Temp\,TEMP=C:\Users\PC9\AppData\Local\Temp\,TMPDIR=C:\Users\PC9\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:42:33.000 INFO: Web server url: http://127.0.0.1:52398/
+- 13:42:33.000 INFO: remote_debugging_port = 57666
+- 13:42:33.000 DEBUG: Command line string for the browser process: "D:\AVVC Data log\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --remote-debugging-port=57666
+- 13:42:33.047 DEBUG: App::OnContextInitialized()
+- 13:42:33.047 DEBUG: Window max width/height = 1286/680
+- 13:42:33.047 DEBUG: GetBrowserWindow(): not found, hwnd = 263698
+- 13:42:33.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:42:33.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:42:33.047 DEBUG: StoreBrowserWindow(): hwnd = 263698
+- 13:42:33.094 DEBUG: ClientHandler::OnAfterCreated()
+- 13:42:33.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:42:33.110 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:42:33.000 DEBUG: Command line string for the gpu-process process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1902 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="D:\AVVC Data log\debug.log" --service-request-channel-token=26DF5D4B3B75B753FDCE55ED09A0D661 --mojo-platform-channel-handle=1700 /prefetch:2
+- 13:42:33.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=972CCC5A6A8A8A31844B67B65416E563 --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=972CCC5A6A8A8A31844B67B65416E563 --renderer-client-id=3 --mojo-platform-channel-handle=2272 /prefetch:1
+[1008/134233.903:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 13:42:33.046 DEBUG: OnBrowserCreated()
+- 13:42:35.422 INFO: GET 200 /
+- 13:42:35.422 INFO: GET 200 /assets/css/bootstrap.css
+- 13:42:35.422 INFO: GET 200 /theme-assets/css/app-lite.css
+- 13:42:35.422 INFO: GET 200 /theme-assets/css/vendors.css
+- 13:42:35.422 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 13:42:35.422 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 13:42:35.422 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 13:42:35.265 DEBUG: OnContextCreated()
+- 13:42:35.438 INFO: GET 200 /assets/css/toastr.min.css
+- 13:42:35.438 INFO: GET 200 /assets/css/sweet-alert.css
+- 13:42:35.438 INFO: GET 200 /assets/js/tether.min.js
+- 13:42:35.438 INFO: GET 200 /assets/js/jquery.min.js
+- 13:42:35.438 INFO: GET 200 /assets/js/bootstrap.min.js
+- 13:42:35.438 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 13:42:35.469 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 13:42:35.469 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 13:42:35.469 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 13:42:35.469 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 13:42:35.500 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 13:42:35.563 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 13:42:35.563 INFO: GET 200 /theme-assets/css/components-lite.css
+- 13:42:35.563 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 13:42:35.563 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 13:42:35.563 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 13:42:35.563 INFO: GET 200 /theme-assets/css/colors.css
+- 13:42:35.625 INFO: GET 200 /assets/js/toastr.min.js
+- 13:42:35.625 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 13:42:35.813 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 13:42:35.813 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 13:42:35.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/
+[1008/134244.388:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:52398/theme-assets/vendors/js/vendors.min.js (72)
+- 13:42:44.860 INFO: POST 200 /ajaxlogin.php
+- 13:42:46.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/
+- 13:42:46.843 DEBUG: OnContextCreated()
+- 13:42:46.000 INFO: GET 200 /home.php
+- 13:42:46.000 INFO: GET 200 /assets/css/line-awesome.min.css
+- 13:42:46.000 INFO: GET 200 /assets/css/datatables.min.css
+- 13:42:46.000 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 13:42:46.000 INFO: GET 200 /assets/js/components-modal.min.js
+- 13:42:46.078 INFO: GET 200 /assets/js/datatables.min.js
+- 13:42:46.157 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 13:42:47.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/home.php
+- 13:42:47.625 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 13:42:47.875 INFO: GET 200 /ajaxmember.php
+- 13:42:54.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/home.php
+- 13:42:54.437 DEBUG: OnContextCreated()
+- 13:42:54.594 INFO: GET 200 /state.php
+- 13:42:54.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/state.php
+- 13:42:54.219 INFO: GET 200 /ajaxstate.php
+- 13:43:01.250 INFO: POST 200 /ajaxaddstate.php
+- 13:43:02.391 INFO: GET 200 /ajaxstate.php
+- 13:43:03.235 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/state.php
+- 13:43:03.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/state.php#!
+- 13:43:04.360 INFO: POST 200 /ajaxstatedeletecheck.php
+- 13:43:05.407 INFO: POST 200 /ajaxstatedelete.php
+- 13:43:05.532 INFO: GET 200 /ajaxstate.php
+- 13:46:31.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/state.php#!
+- 13:46:31.671 DEBUG: OnContextCreated()
+- 13:46:31.844 INFO: GET 200 /searchmember.php
+- 13:46:31.844 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 13:46:32.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/searchmember.php
+- 13:46:32.485 INFO: GET 200 /ajaxmember.php
+- 13:46:34.625 INFO: About to download a file: AVVC Data Log.pdf
+- 13:46:37.813 INFO: Download was cancelled
+- 13:46:40.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/searchmember.php
+- 13:46:40.046 DEBUG: OnContextCreated()
+- 13:46:40.203 INFO: GET 200 /state.php
+- 13:46:41.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/state.php
+- 13:46:41.547 INFO: GET 200 /ajaxstate.php
+- 13:46:46.344 INFO: POST 200 /ajaxaddstate.php
+- 13:46:46.485 INFO: GET 200 /ajaxstate.php
+- 13:46:48.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/state.php
+- 13:46:48.515 DEBUG: OnContextCreated()
+- 13:46:48.688 INFO: GET 200 /district.php
+- 13:46:48.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/district.php
+- 13:46:48.110 INFO: GET 200 /ajaxstate.php
+- 13:46:48.110 INFO: GET 200 /ajaxdistrict.php
+- 13:46:54.641 INFO: POST 200 /ajaxadddistrict.php
+- 13:46:54.766 INFO: GET 200 /ajaxdistrict.php
+- 13:46:58.172 INFO: POST 200 /ajaxadddistrict.php
+- 13:46:59.547 INFO: GET 200 /ajaxdistrict.php
+- 13:47:01.110 INFO: POST 200 /ajaxadddistrict.php
+- 13:47:01.235 INFO: GET 200 /ajaxdistrict.php
+- 13:47:03.219 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/district.php
+- 13:47:04.171 DEBUG: OnContextCreated()
+- 13:47:04.328 INFO: GET 200 /niyojakamandalam.php
+- 13:47:04.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/niyojakamandalam.php
+- 13:47:04.891 INFO: GET 200 /ajaxdistrict.php
+- 13:47:04.891 INFO: GET 200 /ajaxniyojakamandalam.php
+- 13:47:10.657 INFO: POST 200 /ajaxaddniyojakamandalam.php
+- 13:47:10.782 INFO: GET 200 /ajaxniyojakamandalam.php
+- 13:47:13.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/niyojakamandalam.php
+- 13:47:13.453 DEBUG: OnContextCreated()
+- 13:47:13.625 INFO: GET 200 /mandalam.php
+- 13:47:13.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/mandalam.php
+- 13:47:13.985 INFO: GET 200 /ajaxmandalam.php
+- 13:47:13.985 INFO: GET 200 /ajaxniyojakamandalam.php
+- 13:47:23.172 INFO: POST 200 /ajaxaddmandalam.php
+- 13:47:23.282 INFO: GET 200 /ajaxmandalam.php
+- 13:47:26.610 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/mandalam.php
+- 13:47:26.640 DEBUG: OnContextCreated()
+- 13:47:26.797 INFO: GET 200 /unit.php
+- 13:47:26.032 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/unit.php
+- 13:47:26.203 INFO: GET 200 /ajaxmandalam.php
+- 13:47:26.203 INFO: GET 200 /ajaxunit.php
+- 13:47:32.641 INFO: POST 200 /ajaxaddunit.php
+- 13:47:32.766 INFO: GET 200 /ajaxunit.php
+- 13:47:33.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/unit.php
+- 13:47:33.968 DEBUG: OnContextCreated()
+- 13:47:33.125 INFO: GET 200 /addmember.php
+- 13:47:34.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/addmember.php
+- 13:47:34.563 INFO: GET 200 /ajaxstate.php
+- 13:48:21.672 INFO: POST 200 /ajaxstatechange.php
+- 13:48:23.453 INFO: POST 200 /ajaxdistrictchange.php
+- 13:48:24.063 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 13:52:11.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/addmember.php
+- 13:52:11.812 DEBUG: OnContextCreated()
+- 13:52:11.969 INFO: GET 200 /addmember.php
+- 13:52:11.985 INFO: GET 200 /assets/css/line-awesome.min.css
+- 13:52:11.985 INFO: GET 200 /theme-assets/css/vendors.css
+- 13:52:11.985 INFO: GET 200 /theme-assets/css/app-lite.css
+- 13:52:11.985 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 13:52:11.985 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 13:52:11.985 INFO: GET 200 /assets/css/sweet-alert.css
+- 13:52:11.000 INFO: GET 200 /assets/css/datatables.min.css
+- 13:52:11.000 INFO: GET 200 /assets/css/toastr.min.css
+- 13:52:11.000 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 13:52:11.000 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 13:52:11.000 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 13:52:11.016 INFO: GET 200 /assets/js/toastr.min.js
+- 13:52:11.032 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 13:52:11.032 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 13:52:11.032 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 13:52:11.032 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 13:52:11.032 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 13:52:11.078 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 13:52:11.078 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 13:52:11.078 INFO: GET 200 /theme-assets/css/components-lite.css
+- 13:52:11.078 INFO: GET 200 /theme-assets/css/colors.css
+- 13:52:11.219 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 13:52:11.219 INFO: GET 200 /assets/js/components-modal.min.js
+- 13:52:11.250 INFO: GET 200 /assets/js/datatables.min.js
+- 13:52:12.313 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 13:52:12.328 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 13:52:12.907 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 13:52:12.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/addmember.php
+- 13:52:12.157 INFO: GET 200 /ajaxstate.php
+- 13:52:17.907 INFO: POST 200 /ajaxstatechange.php
+- 13:52:19.969 INFO: POST 200 /ajaxdistrictchange.php
+- 13:52:28.750 DEBUG: ClientHandler::OnAfterCreated()
+- 13:52:28.750 DEBUG: GetBrowserWindow(): not found, hwnd = 1246144
+- 13:52:28.750 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 13:52:28.750 DEBUG: StoreBrowserWindow(): hwnd = 1246144
+- 13:52:28.766 DEBUG: Centering popup window relative to its parent
+- 13:52:28.766 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:52:28.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4556DDDBF14C24961836395F310960A6 --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4556DDDBF14C24961836395F310960A6 --renderer-client-id=4 --mojo-platform-channel-handle=5232 /prefetch:1
+- 13:52:28.031 DEBUG: OnBrowserCreated()
+- 13:52:28.047 DEBUG: OnContextCreated()
+- 13:52:28.016 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 13:52:28.266 INFO: GET 200 /assets/js/toastr.js.map
+- 13:52:29.297 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 13:52:31.797 DEBUG: OnBeforeClose() hwnd=1246144
+- 13:52:31.797 DEBUG: RemoveBrowserWindow(): hwnd = 1246144
+- 13:52:50.157 INFO: GET 302 /addmember.php
+- 13:52:50.250 INFO: GET 200 /index.php
+- 13:52:50.266 INFO: GET 200 /theme-assets/css/vendors.css
+- 13:52:50.266 INFO: GET 200 /assets/css/bootstrap.css
+- 13:52:50.266 INFO: GET 200 /theme-assets/css/app-lite.css
+- 13:52:50.266 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 13:52:50.266 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 13:52:50.266 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 13:52:51.282 INFO: GET 200 /assets/css/sweet-alert.css
+- 13:52:51.282 INFO: GET 200 /assets/css/toastr.min.css
+- 13:52:51.282 INFO: GET 200 /assets/js/jquery.min.js
+- 13:52:51.297 INFO: GET 200 /assets/js/tether.min.js
+- 13:52:51.422 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 13:52:51.422 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 13:52:51.422 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 13:52:51.422 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 13:52:51.438 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 13:52:51.469 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 13:52:51.469 INFO: GET 200 /theme-assets/css/components-lite.css
+- 13:52:51.469 INFO: GET 200 /assets/js/bootstrap.min.js
+- 13:52:51.469 INFO: GET 200 /theme-assets/css/colors.css
+- 13:52:51.469 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 13:52:51.485 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 13:52:51.500 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 13:52:51.500 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 13:52:51.500 INFO: GET 200 /assets/js/toastr.min.js
+- 13:52:51.500 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 13:52:51.641 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 13:52:51.641 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 13:52:51.797 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 13:52:55.938 INFO: POST 200 /ajaxlogin.php
+- 13:52:57.125 INFO: GET 200 /home.php
+- 13:52:57.125 INFO: GET 200 /assets/css/line-awesome.min.css
+- 13:52:57.141 INFO: GET 200 /assets/css/datatables.min.css
+- 13:52:57.141 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 13:52:57.141 INFO: GET 200 /assets/js/components-modal.min.js
+- 13:52:57.172 INFO: GET 200 /assets/js/datatables.min.js
+- 13:52:57.235 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 13:52:58.688 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 13:52:58.828 INFO: GET 200 /ajaxmember.php
+- 13:52:59.844 INFO: GET 200 /addmember.php
+- 13:53:00.313 INFO: GET 200 /ajaxstate.php
+- 13:53:02.782 INFO: POST 200 /ajaxstatechange.php
+- 13:53:03.922 INFO: POST 200 /ajaxdistrictchange.php
+- 13:53:11.016 INFO: GET 200 /assets/js/toastr.js.map
+- 13:53:11.016 INFO: GET 404 /assets/js/pdfmake.min.js.map
+- 13:59:42.703 INFO: GET 200 /addmember.php
+- 13:59:42.250 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 13:59:43.375 INFO: GET 200 /ajaxstate.php
+- 13:59:45.797 INFO: POST 200 /ajaxstatechange.php
+- 13:59:47.563 INFO: POST 200 /ajaxdistrictchange.php
+- 13:59:48.110 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 14:00:45.203 INFO: GET 200 /addmember.php
+- 14:00:46.922 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 14:00:46.032 INFO: GET 200 /ajaxstate.php
+- 14:00:48.657 INFO: POST 200 /ajaxstatechange.php
+- 14:00:49.922 INFO: POST 200 /ajaxdistrictchange.php
+- 14:00:50.125 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 14:00:52.594 INFO: POST 200 /ajaxmandalamchange.php
+- 14:01:00.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/addmember.php
+- 14:01:00.625 DEBUG: OnContextCreated()
+- 14:01:00.782 INFO: GET 200 /addmember.php
+- 14:01:00.782 INFO: GET 200 /theme-assets/css/vendors.css
+- 14:01:00.782 INFO: GET 200 /assets/css/line-awesome.min.css
+- 14:01:00.782 INFO: GET 200 /theme-assets/css/app-lite.css
+- 14:01:00.782 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 14:01:00.797 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 14:01:00.797 INFO: GET 200 /assets/css/sweet-alert.css
+- 14:01:00.797 INFO: GET 200 /assets/css/toastr.min.css
+- 14:01:00.797 INFO: GET 200 /assets/css/datatables.min.css
+- 14:01:00.797 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 14:01:00.797 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 14:01:00.797 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 14:01:00.797 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 14:01:00.813 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 14:01:00.813 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 14:01:00.875 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 14:01:00.875 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 14:01:00.875 INFO: GET 200 /theme-assets/css/components-lite.css
+- 14:01:00.875 INFO: GET 200 /theme-assets/css/colors.css
+- 14:01:00.016 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 14:01:00.078 INFO: GET 200 /assets/js/toastr.min.js
+- 14:01:00.078 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 14:01:00.110 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 14:01:00.110 INFO: GET 200 /assets/js/components-modal.min.js
+- 14:01:00.141 INFO: GET 200 /assets/js/datatables.min.js
+- 14:01:00.219 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 14:01:00.235 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 14:01:01.703 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 14:01:01.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/addmember.php
+- 14:01:01.828 INFO: GET 200 /ajaxstate.php
+- 14:01:03.469 INFO: POST 200 /ajaxstatechange.php
+- 14:01:04.875 INFO: POST 200 /ajaxdistrictchange.php
+- 14:01:05.063 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 14:01:18.922 INFO: POST 200 /ajaxmandalamchange.php
+- 14:03:13.703 INFO: GET 200 /addmember.php
+- 14:03:14.297 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 14:03:14.407 INFO: GET 200 /ajaxstate.php
+- 14:03:17.344 INFO: GET 200 /home.php
+- 14:03:17.797 INFO: GET 200 /ajaxmember.php
+- 14:03:19.469 INFO: GET 200 /addmember.php
+- 14:03:19.938 INFO: GET 200 /ajaxstate.php
+- 14:03:51.891 INFO: POST 200 /ajaxstatechange.php
+- 14:03:53.282 INFO: POST 200 /ajaxdistrictchange.php
+- 14:03:55.391 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 14:03:56.532 INFO: POST 200 /ajaxmandalamchange.php
+- 14:03:59.219 INFO: POST 200 /ajaxaddmember.php
+- 14:04:00.360 INFO: GET 200 /ajaxstate.php
+- 14:04:04.078 INFO: GET 200 /home.php
+- 14:04:05.532 INFO: GET 200 /ajaxmember.php
+- 14:04:14.016 INFO: POST 200 /ajaxmemberedit.php
+- 14:04:14.125 INFO: GET 200 /ajaxstate.php
+- 14:04:29.235 INFO: POST 200 /ajaxstatechange.php
+- 14:04:31.032 INFO: POST 200 /ajaxdistrictchange.php
+- 14:04:33.688 INFO: POST 200 /ajaxniyojakamandalamchange.php
+- 14:04:34.078 INFO: POST 200 /ajaxmandalamchange.php
+- 14:04:37.891 INFO: POST 200 /ajaxmemberupdate.php
+- 14:04:37.032 INFO: GET 200 /ajaxmember.php
+- 14:04:45.953 INFO: POST 200 /ajaxmemberdelete.php
+- 14:04:45.063 INFO: GET 200 /ajaxmember.php
+- 14:04:49.766 INFO: GET 200 /home.php
+- 14:04:49.110 INFO: GET 200 /theme-assets/images/ico/favicon.ico
+- 14:04:49.219 INFO: GET 200 /ajaxmember.php
+- 14:04:52.938 INFO: GET 200 /addmember.php
+- 14:04:53.360 INFO: GET 200 /ajaxstate.php
+- 14:04:53.703 INFO: GET 200 /searchmember.php
+- 14:04:53.719 INFO: GET 200 /assets/js/export/buttons.print.min.js
+- 14:04:53.125 INFO: GET 200 /ajaxmember.php
+- 14:05:06.141 INFO: GET 200 /logout.php
+- 14:05:09.313 INFO: GET 200 /index.php
+- 14:05:12.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/addmember.php
+- 14:05:12.046 DEBUG: OnContextCreated()
+- 14:05:12.203 INFO: GET 200 /addmember.php
+- 14:05:12.219 INFO: GET 200 /assets/css/line-awesome.min.css
+- 14:05:12.219 INFO: GET 200 /theme-assets/css/vendors.css
+- 14:05:12.219 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 14:05:12.219 INFO: GET 200 /theme-assets/css/app-lite.css
+- 14:05:12.219 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 14:05:12.219 INFO: GET 200 /assets/css/sweet-alert.css
+- 14:05:12.219 INFO: GET 200 /assets/css/datatables.min.css
+- 14:05:12.219 INFO: GET 200 /assets/css/toastr.min.css
+- 14:05:12.219 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 14:05:12.219 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 14:05:12.219 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 14:05:12.235 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 14:05:12.250 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 14:05:12.250 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 14:05:12.250 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 14:05:12.250 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 14:05:12.266 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 14:05:12.266 INFO: GET 200 /assets/js/toastr.min.js
+- 14:05:12.266 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 14:05:12.266 INFO: GET 200 /theme-assets/css/components-lite.css
+- 14:05:12.266 INFO: GET 200 /theme-assets/css/colors.css
+- 14:05:13.344 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 14:05:13.344 INFO: GET 200 /assets/js/components-modal.min.js
+- 14:05:13.375 INFO: GET 200 /assets/js/datatables.min.js
+- 14:05:13.500 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 14:05:13.500 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 14:05:13.985 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 14:05:13.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/addmember.php
+- 14:05:13.094 INFO: GET 200 /ajaxstate.php
+- 14:05:18.766 INFO: GET 200 /logout.php
+- 14:05:20.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52398/addmember.php
+- 14:05:20.843 DEBUG: OnContextCreated()
+- 14:05:20.000 INFO: GET 200 /index.php
+- 14:05:20.157 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52398/index.php
+- 14:05:23.500 DEBUG: WM_DESTROY
+- 14:05:23.500 DEBUG: RemoveBrowserWindow(): hwnd = 263698
+- 14:05:23.500 INFO: Stopping Mongoose web server
+- 14:05:23.500 DEBUG: Mongoose webserver stopped immediately
+- 14:05:23.500 DEBUG: OnBeforeClose() hwnd=263828
+- 14:05:23.500 DEBUG: RemoveBrowserWindow(): hwnd = 263828
+- 14:05:23.500 DEBUG: GetBrowserWindow(): not found, hwnd = 263828
+- 14:05:23.500 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:05:23.500 DEBUG: Calling CefQuitMessageLoop()
+- 14:05:23.375 DEBUG: OnBrowserDestroyed()
+- 14:05:23.610 INFO: Ended application
+- 14:05:23.610 INFO: --------------------------------------------------------
+- 14:15:56.000 INFO: --------------------------------------------------------
+- 14:15:56.000 INFO: Started application
+- 14:15:56.000 INFO: Logging to: D:\AVVC Data log\debug.log
+- 14:15:56.000 INFO: Log level = DEBUG4
+- 14:15:56.000 INFO: Starting Mongoose 3.9c web server
+- 14:15:56.000 INFO: WWW directory: D:\AVVC Data log\www
+- 14:15:56.000 INFO: Index files: index.html,index.php
+- 14:15:56.000 INFO: CGI interpreter: D:\AVVC Data log\php\php-cgi.exe
+- 14:15:56.000 INFO: CGI pattern: **.php$
+- 14:15:56.000 INFO: Hide files patterns: 
+- 14:15:56.000 INFO: CGI environment variables set: TMP=C:\Users\PC9\AppData\Local\Temp\,TEMP=C:\Users\PC9\AppData\Local\Temp\,TMPDIR=C:\Users\PC9\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:15:56.000 INFO: Web server url: http://127.0.0.1:54312/
+- 14:15:56.000 INFO: remote_debugging_port = 54605
+- 14:15:56.000 DEBUG: Command line string for the browser process: "D:\AVVC Data log\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --remote-debugging-port=54605
+- 14:15:56.047 DEBUG: App::OnContextInitialized()
+- 14:15:56.047 DEBUG: Window max width/height = 1286/680
+- 14:15:56.062 DEBUG: GetBrowserWindow(): not found, hwnd = 198204
+- 14:15:56.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:15:56.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:15:56.062 DEBUG: StoreBrowserWindow(): hwnd = 198204
+- 14:15:56.094 DEBUG: ClientHandler::OnAfterCreated()
+- 14:15:56.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:15:56.109 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:15:56.000 DEBUG: Command line string for the gpu-process process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\AVVC Data log\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x1902 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=23.20.16.4973 --gpu-driver-date=2-28-2018 --lang=en-US --log-file="D:\AVVC Data log\debug.log" --service-request-channel-token=F966EA8B2192C46FCFF94BB0F942E824 --mojo-platform-channel-handle=1780 /prefetch:2
+- 14:15:56.000 DEBUG: Command line string for the renderer process: "D:\AVVC Data log\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D0DE089D29DFA3FA27E1888FA4EC836E --lang=en-US --lang=en-US --log-file="D:\AVVC Data log\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D0DE089D29DFA3FA27E1888FA4EC836E --renderer-client-id=3 --mojo-platform-channel-handle=2256 /prefetch:1
+- 14:15:56.031 DEBUG: OnBrowserCreated()
+[1008/141556.577:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:15:57.359 INFO: GET 200 /
+- 14:15:57.187 DEBUG: OnContextCreated()
+- 14:15:57.375 INFO: GET 200 /assets/css/bootstrap.css
+- 14:15:57.375 INFO: GET 200 /theme-assets/css/vendors.css
+- 14:15:57.375 INFO: GET 200 /theme-assets/css/app-lite.css
+- 14:15:57.375 INFO: GET 200 /theme-assets/css/core/menu/menu-types/vertical-menu.css
+- 14:15:57.375 INFO: GET 200 /theme-assets/css/pages/login-register.min.css
+- 14:15:57.375 INFO: GET 200 /theme-assets/css/core/colors/palette-gradient.css
+- 14:15:57.391 INFO: GET 200 /assets/css/toastr.min.css
+- 14:15:57.391 INFO: GET 200 /assets/css/sweet-alert.css
+- 14:15:57.391 INFO: GET 200 /assets/js/tether.min.js
+- 14:15:57.391 INFO: GET 200 /assets/js/jquery.min.js
+- 14:15:57.516 INFO: GET 200 /assets/js/bootstrap.min.js
+- 14:15:57.516 INFO: GET 200 /theme-assets/css/bootstrap-extended.css
+- 14:15:57.547 INFO: GET 200 /theme-assets/css/components-lite.css
+- 14:15:57.547 INFO: GET 200 /theme-assets/css/colors.css
+- 14:15:57.547 INFO: GET 200 /theme-assets/css/bootstrap.css
+- 14:15:57.594 INFO: GET 200 /theme-assets/fonts/feather/style.min.css
+- 14:15:57.594 INFO: GET 200 /theme-assets/fonts/line-awesome/css/line-awesome.min.css
+- 14:15:58.656 INFO: GET 200 /theme-assets/fonts/flag-icon-css/css/flag-icon.min.css
+- 14:15:58.672 INFO: GET 200 /theme-assets/vendors/css/extensions/pace.css
+- 14:15:58.672 INFO: GET 200 /theme-assets/js/core/app-menu-lite.js
+- 14:15:58.672 INFO: GET 200 /theme-assets/vendors/js/vendors.min.js
+- 14:15:58.672 INFO: GET 200 /theme-assets/js/core/app-lite.js
+- 14:15:58.672 INFO: GET 200 /assets/js/forms/form-login-register.min.js
+- 14:15:58.687 INFO: GET 200 /assets/js/toastr.min.js
+- 14:15:58.687 INFO: GET 200 /assets/js/sweet-alert.min.js
+- 14:15:58.828 INFO: GET 200 /app-assets/images/backgrounds/bg-18.jpg
+- 14:15:58.844 INFO: GET 200 /theme-assets/fonts/feather/fonts/feather.ttf?9xfrq8
+- 14:15:58.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54312/
+[1008/141603.505:INFO:CONSOLE(72)] "Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience. For more help, check https://xhr.spec.whatwg.org/.", source: http://127.0.0.1:54312/theme-assets/vendors/js/vendors.min.js (72)
+- 14:16:03.344 INFO: POST 200 /ajaxlogin.php
+- 14:16:05.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54312/
+- 14:16:05.375 DEBUG: OnContextCreated()
+- 14:16:05.547 INFO: GET 200 /home.php
+- 14:16:05.547 INFO: GET 200 /assets/css/line-awesome.min.css
+- 14:16:05.562 INFO: GET 200 /assets/css/datatables.min.css
+- 14:16:05.562 INFO: GET 200 /assets/js/datatable-basic.min.js
+- 14:16:05.562 INFO: GET 200 /assets/js/components-modal.min.js
+- 14:16:05.609 INFO: GET 200 /assets/js/datatables.min.js
+- 14:16:06.687 INFO: GET 200 /theme-assets/fonts/line-awesome/fonts/line-awesome.woff2?v=1.1.
+- 14:16:06.234 INFO: GET 200 /theme-assets/images/backgrounds/02.jpg
+- 14:16:06.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54312/home.php
+- 14:16:06.391 INFO: GET 200 /ajaxmember.php
+- 14:16:08.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54312/home.php
+- 14:16:08.375 DEBUG: OnContextCreated()
+- 14:16:08.562 INFO: GET 200 /state.php
+- 14:16:09.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54312/state.php
+- 14:16:09.141 INFO: GET 200 /ajaxstate.php
+- 14:16:10.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54312/state.php
+- 14:16:10.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54312/state.php#!
+- 14:16:10.312 INFO: POST 200 /ajaxstatedeletecheck.php
+- 14:16:11.266 INFO: POST 200 /ajaxstatedelete.php
+- 14:16:11.391 INFO: GET 200 /ajaxstate.php
+- 14:16:14.391 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54312/state.php#!
+- 14:16:14.406 DEBUG: OnContextCreated()
+- 14:16:14.578 INFO: GET 200 /district.php
+- 14:16:15.797 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54312/district.php
+- 14:16:15.984 INFO: GET 200 /ajaxstate.php
+- 14:16:15.984 INFO: GET 200 /ajaxdistrict.php
+- 14:17:19.156 INFO: GET 200 /logout.php
+- 14:17:21.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:54312/district.php
+- 14:17:21.234 DEBUG: OnContextCreated()
+- 14:17:21.406 INFO: GET 200 /index.php
+- 14:17:21.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:54312/index.php
+- 14:17:24.000 DEBUG: WM_DESTROY
+- 14:17:24.000 DEBUG: RemoveBrowserWindow(): hwnd = 198204
+- 14:17:24.000 INFO: Stopping Mongoose web server
+- 14:17:24.000 DEBUG: Mongoose webserver stopped immediately
+- 14:17:24.000 DEBUG: OnBeforeClose() hwnd=198040
+- 14:17:24.000 DEBUG: RemoveBrowserWindow(): hwnd = 198040
+- 14:17:24.000 DEBUG: GetBrowserWindow(): not found, hwnd = 198040
+- 14:17:24.000 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:17:24.000 DEBUG: Calling CefQuitMessageLoop()
+- 14:17:24.109 INFO: Ended application
+- 14:17:24.109 INFO: --------------------------------------------------------

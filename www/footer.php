@@ -13,6 +13,7 @@
     <script src="assets/js/datatables.min.js"></script>
     <script src="assets/js/datatable-basic.min.js"></script>
     <script src="assets/js/components-modal.min.js"></script>    
+    
     <!-- END PAGE LEVEL JS-->
     <script type="text/javascript">
       function confirmationLogout()

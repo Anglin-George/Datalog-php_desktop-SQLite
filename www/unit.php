@@ -18,8 +18,8 @@
                   <div class="card-body">
                     <form method="post" id="unit-add">
                       <fieldset class="form-group">
-                          <label>Select Block :</label>
-                          <select class="form-control" name="block" id="block"></select>
+                          <label>Select Mandalam :</label>
+                          <select class="form-control" name="mandalam" id="mandalam"></select>
                           <label>Unit Name :</label>
                           <input type="text" name="unit" id="unit" class="form-control" placeholder="Unit Name" required>                          
                           <br>
@@ -44,7 +44,7 @@
                           <tr>
                               <th>Id</th>
                               <th>Unit</th>
-                              <th>Block</th>
+                              <th>Mandalam</th>
                               <th>Actions</th>
                           </tr>
                       </thead>
@@ -84,7 +84,7 @@
                <input class="form-control" name="unitname" id="unitname" required>  
             </div>               
             <div class="">
-               <button class="btn btn-success ladda-button" data-style="slide-up" type="submit">Update State</button>
+               <button class="btn btn-success ladda-button" data-style="slide-up" type="submit">Update Unit</button>
                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
             </div>
          </div>
@@ -102,12 +102,12 @@
 ?>
 <script type="text/javascript">
   $( document ).ready(function() {
-    bindblockoption();
+    bindmandalamoption();
     bindunit();
 });
 
-function bindblockoption() {
-    url = 'ajaxblock.php';
+function bindmandalamoption() {
+    url = 'ajaxmandalam.php';
     $.ajax({
           type: "GET",
           data: null,
@@ -118,12 +118,12 @@ function bindblockoption() {
               $.each(result, function(key, val) {
                 if(val!=false)
                 {
-                  html = html + '<option value ="'+ val.tbl_block_id+'">';
-                  html = html + val.tbl_block_name;
+                  html = html + '<option value ="'+ val.tbl_mandalam_id+'">';
+                  html = html + val.tbl_mandalam_name;
                   html = html + '</option>';
                 }
               });
-              $("#block").html(html);
+              $("#mandalam").html(html);
           }
       });    
   }
@@ -146,7 +146,7 @@ function bindblockoption() {
                   html = html + '<tr>';
                   html = html + '<td>' + ++i + '</td>';
                   html = html + '<td style="width: 50%">' + val.tbl_unit_name + '</td>';
-                  html = html + '<td style="width: 50%">' + val.tbl_block_name + '</td>';
+                  html = html + '<td style="width: 50%">' + val.tbl_mandalam_name + '</td>';
                   html = html + '<td class="action-col">';
                   html = html + '<a href="#!"class="btn btn-info btn-circle btn-sm" data-toggle="modal" data-target="#myModal" onclick="Edititems(' + val.tbl_unit_id + ')"> ';
                   html = html + '<span class="la la-edit">';
@@ -263,7 +263,7 @@ function bindblockoption() {
   $('#unit-add').submit(function(e){
         e.preventDefault();         
         var unit = $("#unit").val();
-        var block = $("#block").val();
+        var mandalam = $("#mandalam").val();
         if(unit.trim() != '')
         {
             $.ajax({

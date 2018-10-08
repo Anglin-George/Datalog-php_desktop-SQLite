@@ -5,9 +5,9 @@
 		echo $db->lastErrorMsg();
 	}
 	else{
-		$block = $_POST['block'];
+		$mandalam = $_POST['mandalam'];
 		$unit = $_POST['unit'];
-		$sql =  "INSERT INTO tbl_unit (tbl_unit_name,tbl_unit_block_id) VALUES('$unit','$block')";
+		$sql =  "INSERT INTO tbl_unit (tbl_unit_name,tbl_unit_mandalam_id) VALUES('$unit','$mandalam')";
       	$ret = $db->exec($sql);
 		echo json_encode($ret);
 	}

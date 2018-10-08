@@ -19,7 +19,7 @@
                     <form method="post" id="state-add">
                       <fieldset class="form-group">
                           <label>State Name :</label>
-                          <input type="text" name="state" id="state" class="form-control" placeholder="State Name" required>                          
+                          <input type="text" name="state" id="state" class="form-control" placeholder="State Name">                          
                           <br>
                           <input type="submit" name="Save" value="Save" class="btn btn-primary btn-min-width mr-1 mb-1">
                       </fieldset>

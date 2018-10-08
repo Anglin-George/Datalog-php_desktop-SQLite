@@ -19,7 +19,7 @@
                     <form method="post" id="district-add">
                       <fieldset class="form-group">
                           <label>Select State :</label>
-                          <select class="form-control" name="state" id="state"></select>
+                          <select class="form-control" name="state" id="state" required></select>
                           <label>District Name :</label>
                           <input type="text" name="district" id="district" class="form-control" placeholder="District Name" required>                          
                           <br>
@@ -84,7 +84,7 @@
                <input class="form-control" name="districtname" id="districtname" required>  
             </div>               
             <div class="">
-               <button class="btn btn-success ladda-button" data-style="slide-up" type="submit">Update State</button>
+               <button class="btn btn-success ladda-button" data-style="slide-up" type="submit">Update District</button>
                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
             </div>
          </div>

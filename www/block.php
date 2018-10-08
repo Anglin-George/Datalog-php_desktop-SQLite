@@ -12,7 +12,7 @@
       <div class="col-xl-12 col-lg-12 col-md-12">
           <div class="card">
               <div class="card-header">
-                  <h4 class="card-title">Add Block Details</h4>
+                  <h4 class="card-title">Add Niyojaka Mandalam Details</h4>
               </div>
               <div class="card-block">
                   <div class="card-body">
@@ -20,7 +20,7 @@
                       <fieldset class="form-group">
                           <label>Select District :</label>
                           <select class="form-control" name="district" id="district"></select>
-                          <label>Block Name :</label>
+                          <label>Niyojaka Mandalam Name :</label>
                           <input type="text" name="block" id="block" class="form-control" placeholder="Block Name" required>                          
                           <br>
                           <input type="submit" name="Save" value="Save" class="btn btn-primary btn-min-width mr-1 mb-1">
@@ -31,7 +31,7 @@
           </div>
           <div class="card">
               <div class="card-header">
-                  <h4 class="card-title">Block Details</h4>
+                  <h4 class="card-title">Niyojaka Mandalam Details</h4>
               </div>
               <div class="card-block">
                   <div class="card-body">
@@ -43,7 +43,7 @@
                       <thead>
                           <tr>
                               <th>Id</th>
-                              <th>Block</th>
+                              <th>Niyojaka Mandalam</th>
                               <th>District</th>
                               <th>Actions</th>
                           </tr>
@@ -68,7 +68,7 @@
    <div class="modal-content">
       <div class="color-line"></div>
       <div class="modal-header" id="txtModelHeaderr">
-        <h4 class="modal-title text-left">Update Block</h4>
+        <h4 class="modal-title text-left">Update Niyojaka Mandalam</h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
 
       </div>
@@ -80,11 +80,11 @@
                <input type="hidden" class="form-control" name="blockid" id="blockid" required readonly>  
             </div>
             <div class="form-group">
-               <label>Block Name</label>
+               <label>Niyojaka Mandalam Name</label>
                <input class="form-control" name="blockname" id="blockname" required>  
             </div>               
             <div class="">
-               <button class="btn btn-success ladda-button" data-style="slide-up" type="submit">Update State</button>
+               <button class="btn btn-success ladda-button" data-style="slide-up" type="submit">Update Niyojaka Mandalam</button>
                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
             </div>
          </div>
@@ -222,7 +222,7 @@ function binddistrictoption() {
           success: function(result) {
             if(result>0)
             {
-              swal("Access Denied!", "There have some members from this block.", "error");
+              swal("Access Denied!", "There have some members from this niyojaka mandalam.", "error");
               bindblock();
             }
             else
@@ -276,7 +276,7 @@ function binddistrictoption() {
                 async:true,
                 success: function(result){
                     if (result) {                 
-                        toastr.success('Block has been added');
+                        toastr.success('Niyojaka Mandalam has been added');
                         $("#block").val('');
                         bindblock();
                     }
